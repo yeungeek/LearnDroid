@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mobile="http://net.mobile.crowdroid"
+    android:id="@+id/linear_layout_time_line"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout_time_line_list_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/sina_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:orientation="vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/sina_screen_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="2dip"
+                    android:text="@string/screen_name"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="4dip" >
+
+                <android.webkit.WebView
+                    android:id="@+id/web_view_status"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dip"
+                    android:layout_weight="1"
+                    android:focusable="false" >
+                </android.webkit.WebView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_time_retweet_comment_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/text_retweet_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="2dip"
+            android:text="@string/update_time"
+            android:textColor="#0F5A78" />
+
+        <TextView
+            android:id="@+id/text_comment_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="2dip"
+            android:text="@string/comment_count"
+            android:textColor="#0F5A78" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/linear_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_above="@+id/text_get_more_tweets"
+        android:background="#C3E1F0" />
+
+    <com.anhuioss.crowdroid.util.IconTextView
+        android:id="@+id/text_get_more_tweets"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="7dip"
+        android:paddingTop="7dip"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</LinearLayout>

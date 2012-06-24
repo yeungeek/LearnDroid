@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="260dip"
+            android:layout_height="1dip"
+            android:background="#ffffff"
+            android:singleLine="true"
+            android:text=" " />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout01"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_centerHorizontal="true" >
+
+                <TextView
+                    android:id="@+id/color_textview"
+                    android:layout_width="200dip"
+                    android:layout_height="40dip"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@color/white_gray" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout02"
+                android:layout_width="wrap_content"
+                android:layout_height="150dip"
+                android:layout_below="@+id/RelativeLayout01"
+                android:layout_centerHorizontal="true" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_gray" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dip"
+                        android:layout_marginLeft="2dip"
+                        android:layout_marginRight="2dip"
+                        android:layout_marginTop="2dip"
+                        android:background="@color/transparent" >
+
+                        <TableLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TableRow>
+
+                                <ImageView
+                                    android:id="@+id/i1"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/n_black" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i2"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/dimgray" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i3"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/slategray" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i4"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/gainsboro" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+                            </TableRow>
+
+                            <TextView
+                                android:layout_width="126dip"
+                                android:layout_height="1dip"
+                                android:background="@color/white_gray" />
+
+                            <TableRow>
+
+                                <ImageView
+                                    android:id="@+id/i5"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/mediumblue" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i6"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/royalblue" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i7"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/dodgerblue" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i8"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/lightskyblue" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+                            </TableRow>
+
+                            <TextView
+                                android:layout_width="126dip"
+                                android:layout_height="1dip"
+                                android:background="@color/white_gray" />
+
+                            <TableRow>
+
+                                <ImageView
+                                    android:id="@+id/i9"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/aqua" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i10"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/mediumturquoise" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i11"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/paleturquoise" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i12"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/lightcyan" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+                            </TableRow>
+
+                            <TextView
+                                android:layout_width="126dip"
+                                android:layout_height="1dip"
+                                android:background="@color/white_gray" />
+
+                            <TableRow>
+
+                                <ImageView
+                                    android:id="@+id/i13"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/limegreen" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i14"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/lime" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i15"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/greenyellow" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i16"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/palegreen" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+                            </TableRow>
+
+                            <TextView
+                                android:layout_width="126dip"
+                                android:layout_height="1dip"
+                                android:background="@color/white_gray" />
+
+                            <TableRow>
+
+                                <ImageView
+                                    android:id="@+id/i17"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/crimson" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i18"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/mediumvioletred" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i19"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/hotpink" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i20"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/lightpink" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+                            </TableRow>
+
+                            <TextView
+                                android:layout_width="126dip"
+                                android:layout_height="1dip"
+                                android:background="@color/white_gray" />
+
+                            <TableRow>
+
+                                <ImageView
+                                    android:id="@+id/i21"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/darkorange" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i22"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/yellow" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i23"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/cornsilk" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+
+                                <ImageView
+                                    android:id="@+id/i24"
+                                    android:layout_width="20dip"
+                                    android:layout_height="20dip"
+                                    android:layout_weight="1"
+                                    android:background="@color/white" />
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="20dip"
+                                    android:background="@color/white_gray" />
+                            </TableRow>
+                        </TableLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/relative_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#cccccc"
+            android:padding="5dip" >
+
+            <Button
+                android:id="@+id/okButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ok" />
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

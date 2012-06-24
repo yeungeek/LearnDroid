@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/tools_header" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/update_status"
+        android:layout_width="fill_parent"
+        android:layout_height="80dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="5dip"
+        android:gravity="top" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/counterText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:textSize="14px"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/multiTweet"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+            android:text="@string/comment_to_original_author"
+            android:textColor="#123456"
+            android:textSize="10sp" />
+
+        <CheckBox
+            android:id="@+id/multiTweet2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_below="@+id/multiTweet"
+            android:layout_marginLeft="20dip"
+            android:text="@string/also_comment_to"
+            android:textColor="#123456"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/okButton"
+            android:layout_width="60dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/selector_button_add"
+            android:text="@string/send"
+            android:textColor="#0F5A78"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/toolsbottom" >
+
+            <RelativeLayout
+                android:id="@+id/statusRelative"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/space_text"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:paddingTop="10dip" android:paddingLeft="10dip" android:paddingRight="10dip" android:layout_gravity="fill_vertical">
+
+                <TextView
+                    android:id="@+id/translateStatus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:autoLink="all"
+                    android:textColor="#0F5A78" />
+
+                <android.webkit.WebView
+                    android:id="@+id/statusWebView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/translateStatus"
+                    android:visibility="gone" />
+
+                <android.webkit.WebView
+                    android:id="@+id/statusImageWebView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/statusWebView"
+                    >
+                </android.webkit.WebView>
+
+                <RelativeLayout android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@+id/statusImageWebView"
+                    android:background="#BBBBBB" >
+                     <TextView
+                    android:id="@+id/retweetStatusTextView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:autoLink="all"
+                    android:textColor="#0F5A78"/>
+
+                <android.webkit.WebView
+                    android:id="@+id/retweetStatusWebView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/retweetStatusTextView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#BBBBBB"
+                    android:paddingBottom="10dip"
+                    android:visibility="gone" />
+
+                <android.webkit.WebView
+                    android:id="@+id/retweetStatusImageWebView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/retweetStatusWebView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip"
+                    android:background="#BBBBBB"
+                    android:paddingBottom="10dip"
+                    >
+                </android.webkit.WebView>
+                </RelativeLayout>
+               
+            </RelativeLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/toolsbottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <include layout="@layout/tools_update_bottom" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

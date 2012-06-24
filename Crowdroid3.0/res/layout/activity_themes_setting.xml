@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+      <Button 
+        android:id="@+id/back"
+        android:layout_width="45dip"
+        android:layout_height="35dip"
+        android:background="@drawable/back"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="20dip"
+        />
+      <ScrollView 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          
+          >
+<RelativeLayout 
+    android:id="@+id/select"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="120dip"
+    >
+   
+   <RadioGroup 
+    android:id="@+id/selectitem"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_centerInParent="true" 
+    >
+       <RadioButton 
+           android:id="@+id/picture"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/setting_background_image"
+           />
+       
+       <RadioButton 
+           android:id="@+id/color"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/setting_background_color"
+           />
+       <RadioButton 
+           android:id="@+id/theme"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/setting_wallpaper_theme_list"
+           />
+       
+   </RadioGroup>
+    
+</RelativeLayout>    
+</ScrollView>
+</LinearLayout>

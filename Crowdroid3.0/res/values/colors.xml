@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+    <drawable name="yellow">#77ffff00</drawable>
+    <drawable name="screen_background_black">#ff000000</drawable>
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+
+    <color name="solid_red">#FFFF4500</color>
+    <color name="white_gray">#FFF5FFFA</color>
+    <color name="solid_green">#FF32CD32</color>
+    <color name="solid_yellow">#FFF7FE2E</color>
+    <color name="warning_red">#DC143C</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="black">#FF000000</color>
+    <color name="whiteandgray">#50F5F5F5</color>
+    <color name="sky_blue">#0066CC</color>
+    <color name="transparent">#90000000</color>
+    <color name="n_black">#000000</color>
+    <color name="dimgray">#696969</color>
+    <color name="slategray">#708090</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="mediumblue">#0000CD</color>
+    <color name="royalblue">#4169E1</color>
+    <color name="dodgerblue">#1E90FF</color>
+    <color name="lightskyblue">#87CEFA</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="mediumturquoise">#48D1CC</color>
+    <color name="paleturquoise">#AFEEEE</color>
+    <color name="lightcyan">#E0FFFF</color>
+    <color name="limegreen">#32CD32</color>
+    <color name="lime">#00FF00</color>
+    <color name="greenyellow">#ADFF2F</color>
+    <color name="palegreen">#98F898</color>
+    <color name="crimson">#DC143C</color>
+    <color name="mediumvioletred">#C71585</color>
+    <color name="hotpink">#FF69B4</color>
+    <color name="lightpink">#FFB6C1</color>
+    <color name="darkorange">#FF8C00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="cornsilk">#FFF8DC</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

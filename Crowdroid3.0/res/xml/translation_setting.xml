@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference
+            android:key="autotranslation"
+            android:order="1"
+            android:title="@string/setting_translation_auto" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:dialogTitle="@string/setting_translation_engine"
+            android:entries="@array/translation"
+            android:entryValues="@array/translation_values"
+            android:key="translationselection"
+            android:order="2"
+            android:title="@string/setting_translation_engine" >
+        </ListPreference>
+
+        <Preference
+            android:key="add_translation_data"
+            android:order="3"
+            android:title="@string/setting_translation_add_auto_translation" >
+        </Preference>
+
+</PreferenceScreen>

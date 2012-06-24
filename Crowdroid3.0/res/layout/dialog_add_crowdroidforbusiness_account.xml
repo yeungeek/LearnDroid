@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip">
+    
+    <TextView
+    	android:id="@+id/text_cfb_serveraddress"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/server_address"/>
+    	
+    <EditText
+    	android:id="@+id/edit_cfb_severaddress"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"/>
+    	
+    <TextView
+    	android:id="@+id/text_cfb_username"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/user_name"/>
+    	
+    <EditText
+    	android:id="@+id/edit_cfb_username"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"/>
+    	
+    <TextView
+    	android:id="@+id/text_cfb_password"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/password"/>
+    	
+    <EditText
+    	android:id="@+id/edit_cfb_password"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:password="true"/>
+    <CheckBox
+     	android:layout_width="fill_parent"
+     	android:layout_height="wrap_content"
+     	android:checked="false"
+     	android:text="@string/show_password"
+     	android:id="@+id/show_cfb_password"/>
+</LinearLayout>
+</ScrollView>

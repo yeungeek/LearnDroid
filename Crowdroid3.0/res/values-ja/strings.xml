@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Common -->
+<string name="app_name">Crowdroid</string>
+<string name="sina">新浪</string>
+<string name="tencent">腾讯</string>
+<string name="sohu">搜狐</string>
+<string name="renren">人人</string>
+<string name="edit">編集</string>
+<string name="delete">削除</string>
+<string name="add">追加</string>
+<string name="ok">OK</string>
+<string name="ng">NG</string>
+<string name="yes">はい</string>
+<string name="no">いいえ</string>
+<string name="confirm">確定</string>
+<string name="cancel">キャンセル</string>
+<string name="prev">前へ</string>
+<string name="next">次へ</string>
+<string name="finish">完了</string>
+<string name="close">閉じる</string>
+<string name="send">送信</string>
+<string name="help">ヘルプ</string>
+<string name="reply">リプライ</string>
+<string name="reply_all">全員に返信</string>
+<string name="name">名前</string>
+<string name="tips_title">での追加機能と改善事項</string>
+<string name="priority_normal">普通</string>
+<string name="priority_middle">重要</string>
+<string name="priority_high">必読</string>
+<string name="okButton">確定</string>
+<string name="reset">リセット</string>
+<string name="success">成功</string>
+<!-- 
+//==========================================
+	Notification
+//==========================================
+-->
+<string name="notification_direct">ダイレクトメッセージ</string>
+<string name="retweet_of_me">リツイート</string>
+
+<!-- 
+//==========================================
+	Menu
+//==========================================
+-->
+<!-- Login Menu -->
+<string name="login_menu_add_account">追加</string>
+<string name="login_menu_help">ヘルプ</string>
+<string name="login_menu_license">ライセンス</string>
+<string name="login_crowdroid_info">社内向けマイクロブログシステム</string>
+<string name="login_register">登録</string>
+<string name="login">登録</string>
+<string name="login_more">その他のサービス</string>
+<!-- Option Menu -->
+<string name="menu_setting">設定</string>
+<string name="menu_new_tweet">新規ツイート</string>
+<string name="menu_fullscreen">全画面表示</string>
+<string name="menu_display_tabs">ギャラリー</string>
+<string name="menu_gallery">ギャラリー</string>
+<string name="menu_refresh">更新</string>
+<string name="menu_logout">ログアウト</string>
+
+
+<!-- 
+//==========================================
+	Gallery
+//==========================================
+-->
+<!-- Name -->
+<string name="home">ホーム</string>
+<string name="at_message">\@メッセージ</string>
+<string name="direct_message_sent">ダイレクト・メッセージ送信</string>
+<string name="direct_message_alert_sent">メッセージ送信</string>
+<string name="my_timeline">マイ・タイムライン</string>
+<string name="logout">ログアウト</string>
+<string name="update">新規ツイート</string>
+<string name="user_search">ユーザー検索</string>
+<string name="keyword_search">キーワード検索</string>
+<string name="direct_message_received">ダイレクト・メッセージ受信</string>
+<string name="direct_message_alert_received">メッセージ受信</string>
+<string name="user_timeline">ユーザー・タイムライン</string>
+<string name="favorite_timeline">お気に入り</string>
+<string name="direct_update">新規ダイレクト・メッセージ</string>
+<string name="profile">プロフィール</string>
+<string name="retweets_mention_me">リツイート</string>
+<string name="retweets_to_me">みんなのリツイート</string>
+<string name="retweets_by_me">あなたのリツイート</string>
+<string name="retweets_of_me">リツイートされたあなたのツイート</string>
+<string name="reply_history">返信履歴</string>
+<string name="send_direct_message">ダイレクト・メッセージの送信</string>
+<string name="casual_watch">ランダム表示</string>
+<string name="public_timeline">すべて</string>
+<string name="hot_retweet_timeline">ホットなリツイート</string>
+<string name="area_timeline">エリア別タイムライン</string>
+
+<!-- Description -->
+<string name="hometimeline_tab">ユーザーのホーム・タイムラインを表示します。</string>
+<string name="atmessagetimeline_tab">ユーザーに向けられた\@メッセージを表示します。</string>
+<string name="direct_message_sent_tab">ユーザーが送信したダイレクト・メッセージを表示します。</string>
+<string name="my_timeline_tab">ユーザーが投稿したツイートを表示します。</string>
+<string name="logout_tab">ログイン画面に戻ります。</string>
+<string name="update_tab">新規ツイートを投稿します。</string>
+<string name="usersearch_tab">ユーザーを検索します。</string>
+<string name="keyword_search_tab">キーワード検索をします。</string>
+<string name="direct_message_received_tab">ユーザーが受信したダイレクト・メッセージを表示します。</string>
+<string name="user_timeline_tab">各ユーザーの投稿したタイムラインを検索し表示します。</string>
+<string name="favorite_timeline_tab">ユーザーがお気に入りに登録したタイムラインを表示します。</string>
+<string name="direct_update_tab">新規ダイレクト・メッセージを送信します。</string>
+<string name="profile_tab">ユーザーのプロフィールを表示します。</string>
+<string name="retweets_to_me_tab">ユーザーがリツイートしたタイムラインを表示します。</string>
+<string name="retweets_by_me_tab">ユーザーがリツイートしたタイムラインを表示します。</string>
+<string name="retweets_of_me_tab">他の人がリツイートした自分のタイムラインを表示します。</string>
+<string name="reply_history_tab">投稿されたツイートをID番号をもとに過去の返信履歴を表示します。</string>
+
+<!-- 
+//==========================================
+	Setting Menu (Preference) 
+//==========================================
+-->
+<string name="setting_language">言語</string>
+<string name="setting_auto_refresh">自動更新</string>
+<string name="setting_auto_refresh_interval">自動更新間隔</string>
+
+<string name="setting_translation">翻訳</string>
+<string name="setting_translation_auto">自動翻訳</string>
+<string name="setting_translation_engine">翻訳エンジン</string>
+<string name="setting_translation_add_auto_translation">自動翻訳の追加</string>
+<string name="setting_translation_auto_translation_list">自動翻訳一覧</string>
+
+<string name="more_app">アプリ広場</string>
+<string name="setting_wallpaper">壁紙</string>
+<string name="setting_wallpaper_picture">画像</string>
+<string name="setting_wallpaper_background_color">背景色</string>
+<string name="setting_wallpaper_theme">テーマ</string>
+<string name="setting_wallpaper_theme_list">テーマリスト</string>
+<string name="setting_wallpaper_theme_preview">画像プレビュー</string>
+<string name="setting_wallpaper_theme_resolution">解像度</string>
+<string name="setting_wallpaper_theme_size">サイズ</string>
+<string name="setting_wallpaper_theme_description">記述</string>
+
+<string name="login_cfb_description">Crowdroid for Businessとは？</string>
+<string name="login_cfb_description_detail">Crowdroid for Businessはエンタープライズ2.0に最適な微博スタイルの社内ソーシャルシステムです。</string>
+<string name="login_cfb_description_more">詳細>></string>
+<string name="view_private">DM履歴の確認</string>
+<string name="feedback">フィードバック</string>
+<string name="about">アプリについて</string>
+<string name="setting_background_color">背景色の設定 </string>
+<string name="setting_background_image">背景画像の設定</string>
+<string name="setting_check">アップデート確認</string>
+<string name="setting_official_microblogging">公式アカウント</string>
+<string name="setting_preferences">個人設定</string>
+<string name="setting_microblogging">閲覧指定</string>
+<string name="setting_theme">テーマ設定</string>
+<string name="setting_account_manage">アカウント追加</string>
+<string name="setting_notification">通知</string>
+<string name="setting_notification_interval">通知間隔</string>
+<string name="setting_notification_direct_message">ダイレクト・メッセージ</string>
+<string name="setting_notification_at_message">\@ メッセージ</string>
+<string name="setting_notification_general_message">一般メッセージ</string>
+
+<string name="setting_font">フォント</string>
+<string name="setting_font_color">フォント色</string>
+<string name="setting_font_size">フォント・サイズ</string>
+
+<string name="setting_filter">フィルター</string>
+<string name="setting_keyword_filter">キーワード・フィルター</string>
+<string name="setting_add_keyword_filter">キーワード・フィルター追加</string>
+<string name="setting_keyword_filter_list">キーワード・フィルター一覧</string>
+<string name="setting_user_filter">ユーザー・フィルター</string>
+<string name="setting_add_user_filter">ユーザー・フィルター追加</string>
+<string name="setting_user_filter_list">ユーザー・フィルター一覧</string>
+
+<string name="setting_list">リスト</string>
+<string name="setting_list_add">リスト追加</string>
+<string name="setting_list_my_all_list">自分のすべてのリスト</string>
+<string name="setting_list_warning1">5個以上は登録できません！</string>
+<string name="user_list">%s さんのすべてのリスト:</string>
+
+<string name="setting_gallery">ギャラリー</string>
+
+<string name="setting_account">アカウント</string>
+
+
+<string name="list_dialog">%s\'s list:</string>
+
+<string name="setting_more">詳細設定</string>
+<string name="setting_crowdroid_for_business">Crowdroid for Business</string>
+<string name="setting_twitter">Twitter</string>
+<string name="setting_twitter_proxy">Twitter Proxy</string>
+<string name="setting_follow5">Follow5</string>
+<string name="setting_sina">Sina</string>
+
+<string name="setting_casual_watch">ランダム表示</string>
+<string name="setting_casual_watch_choose">ランダム表示の設定</string>
+<string name="setting_casual_watch_public">すべて</string>
+<string name="setting_casual_watch_region">地域別選択</string>
+<string name="setting_casual_watch_search">キーワード別選択</string>
+<string name="setting_browse_mode">表示指定</string>
+
+<!-- 
+//==========================================
+	Account
+//==========================================
+-->
+<string name="service_address_empty">アドレスが入力されていません！</string>
+<string name="user_name_empty">ユーザー名が入力されていません！</string>
+<string name="password_empty">パスワードが入力されていません！</string>
+<string name="no_account">アカウントが存在しません。</string>
+<string name="add_follow5_account">Follow5 アカウント追加</string>
+<string name="follow5_account_list">Follow5 アカウント一覧</string>
+<string name="add_crowdroidforbusiness_account">Crowdroid for Business アカウント追加</string>
+<string name="crowdroidforbusiness_account_list">Crowdroid for Business アカウント一覧</string>
+<string name="add_sina_account">Sina アカウント追加</string>
+<string name="sina_account_list">Sina アカウント一覧</string>
+<string name="add_tencent_account">Tencent アカウント追加</string>
+<string name="tencent_account_list">Tencent アカウント一覧</string>
+<string name="add_sohu_account">Sohu アカウント追加</string>
+<string name="sohu_account_list">Sohu アカウント一覧</string>
+<string name="add_twitter_account">Twitter アカウント追加</string>
+<string name="twitter_account_list">Twitter アカウント一覧</string>
+<string name="add_renren_account">RenRen アカウント追加</string>
+<string name="renren_account_list">RenRen アカウント一覧</string>
+<string name="pin_code">PINコードを入力してください。</string>
+<string name="proxy_ip">Proxy IP</string>
+<string name="proxy_ip_empty">Proxy IP が入力されていません！</string>
+<string name="add_twitter_proxy_account">Twitter-Proxy アカウント追加</string>
+<string name="twitter_proxy_account_list">Twitter-Proxy アカウント一覧</string>
+<string name="whether_delete">削除しますか?</string>
+<string name="register_error">登録に失敗しました。</string>
+<string name="server_address">サーバー・アドレス</string>
+<string name="service">サービス</string>
+<string name="user_name">ユーザー名</string>
+<string name="password">パスワード</string>
+<string name="what_is_crowdroid_for_business">Crowdroid for Business とは？ </string>
+
+<!-- 
+//==========================================
+	Action Dialog
+//==========================================
+-->
+<string name="action_dialog_qt">QT (公式RT)</string>
+<string name="action_dialog_rt">RT</string>
+<string name="action_dialog_reply">返信</string>
+<string name="action_dialog_email">Email</string>
+<string name="action_dialog_translation">翻訳</string>
+<string name="action_dialog_profile">プロフィール</string>
+<string name="action_dialog_dm">ダイレクト・メッセージ</string>
+<string name="action_dialog_delete">削除</string>
+<string name="whether_retweet">リツイートしますか？</string>
+<string name="no_list_for_user">%sさんのリストはありません。</string>
+
+
+<!-- 
+//==========================================
+	License
+//==========================================
+-->
+<string name="company_name">Anhui OSS</string>
+<string name="right_reserved">All Rights Reserved.</string>
+<string name="license">ライセンス</string>
+<string name="application_name">アプリケーション: \ Crowdroid</string>
+<string name="version_name">バージョン: \</string>
+<string name="developer">開発元: \</string>
+<string name="app_license">ライセンス: \</string>
+<string name="license_text">Copyright [2010] [Anhui Opensource Software Inc.] Licensed under the Apache License, Version 2.0 (the "License"); You may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+<string name="anhuioss_website">www.anhuioss.com/cn</string>
+<string name="update_version">アップデート</string>
+<string name="check_update">更新確認</string>
+<string name="download">ダウンロード</string>
+<string name="download_success">ダウンロード成功!</string>
+<string name="download_path">内容を保存する:</string>
+<string name="download_alert">ダウンロード告知</string>
+<string name="download_fail">ダウンロード失敗!</string>
+<string name="check_no_latest_version">最新のバージョンをご利用中です</string>
+<string name="check_has_latest_version">新バージョンがリリースされています。アップグレードしますか？</string>
+
+<!-- 
+//==========================================
+	Update Tweet
+//==========================================
+-->
+<string name="update_tweet_message1">ツイート投稿</string>
+
+<string name="long_tweet">長文ツイート</string>
+<string name="select_picture">画像の選択</string>
+<string name="bit_ly">bit.ly</string>
+<string name="shorten_url_title">URL短縮</string>
+<string name="direct_message_to">ダイレクトメッセージ送付先</string>
+<string name="file_path">ファイル・パス</string>
+<string name="file_name">ファイル名</string>
+<string name="no_sd">SDカードがマウントされていません。</string>
+<string name="select_picture_title">画像を選択してください。</string>
+<string name="dialog_long_tweet_twitlonger">長文の編集</string>
+<string name="twitlonger">長文ツイート</string> 
+<string name="upload_image">画像アップロード中... </string>
+<string name="on">有効 </string>
+<string name="off">無効 </string>
+<string name="close_multi_tweet">マルチ・ツイートを無効にしますか？</string>
+<string name="open_multi_tweet">マルチ・ツイートを有効にしますか？</string>
+<string name="multi_tweet">マルチ・ツイート</string>
+<string name="insert_topic">話題を挿入</string>
+<string name="insert_at_name">指定</string>
+
+<!-- GPS -->
+<string name="obtain_location_info">ローケーション情報を取得しました</string>
+<string name="obtain_location_info_failed">ロケーション情報を取得できませんでした</string>
+<string name="obtaining_location_info">現在地を特定しています(30s)</string>
+<string name="open_gps_module_title">GPSを起動する</string>
+<string name="open_gps_module_message">現在の位置を取得するためには、GPS機能をオンにする必要があります</string>
+
+<!-- 
+//==========================================
+	TimeLine
+//==========================================
+-->
+<string name="type_or_select_user">ユーザー名を入力または選択してください。</string>
+<string name="get_more_tweets">. . . . . .</string>
+<string name="no_more_tweets">ツイートがありません。</string>
+<string name="enter_message_id">メッセージIDを入力してください。</string>
+<string name="twitter_alert_retweet_of_me">さんがリツイートしました</string>
+
+<!-- 
+//==========================================
+	Error Messages
+//==========================================
+-->
+<string name="error">エラー</string>
+<string name="error_message_server">サーバー・エラーが発生しました。</string>
+<string name="error_message_badgateway">サーバーが応答していません。</string>
+<string name="error_message_service_unavailable">Sサーバーが応答していません。</string>
+<string name="error_message">認証できません。アカウント情報を確認してください。.</string>
+<string name="error_message_input">認証できません。アカウント情報を確認してください。</string>
+<string name="error_message_rejected_for_ngword">NGワードが含まれています。</string>
+<string name="error_message_nick">そのユーザ名は既に使われています。他のユーザー名を指定してください。</string>
+
+
+<!-- 
+//==========================================
+	Profile
+//==========================================
+-->
+<string name="follow">フォロー数</string>
+<string name="followed">フォローワー数</string>
+<string name="profile_followed">フォローされている</string>
+<string name="friends_list">フォローリスト</string>
+<string name="followers_list">フォローワーリスト</string>
+
+
+<!-- 
+//==========================================
+	Translation
+//==========================================
+-->
+<string name="auto">自動</string>
+<string name="translate_result">翻訳結果</string>
+<string name="arabic">アラビア語</string>
+<string name="chinese_simple">中国語(簡体字)</string>
+<string name="chiness_traditional">中国語(繁体字)</string>
+<string name="dutch">オランダ語</string>
+<string name="english">英語</string>
+<string name="french">フランス語</string>
+<string name="german">ドイツ語</string>
+<string name="greek">ギリシャ語</string>
+<string name="italian">イタリア語</string>
+<string name="japanese">日本語</string>
+<string name="korea">韓国語</string>
+<string name="portugese">ポルトガル語</string>
+<string name="russian">ロシア語</string>
+<string name="spanish">スペイン語</string>
+<string name="engine">利用エンジン</string>
+<string name="from">From</string>
+<string name="to">To</string>
+
+<string name="translate_original">原文:</string>
+<string name="translate_content">訳文:</string>
+
+<!-- 
+//==========================================
+Utility 
+//==========================================
+-->
+<string name="bug_report">バク報告</string>
+<string name="whether_report_to_developer">開発元に問題を報告しますか？</string>
+<string name="whether_unfollow_list">このユーザーへのフォローを中止しますか？</string>  
+<string name="whether_follow_list">このユーザーをフォローしますか？</string>
+<string name="one">1</string>
+<string name="two">2</string>
+<string name="three">3</string>
+<string name="four">4</string>
+<string name="five">5</string>
+<string name="six">6</string>
+<string name="seven">7</string>
+<string name="eight">8</string>
+<string name="nine">9</string>
+<string name="zero">0</string>
+
+<string name="count">カウント</string>
+
+<string name="status">ステータス</string>
+<string name="screen_name">ユーザー名</string>
+<string name="update_time">更新日時</string>
+<string name="retweet_count">リツイート</string>
+<string name="comment_count">コメント</string>
+<string name="title">タイトル</string>
+<string name="list_name">リスト追加</string>
+<string name="is_exist">%s は既に存在しています!</string>
+<string name="retweeted_list">RTリスト</string>
+<string name="retweeted_user">RT数</string>
+
+
+<string name="show_password">パスワードを表示する </string>
+<string name="reply_to_comment">返信 </string>
+<string name="comments">コメント </string>
+<string name="get_more_comments">もっとコメントを見る </string>
+<string name="sohu_retweet_addstr">转发：</string>
+
+<string name="trend">話題</string>
+<string name="trends">話題</string>
+<string name="comment">コメント</string>
+<string name="comment_and_retweet">コメントと転送</string>
+<string name="original_text">原文</string>
+<string name="comment_to_original_author">同時に原文の著者[%s]にコメントを送る</string>
+<string name="also_comment_to">%sにコメントを送る</string>
+<string name="setting_display_image">画像の表示</string>
+<string name="display_all_image">全ての画像を表示する</string>
+<string name="disable_image_preview">プレビュー画像を非表示にする</string>
+<string name="disable_all_image">全ての画像を非表示にする</string>
+<string name="gallery_hot_users_title">推奨ユーザー</string>
+<string name="gallery_suggestion_users">興味がありそうなユーザー</string>
+<string name="profile_activity_set_unfollow">フォローを取り消す</string>
+<string name="profile_activity_set_follow">フォローする</string>
+<string name="profile_activity_tweets_count">ツイート</string>
+<string name="profile_activity_list">リスト</string>
+<string name="notification_unfollow">フォロー解除</string>
+<string name="notification_comment">コメント</string>
+<string name="notification_new_follower">フォローワー</string>
+<string name="notification_direct_message">ダイレクト・メッセージ</string>
+<string name="notification_at_message">\@ メッセージ</string>
+<string name="profile_user_tweets">一覧</string>
+<string name="profile_user_mood">一覧</string>
+<string name="gallery_original_tweet">原文</string>
+<string name="also_tweet_to_timeline">同時に自分のタイムラインに転送する</string>
+<string name="wheter_to_logout">ログアウトしますか？</string>
+<string name="history_reply">返信履歴</string>
+<string name="group_list">リスト表示</string>
+<string name="group_list_default">デフォルト</string>
+<string name="group_list_default_all">全部</string>
+
+<string name="tips_1">2011/7/9以前にTwitterアカウントの登録を行なった方はダイレクト・メッセージが利用できない可能性があります。\nダイレクト・メッセージを利用するには再度アカウント登録を行なってください。</string>
+<string name="tips_dialog_is_show_next_time">次回以降通知をしない</string>
+
+<!-- Camera -->
+<string name="camera_cancel">キャンセル </string>
+<string name="camera_save">保存 </string>
+<string name="camera_rec">撮影 </string>
+<string name="camera_small">小さいサイズ </string>
+<string name="camera_large">大きいサイズ </string>
+
+<!-- Recorder -->
+<string name="recorder_rec">録音 </string>
+<string name="recorder_stt">音声テキスト変換 </string>
+<string name="recorder_save">保存 </string>
+<string name="recorder_cancel">キャンセル </string>
+<string name="speech_language_selected">言語選択 </string>
+<string name="speech_not_recongnizer">音声認識は利用できません</string>
+<string name="no_sdcard_mounted">SDCardが利用できません</string>
+<string name="can_not_be_sent">MP3ファイルを送信できません</string>
+
+<!-- Trends -->
+<string name="trends_hourly">1時間</string>
+<string name="trends_daily">1日</string>
+<string name="trends_weekly">1週間</string>
+<string name="trends_back">戻る</string>
+<string name="trends_no_data">このタイプの話題は存在しません</string>
+<string name="trends_name">話題名称</string>
+<string name="trends_keyword">話題キーワード</string>
+
+<string name="server">サーバー</string>
+<string name="user_not_exist">このユーザーは存在しません。</string>
+<string name="share_image">#共有イメージ#</string>
+
+<string name="error_msg_400">サーバとの接続が正常に行えませんでした。入力内容などを再度ご確認ください。</string>
+<string name="error_msg_401">認証に失敗しました。</string>
+<string name="error_msg_403">サーバに処理の実行を拒否されました。実行権限などをご確認ください。</string>
+<string name="error_msg_404">一致する内容が存在しませんでした。入力内容などを再度ご確認ください。</string>
+<string name="error_msg_500">サーバ内部でエラーが発生しました。</string>
+<string name="error_msg_501">サーバはこの処理の実行には対応していません。</string>
+<string name="error_msg_502">不正なゲートウェイが指定されました。</string>
+<string name="error_msg_503">サーバが応答しません。</string>
+<string name="error_msg_504">ゲートウェイサーバが応答しません。</string>
+<string name="error_msg_505">サーバは利用されているHTTPのバージョンをサポートしていません。</string>
+
+
+<!-- Tips-->
+<string name="user_tip">該当するユーザーは見つかりませんでした。</string>
+<string name="keyword_tip">該当するキーワードは見つかりませんでした。</string>
+<string name="comment_tip">取得済みのコメントはありません。</string>
+
+<!-- Discovery-->
+<string name="suggestion_slug">推奨分類</string>
+<!-- Mention -->
+<string name="mention_retweeted_alert">さんがこのツイートをお気に入りに登録しました: </string>
+
+<!-- RenRen -->
+<string name="album">アルバム</string>
+<string name="blog">日記</string>
+<string name="share">共有</string>
+<string name="visitors">最近の訪問者</string>
+<string name="status_list">状態リスト</string>
+<string name="my_feed">アップデート</string>
+<string name="my_status">私の状態</string>
+<string name="my_sharing">私の共有</string>
+<string name="blog_list">日記リスト</string>
+<string name="friends">友人</string>
+<string name="content">本文</string>
+<string name="update_blog">日記を書く</string>
+<string name="update_status">状態を更新</string>
+<string name="album_list">アルバムリスト</string>
+<string name="my_sharing_feed">共有のアップデート</string>
+<string name="everyone">全ての人が閲覧可能</string>
+<string name="network_visible">同ネットワーク上の人が閲覧可能</string>
+<string name="only_friends">友人のみ閲覧可能</string>
+<string name="myself">自分だけ閲覧可能</string>
+<string name="password_accessed">アクセスにはパスワードが必要</string>
+<string name="views">閲覧数</string>
+<string name="male">男</string>
+<string name="female">女</string>
+<string name="blog_management">日記の管理</string>
+<string name="album_management">アルバムの管理</string>
+<string name="my_friends">私の友人</string>
+<string name="web_sign">ウェブページ登録</string>
+<string name="upload_photos">画像をアップロード</string>
+<string name="university">大学</string>
+<string name="high_school">高校</string>
+<string name="secondary">専門学校</string>
+<string name="junior">中学校</string>
+<string name="primary">小学校</string>
+<string name="local_upload">ディスクからアップロード</string>
+<string name="camera_upload">写真をとってアップロード</string>
+<string name="create_album">新しいアルバムを作る</string>
+<string name="album_name">アルバムの名称</string>
+<string name="album_description">アルバムの説明</string>
+<string name="browse_permissions">閲覧権限</string>
+<string name="setting_password">パスワード設定</string>
+<string name="password_limite">1から16桁の数字を入力してください</string>
+<string name="official_account">公式アカウント</string>
+<string name="permission">閲覧権限がありません</string>
+<string name="city">都市</string>
+<string name="search">検索</string>
+<string name="photos_description">画像について</string>
+<string name="select_album">アップロード先のアルバムを選択してください</string>
+<string name="psword">パスワード</string>
+<string name="password_access">アクセスパスワード</string>
+
+
+<!-- RenRen Serch  -->
+<string name="serch_quick">高速検索</string>
+<string name="serch_classmate">同級生を検索</string>
+<string name="serch_colleague">同僚を検索</string>
+<string name="serch_by_birth">誕生日で検索</string>
+<string name="serch_by_base">出身地で検索</string>
+<string name="serch_name">姓名を入力</string>
+<string name="serch_birth">誕生日</string>
+<string name="serch_company">会社名を入力</string>
+<string name="serch_school">学校名を入力</string>
+<string name="serch_province">省を入力</string>
+<string name="not_limited">指定なし</string>
+<string name="serch_gender">性別</string>
+<string name="serch_hometown">出身地</string>
+<string name="serch_network">ネットワーク</string>
+
+<!-- Discovery -->
+<string name="discovery_group_timeline">タイムライン</string>
+<string name="discovery_group_admin">リスト作成者</string>
+<string name="discovery_group_user_list">メンバー</string>
+
+<string name="discovery_page_name">パブリックページ</string>
+<string name="discovery_page_category">分類別パブリックタイムライン</string>
+
+<string name="discovery_lbs_name">LBS</string>
+<string name="discovery_lbs_sign">チェックイン</string>
+<string name="discovery_lbs_location_name">名称</string>
+<string name="discovery_lbs_location_address">住所</string>
+<string name="discovery_lbs_view_map">地図で位置を確認する</string>
+<string name="discovery_lbs_view_detail_map">ズームイン</string>
+<string name="discovery_lbs_timeline">チェックインリスト</string>
+<string name="discovery_lbs_around_user">付近にいる人</string>
+<string name="discovery_lbs_decide">位置情報の取得を開始します</string>
+<string name="discovery_lbs_no_get">位置情報が取得できません</string>
+<string name="discovery_lbs_no_data">位置情報リストがありません</string>
+
+
+<string name="discovery_sohu_status_search">文章検索</string>
+<string name="discovery_tencent_trend_search">話題(ハッシュタグ)検索</string>
+
+<string name="tencent_update_user_image">画像を変更</string>
+<string name="tencent_select_update_user_image">画像を選択</string>
+
+<string name="discovery_tencent_mood">心情</string>
+<string name="discovery_tencent_send_mood">心情を投稿</string>
+<string name="discovery_tencent_get_mood_status">心情リスト</string>
+<string name="alert_mood_no_data">このユーザーはまだ心情を投稿していません</string>
+<string name="discovery_tencent_mood_type">心情が選択されていません</string>
+<string name="discovery_tencent_mood_content">投稿内容が記入されていません</string>
+
+<string name="discovery_sina_tag">タグ</string>
+<string name="discovery_sina_tag_add">タグを追加</string>
+<string name="discovery_sina_tag_list">タグリスト</string>
+<string name="discovery_sina_tag_suggest">興味があるかもしれないタグ</string>
+<string name="discovery_del_tag">タグを削除</string>
+<string name="discovery_serch_user_by_tag">タグ別にユーザを検索</string>
+<string name="alert_tag_add_overflow">タグは最大で10個までしか登録できません</string>
+<string name="alert_input_data_overflow">入力内容が多すぎますので、再度入力してください</string>
+<string name="alert_tag_no_data">このユーザーはタグを追加していません</string>
+<string name="alert_input_data">入力してください</string>
+<string name="alert_tag_same_data">このタグは既に存在していますので新しいものを入力してください.</string>
+
+<string name="discovery_famous_list">著名人リスト</string>
+
+<string name="discovery_select_area">地域選択</string>
+<string name="discovery_select_area_country">国</string>
+<string name="discovery_select_area_state">州・省・県</string>
+<string name="discovery_select_area_city">市・区</string>
+</resources>
+
+
+

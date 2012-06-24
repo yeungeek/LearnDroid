@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView android:layout_height="1dip" android:background="#ffffff"
+			android:text="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
+			android:layout_width="wrap_content"></TextView>
+
+		<WebView android:layout_gravity="center"
+			android:layout_weight="1" android:id="@+id/webview_preview_theme"
+			android:layout_width="300px" android:layout_height="330px" 
+			android:focusable="false" />
+		<TextView android:layout_height="1dip" android:background="#ffffff"
+			android:text="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
+			android:layout_width="wrap_content"></TextView>
+
+		<LinearLayout android:orientation="horizontal"
+			android:layout_weight="10" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_marginTop="2dip">
+			<Button android:id="@+id/btn_download_theme_ok" android:text="@string/download"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_weight="1" />
+			<Button android:id="@+id/btn_download_theme_cancel"
+				android:text="@string/cancel" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_weight="1" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        xmlns:Android="http://schemas.android.com/apk/res/android"
+        Android:id="@+id/layout_search_top"
+        Android:layout_width="fill_parent"
+        Android:layout_height="wrap_content"
+        Android:layout_alignParentTop="true" >
+
+        <include layout="@layout/tools_header" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/keyword_search_area"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_search_top"
+        android:background="#a9a9a9"
+        android:padding="5dip" 
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/next_page_button"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                android:src="@android:drawable/stat_sys_download_done"
+                android:visibility="gone"
+                >
+            </ImageButton>
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_search_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/search_button"
+                android:layout_toRightOf="@+id/next_page_button"
+                android:completionThreshold="1"
+                android:scrollbars="none">
+            </AutoCompleteTextView>
+
+            <ImageButton
+                android:id="@+id/search_button"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                android:src="@android:drawable/ic_menu_search" >
+            </ImageButton>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/layout_search_bottom"
+        android:layout_below="@+id/keyword_search_area"
+        android:layout_marginBottom="1dip" >
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dip"
+            android:layout_marginLeft="10dip"
+            android:cacheColorHint="#00000000" >
+        </ListView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:Android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_search_bottom"
+        Android:layout_width="fill_parent"
+        Android:layout_height="wrap_content"
+        Android:layout_alignParentBottom="true" >
+
+        <include layout="@layout/tools_home_bottom" />
+    </RelativeLayout>
+
+</RelativeLayout>

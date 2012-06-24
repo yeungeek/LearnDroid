@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="root" >
+
+    <PreferenceScreen
+        android:key="setting_language0"
+        android:order="1"
+        android:title="@string/setting_language" >
+        <ListPreference
+            android:dialogTitle="@string/speech_language_selected"
+            android:entries="@array/setting_speech_language"
+            android:entryValues="@array/setting_speech_language_values"
+            android:key="speechlanguageselect"
+            android:order="1"
+            android:title="@string/speech_language_selected" 
+            />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="autorefresh0"
+        android:order="2"
+        android:title="@string/setting_auto_refresh" >
+        <CheckBoxPreference
+            android:key="autocheck0"
+            android:order="1"
+            android:title="@string/setting_auto_refresh" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:dialogTitle="@string/setting_auto_refresh_interval"
+            android:entries="@array/time"
+            android:entryValues="@array/time_values"
+            android:key="timeselection0"
+            android:order="2"
+            android:title="@string/setting_auto_refresh_interval" >
+        </ListPreference>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="translation0"
+        android:order="3"
+        android:title="@string/setting_translation" >
+        <CheckBoxPreference
+            android:key="autotranslation0"
+            android:order="1"
+            android:title="@string/setting_translation_auto" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:dialogTitle="@string/setting_translation_engine"
+            android:entries="@array/translation"
+            android:entryValues="@array/translation_values"
+            android:key="translationselection0"
+            android:order="2"
+            android:title="@string/setting_translation_engine" >
+        </ListPreference>
+
+        <Preference
+            android:key="add_translation_data0"
+            android:order="3"
+            android:title="@string/setting_translation_add_auto_translation" >
+        </Preference>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="wallpaper0"
+        android:order="4"
+        android:title="@string/setting_wallpaper" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="notification0"
+        android:order="5"
+        android:title="@string/setting_notification" >
+        <CheckBoxPreference
+            android:key="notificationcheck0"
+            android:order="1"
+            android:title="@string/setting_notification" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:dependency="notificationcheck"
+            android:key="directmessage0"
+            android:order="2"
+            android:title="@string/setting_notification_direct_message" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:dependency="notificationcheck"
+            android:key="atmessage0"
+            android:order="3"
+            android:title="@string/setting_notification_at_message" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:dependency="notificationcheck"
+            android:key="generalmessage0"
+            android:order="4"
+            android:title="@string/setting_notification_general_message" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:dependency="notificationcheck"
+            android:key="commentmessage0"
+            android:order="5"
+            android:title="@string/comment" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:dependency="notificationcheck"
+            android:key="followmessage0"
+            android:order="6"
+            android:title="@string/followed" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:dependency="notificationcheck"
+            android:key="unfollowmessage0"
+            android:order="7"
+            android:title="@string/notification_unfollow" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:dependency="notificationcheck"
+            android:key="twitterfollowmessage0"
+            android:order="8"
+            android:title="@string/followed" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:dependency="notificationcheck"
+            android:key="retweetofme0"
+            android:order="9"
+            android:title="@string/retweet_of_me" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:defaultValue="300000"
+            android:dialogTitle="@string/setting_notification_interval"
+            android:entries="@array/time_notification"
+            android:entryValues="@array/time_notification_values"
+            android:key="notification_time_selection0"
+            android:order="0"
+            android:title="@string/setting_notification_interval" >
+        </ListPreference>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="font0"
+        android:order="6"
+        android:title="@string/setting_font" >
+        <Preference
+            android:key="fontcolorsettings0"
+            android:order="1"
+            android:title="@string/setting_font_color" />
+
+        <ListPreference
+            android:defaultValue="14"
+            android:dialogTitle="@string/setting_font_size"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_size_values"
+            android:key="fontsizesettings0"
+            android:order="2"
+            android:title="@string/setting_font_size" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="filter0"
+        android:order="7"
+        android:title="@string/setting_filter" >
+        <Preference
+            android:key="keyword_filter0"
+            android:title="@string/setting_keyword_filter" >
+        </Preference>
+        <Preference
+            android:key="user_filter0"
+            android:title="@string/setting_user_filter" >
+        </Preference>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="account0"
+        android:order="8"
+        android:title="@string/setting_account" >
+        <PreferenceCategory android:key="account_group0" >
+            <Preference
+                android:key="crowdroid_for_business0"
+                android:title="@string/setting_crowdroid_for_business" >
+            </Preference>
+            <Preference
+                android:key="twitter0"
+                android:title="@string/setting_twitter" >
+            </Preference>
+            <Preference
+                android:key="twitter_proxy0"
+                android:title="@string/setting_twitter_proxy" >
+            </Preference>
+            <Preference
+                android:key="follow50"
+                android:title="@string/setting_follow5" >
+            </Preference>
+            <Preference
+                android:key="sina0"
+                android:title="@string/setting_sina" >
+            </Preference>
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="list0"
+        android:order="9"
+        android:title="@string/setting_list" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="gallery_custom0"
+        android:order="10"
+        android:title="@string/setting_gallery" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="multi_tweet0"
+        android:order="11"
+        android:title="@string/multi_tweet" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="license0"
+        android:order="12"
+        android:title="@string/license" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="help0"
+        android:order="13"
+        android:title="@string/help" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="imagepreview0"
+        android:order="14"
+        android:title="@string/setting_display_image" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="casualwatch0"
+        android:order="15"
+        android:title="@string/setting_casual_watch" >
+    </PreferenceScreen>
+
+</PreferenceScreen>

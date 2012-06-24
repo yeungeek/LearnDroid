@@ -1,0 +1,477 @@
+<tips-list>
+	<tip>
+		<text>2011/7/9以前にTwitterアカウントの登録を行なった方はダイレクト・メッセージが利用できない可能性があります。ダイレクト・メッセージを利用するには再度アカウント登録を行なってください。</text>
+		<min-version>26</min-version>
+		<max-version>28</max-version>
+	</tip>
+	<tip>
+		<text>音声入力機能を追加</text>
+		<min-version>30</min-version>
+		<max-version>32</max-version>
+	</tip>
+	<tip>
+		<text>腾讯(Tencent)微博のサポート</text>
+		<min-version>30</min-version>
+		<max-version>32</max-version>
+	</tip>
+	<tip>
+		<text>UIの改善</text>
+		<min-version>30</min-version>
+		<max-version>32</max-version>
+	</tip>
+	<tip>
+		<text>Crowdroid 2.5.0での追加機能と改善事項</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ 搜狐微博(Sohu Weibo)のサポート</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ Twitter、Follow5、Crowdroid for Businessでの返信（Re）機能の改善</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ 画像アップロード機能の改善</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ Twitterでの新規リツイート（QT）獲得通知機能を追加</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ Google翻訳機能の削除</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ 新浪、腾讯、搜狐のユーザー登録方法を変更参照</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>  http://www.anhuioss.com/crowdroid/manual3.html</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>  http://www.anhuioss.com/crowdroid/manual4.html</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>  http://www.anhuioss.com/crowdroid/manual5.html</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ エラーメッセージの強化</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ マルチツイートの実施方法を変更</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ Follow 5のサポートを停止</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ その他バグフィックス</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ ログイン画面のUI改良</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ ギャラリーアイコンの改良</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ クリスマスバージョンの提供</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ Twitterにツイートのランダム表示機能を追加</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ GPS情報取得性能の向上</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ 通知機能の改善</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ 自動更新機能の改善</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ その他バグフィックス</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ 腾讯微博に”ホットなリツイート”機能及びリツイート、コメントされた回数表示を追加</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ 新浪微博、腾讯微博、捜狐微博でのツイート時にハッシュタグ(話題)挿入ボタンを追加</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ 壁紙ダウンロード機能を追加、公開されている壁紙をダウンロードすると、利用しているCrowdroidの壁紙に設定可能</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ キーワード検索機能及びTwitter内のランダム表示に自動更新機能を追加</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ Crowdroidアプリ自身のアップグレード確認、通知機能を追加 </text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ 新浪微博のAPI非公開化に伴いダイレクトメッセージ機能を一時利用停止に</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ その他バグフィックス</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ ユーザーインターフェース、ユーザーエクスペリエンスを大幅改善</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 刷新されたログイン画面</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 洗練されたホーム画面</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 画面右上に主要画面への移動アイコン</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 画面下方に設定、アプリ広場などのアイコンを配置</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ アプリ広場画面</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ ユーザ検索、キーワード検索</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ その他便利な機能を配置</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 設定画面</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 言語選択、翻訳、文字、壁紙などの表示設定、アップグレードの確認などを配置</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ ツイート時の画面も改善</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 画像付きツイートの際はプレビュー機能も搭載</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 画像プレビュー機能も改善</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ ツイート転送時のページに话题(ハッシュタグ)挿入ボタンを追加</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 腾讯及び捜狐にプロフィール資料編集機能を追加</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ ダイレクトメッセージ発信時のページ内に履歴を確認する機能を追加</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 利便性向上のため公式アカウント、フィードバック機能を追加</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ テキスト及び壁紙で選択可能な色を追加</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 各種微博上でダイレクトメッセージ、転送、コメント発信時に表情アイコンと@ユーザー指定機能を追加</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ Twitter及びTwitter-proxyにハッシュタグ挿入及び@ユーザー指定機能を追加</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ @ユーザー指定機能及びハッシュタグ挿入に履歴保存機能を追加</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ Twitter及びTwitter-proxyのアプリ広場にリスト閲覧機能を追加</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ Twitter-proxyのアプリ広場にランダム表示機能を追加</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ CFBのユーザー検索機能の不具合修正</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ Twitterの興味がありそうなユーザー機能の不具合修正</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ ツイート内の画像表示関連機能の不具合修正</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 自動更新機能をオンにした際に動作が遅くなる不具合を修正</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ Android2.3.3及びAndroid4.0.2上で発生する不具合を修正</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 表情アイコンの表示方法変更</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ CFBの画像プレビュー及びファイルダウンロード機能の不具合を修正</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ Twitter上での画像レビュー機能の不具合を修正</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>◆ 人人網（Renren）のサポートを開始</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  実現済み機能：</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ 共有、状態、日記、アルバム、最近の来訪者</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ 情報発信機能</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ ホーム、基本情報、フォローワー数、来訪者数、情報発信数、日記の数、アルバムの数</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ 日記リスト及び日記の詳細、アルバムリスト、画像アルバムの閲覧</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ 日記管理、日記の登録、日記の閲覧</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ アルバム管理、アルバムの新規作成、指定したアルバムへの画像登録、画像閲覧</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ 分類ごとのユーザー検索（同級生、同僚、誕生日、出身地など）及び高速検索</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ 人人網でのウェブページ登録</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ 新しい共有、状態、日記、アルバムなどが追加された際の通知機能</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>◆ その他バグフィックス</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ Twitterでの表示不具合の修正</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ Sohuでの転送時、テキストが重複してしまう不具合の修正</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ ＠挿入時の不具合を修正</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ アプリケーション広場の一部修正</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ 壁紙設定での不具合を修正</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ ユーザー検索の不具合を修正</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ CFBでのマルチユーザー登録時の不具合を修正</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>  ★ ログイン画面の一部修正</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ ログイン画面を一新</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ Twitter、Sina、Tencent、RenRenに位置情報サービス（LBS）機能を追加</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ @メッセージ中のQT表示機能を修正</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ Tencentに話題(ハッシュタグ)検索機能と、プロフィール上での画像変更機能を追加</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ RenRenのホーム及び新鮮事などでのパブリックタイムラインの表示機能を追加し、分類別リストや、管理員情報やグループ内リスト表示機能を追加</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ Sohuに微博文章の検索機能を追加</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ 腾讯微博(Tencent Weibo)で心情の投稿や履歴閲覧が可能に</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ 新浪微博(Sina Weibo)と腾讯微博でユーザータグの追加、削除、リスト表示及びタグの分類ごとのユーザーリスト表示を可能に</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ 腾讯微博に微博名人のリスト閲覧機能を追加</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ 腾讯微博で地域ごとのタイムラインを取得可能に</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ その他バグフィックス</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+</tips-list>

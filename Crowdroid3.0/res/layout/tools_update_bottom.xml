@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dip"
+    android:background="@drawable/tools_header_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip" >
+
+        <Button
+            android:id="@+id/atButton"
+            style="fitXY"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/tools_at"
+             />
+
+        <Button
+            android:id="@+id/addTrends"
+            style="fitXY"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/insert_trands" />
+
+        <Button
+            android:id="@+id/emotionButton"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/insert_emotion"
+            android:scaleType="fitXY" >
+        </Button>
+
+        <Button
+            android:id="@+id/uploadImageButton"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/up_image"
+            android:scaleType="fitXY" >
+        </Button>
+
+        <Button
+            android:id="@+id/longTweetButton"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/change_l"
+            android:scaleType="fitXY" >
+        </Button>
+
+        <Button
+            android:id="@+id/cameraButton"
+            style="fitXY"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/camera" />
+
+        <Button
+            android:id="@+id/recorderButton"
+            style="fitXY"
+            android:layout_width="35dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/send_lisnter" >
+        </Button>
+
+        <Button
+            android:id="@+id/shortenUrlButton"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/change_s"
+            android:scaleType="fitXY" >
+        </Button>
+
+        <Button
+            android:id="@+id/translateButton"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/translation"
+            android:scaleType="fitXY" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

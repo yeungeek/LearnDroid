@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout_right"
+    android:layout_width="35dip"
+    android:layout_height="fill_parent"
+    android:background="#00000000"
+    android:orientation="vertical"
+     >
+     <Button
+        android:id="@+id/main_at"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:background="@drawable/tools_at" 
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="2dip"/>
+	 <Button
+        android:id="@+id/main_my_timeline"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:background="@drawable/right_my_time_line" 
+        android:layout_below="@id/main_at"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="2dip"/>
+    <Button
+        android:id="@+id/main_direct"
+        android:layout_below="@id/main_my_timeline"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:background="@drawable/direct_message" 
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="2dip"/>
+    <Button
+        android:id="@+id/main_comment"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:background="@drawable/comment" 
+        android:layout_below="@id/main_direct"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="2dip"/>
+    <Button
+        android:id="@+id/main_retweet_by_me"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:background="@drawable/main_retweet_by_me" 
+        android:layout_below="@id/main_direct"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="2dip"
+        android:visibility="gone"/>
+
+</RelativeLayout>

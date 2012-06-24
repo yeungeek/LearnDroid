@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/basic_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/tools_main_bottom" >
+
+        <LinearLayout
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/tools_bottom_home"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="2dip"
+                android:layout_height="48dip"
+                android:layout_gravity="center_horizontal"
+                android:focusable="true"
+                android:background="@drawable/selector_button_home"
+                android:clickable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/tools_bottom_new"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="2dip"
+                android:layout_height="48dip"
+                android:layout_gravity="center_horizontal"
+                android:focusable="true"
+                android:background="@drawable/selector_button_new"
+                android:clickable="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_app"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/tools_bottom_app"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="2dip"
+                android:layout_height="48dip"
+                android:layout_gravity="center_horizontal"
+                android:focusable="true"
+                android:background="@drawable/selector_button_app"
+                android:clickable="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/tools_bottom_profile"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="2dip"
+                android:layout_height="48dip"
+                android:layout_gravity="center_horizontal"
+                android:focusable="true"
+                android:background="@drawable/selector_button_profile"
+                android:clickable="false" />
+        </LinearLayout>
+         <LinearLayout
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/tools_bottom_more"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="2dip"
+                android:layout_height="48dip"
+                android:layout_gravity="center_horizontal"
+                android:focusable="true"
+                android:background="@drawable/selector_button_more"
+                android:clickable="false" />
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

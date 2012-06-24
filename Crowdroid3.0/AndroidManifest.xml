@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anhuioss.crowdroid"
+    android:versionCode="49"
+    android:versionName="3.2.0" >
+
+    <application
+        android:name=".CrowdroidApplication"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".settings.AddTencentAccountActivity" >
+        </activity>
+        <activity android:name=".settings.AddTranslationDataActivity" >
+        </activity>
+        <activity android:name=".settings.AddKeywordFilterActivity" >
+        </activity>
+        <activity android:name=".settings.GalleryCustomActivity" >
+        </activity>
+        <activity android:name=".settings.AddListActivity" >
+        </activity>
+        <activity android:name=".settings.AddTwitterAccountActivity" >
+        </activity>
+        <activity android:name=".settings.AddTwitterProxyAccountActivity" >
+        </activity>
+        <activity android:name=".settings.AddCrowdroidForBusinessAccountActivity" >
+        </activity>
+        <activity android:name=".settings.AddFollow5AccountActivity" >
+        </activity>
+        <activity android:name=".settings.AddSinaAccountActivity" >
+        </activity>
+        <activity android:name=".settings.AddSohuAccountActivity" >
+        </activity>
+        <activity android:name=".settings.AddUserFilterActivity" >
+        </activity>
+        <activity android:name=".settings.RegisterTwitterAccountActivity" >
+        </activity>
+        <activity android:name=".settings.RegisterSinaAccountActivity" >
+        </activity>
+        <activity android:name=".settings.RegisterTencentAccountActivity" >
+        </activity>
+        <activity android:name=".settings.RegisterSohuAccountActivity" >
+        </activity>
+        <activity android:name=".settings.AddRenRenAccountActivity" >
+        </activity>
+        <activity android:name=".settings.RegisterRenRenAccountActivity" >
+        </activity>
+        <activity android:name=".settings.SettingsActivity" >
+        </activity>
+        <activity android:name=".settings.SelectThemeActivity" >
+        </activity>
+        <activity android:name=".settings.CasualWatchSettingActivity" >
+        </activity>
+        <activity android:name=".settings.MultiTweetActivity" >
+        </activity>
+        <activity android:name=".settings.AddGroupListActivity" >
+        </activity>
+        <activity
+            android:name=".settings.AccountManageActivity"
+            android:theme="@style/Transparent" >
+        </activity>
+        <activity
+            android:name=".settings.ThemeSettingActivity"
+            android:theme="@style/Transparent" >
+        </activity>
+        <activity
+            android:name=".settings.BrowseModeActivity"
+            android:theme="@style/Transparent" >
+        </activity>
+        <activity
+            android:name=".settings.PersonalSettingActivity"
+            android:theme="@style/Transparent" >
+        </activity>
+        <activity android:name=".settings.AutoRefreshActivity" >
+        </activity>
+        <activity android:name=".settings.TranslationSettingActivity" >
+        </activity>
+        <activity android:name=".settings.NotificationSettingActivity" >
+        </activity>
+        <activity
+            android:name=".settings.WeiBoSettingActivity"
+            android:theme="@style/Transparent" >
+        </activity>
+        <activity
+            android:name=".HotRetweetTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".RetweetByMeActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".MyTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".RetweetToMeActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".RetweetOfMeActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".HomeTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".PublicTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".AtMessageTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".CommentTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".DirectMessageSendActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".DirectMessageReceiveActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".UserTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".FavoriteTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".GroupTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.ListEActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".BasicSearchActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name=".BasicUserSearchActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name=".UserTimelineActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name=".activity.KeywordSearchActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name=".activity.SendMessageActivity"
+            android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.anhuioss.crowdroid.openfunctions.messagesent" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <data android:mimeType="image/*" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.DetailTweetActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.MoreFunctionActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.RetweetedUserListActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.RetweetedListActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.CameraActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activity.RecorderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.ReplyHistoryActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.KeywordSearchActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.UserSearchActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.GroupListUserActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.SendDMActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.FollowActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.FollowedActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.ListTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.TrendTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.CommentActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.HotUsersActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.SuggestionUsersActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.ActivityCommentOriginalTweets"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.UpdateUserImageActivity"
+            android:configChanges="orientation|keyboardHidden|navigation" >
+        </activity>
+        <activity
+            android:name=".activity.UpdateMoodStatusActivity"
+            android:configChanges="orientation|keyboardHidden|navigation" >
+        </activity>
+        <activity
+            android:name=".activity.PreviewImageActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:theme="@style/Transparent" >
+        </activity>
+        <activity
+            android:name=".activity.ListAActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.ListBActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.ListCActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.ListDActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.LBSUpdateMessageActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.LBSTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.LBSGetAroundPeopleActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.UpdateProfileActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity android:name=".activity.DiscoveryActivity" >
+        </activity>
+        <activity android:name=".activity.RetweetMessageActivity" >
+        </activity>
+        <activity
+            android:name=".activity.MoodStatusTimelineActivity"
+            android:configChanges="orientation|keyboardHidden|navigation" >
+        </activity>
+        <activity
+            android:name=".activity.UpdateTagsActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.SuggestionTagsListActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.TagsListActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.TencentFamouslistActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".activity.AreaTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+
+        <service android:name=".communication.ApiService" >
+        </service>
+        <service android:name=".communication.DownloadService" >
+        </service>
+        <service android:name=".communication.TranslationService" >
+        </service>
+        <service android:name=".notification.NotificationService" >
+        </service>
+
+        <receiver android:name=".notification.NotificationTimerReceiver" >
+            <intent-filter>
+                <action android:name="com.anhuioss.crowdroid.NOTIFICATION_TIMER" >
+                </action>
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name=".util.CrowdroidContentProvider"
+            android:authorities="com.anhuioss.crowdroid.service" />
+
+        <activity
+            android:name=".sns.StatusTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".sns.BlogTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".sns.AlbumsTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".sns.MyFeedTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".sns.MyStateTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".sns.MyShareTimelineActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".sns.operations.CreateNewAlbumActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".sns.operations.SNSDiscoveryActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".sns.operations.DetailBlogActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".sns.operations.UploadPhotosActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".sns.operations.RenRenSerchClassmateActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name=".sns.operations.RenRenSerchColleagueActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name=".sns.operations.RenRenSerchByBaseActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name=".sns.operations.RenRenSerchUserDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name=".sns.operations.SNSUserSerchActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name=".sns.operations.BrowseAlbumPhotosActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".sns.operations.PreviewAlbumPhotosActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity android:name=".sns.operations.UpdateBlogActivity" >
+        </activity>
+        <activity
+            android:name=".sns.operations.PublicPageListActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".sns.operations.PageFollowerListActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" >
+    </uses-permission>
+
+    <uses-sdk android:minSdkVersion="4" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+</manifest>

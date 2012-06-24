@@ -1,0 +1,467 @@
+<tips-list>
+	<tip>
+		<text>If you use Crowdroid to sign in Twitter before July 9, 2011, you perhaps can not use direct message function. Please register Twitter account again.</text>
+		<min-version>26</min-version>
+		<max-version>28</max-version>
+	</tip>
+	<tip>
+		<text>SINA's authorication method has changed, please register a new account!</text>
+		<min-version>26</min-version>
+		<max-version>28</max-version>
+	</tip>
+	<tip>
+		<text>Added voice input support</text>
+		<min-version>30</min-version>
+		<max-version>32</max-version>
+	</tip>
+	<tip>
+		<text>Support Tencent Weibo</text>
+		<min-version>30</min-version>
+		<max-version>32</max-version>
+	</tip>
+	<tip>
+		<text>Improved user interfaces</text>
+		<min-version>30</min-version>
+		<max-version>32</max-version>
+	</tip>
+	<tip>
+		<text>The New Features of Crowdroid 2.5.0</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ Support Sohu Weibo.</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ Optimize the function of reply in Twitter、Follow5 and Crowdroid for Business.</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ Optimize the function of pictures uploaded.</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ Add the Notification function of QT in Twitter.</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ Delete the function of Google translation.</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ Fixed the User Login of Sina,Tencent and Sohu.</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>  http://www.anhuioss.com/en/crowdroid/manual3.html</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>  http://www.anhuioss.com/en/crowdroid/manual4.html</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>  http://www.anhuioss.com/en/crowdroid/manual5.html</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ Optimized error messages.</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ Fixed the multi-tweet service.</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ Canceled the Follow5 Service.</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ Other bugs fixed.</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ The login screen has been improved.</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ The tag icon has been improved.</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ Add “Casual Watch” in Twitter.</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ Getting GPS information has been improved.</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ Notification function has been improved.</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ Auto refresh function has been improved.</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ Other bugs fixed.</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ Added the function of “Hot Retweets” in Tencent Weibo. Fixed the retweet and comment layout in Tencent Weibo.</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ You can add topics in Sina Weibo 、Tencent Weibo and Sohu Weibo when you tweet.</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ Added the function of auto refresh in casual watch.Added the function of auto refresh in keyword-search.</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ You can view favourite list and set it.</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ You can download the latest Crowdroid version and detect the latest Version automatically.</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ Added the function of themes, you can download the provided themes.</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ Other bugs fixed.</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ Improved the UI and User Experiences.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ Improved the Login Interface.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ Improved the main Interface.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ The main Interface icons are all on the right of Interface.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ Setting and application square icons are all on the bottom of Interface.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ Application square.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ User(s) or keyword(s) search.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ Setting the other convenience function(s).</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ Setting Interface.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ Added the function of language selection、translation、text size、wallpaper change and software update remind.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ Improved the Interface of New Tweet.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ Image-previewing in retweeting with image-attachment.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ Improved image-previewing(and file-downloading) features.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ New-added the retweet's page and insert topics features.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ New-added the user-profile modification on Tencent and Sohu Weibo.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ New-added the view of Direct Message.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ New-added Official weibo account in order to reply feedback conveniently.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ Modified to multi-accounts adding and clearing the cache.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ New-added the color-selecting to set the background and fond colors.</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ To add send private message function, push information, review information added expressions and @ a user function.</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ To add Twitter and Twitter-proxy are inserted into the topic and insert @ username function.</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ To add @ a user and insert topic automatically prompt and the preservation of historical records function.</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ To add Twitter and Twitter-proxy subscription and create a list of features.</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ To add the function of have a look at the Twitter-proxy server.</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ Repair of CFB according to the user username search micro-blog function.</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ Repair of Twitter interested users classification search function.</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ Repair of Micro-blog picture display or not display setting function.</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ According to the ANR (Application Not Responding), Repair of automatic update functionality.</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ Repair in the Android2.3.3 and Android4.0.2 running on the system function.</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ Relayout The insertion Expression.</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ Repair of CFB picture preview and download function.</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ Repair of Twitter image server's big picture preview function.</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ Added renren.com.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Added the new function of sharing, state, journal, album and new visitor in renren.com.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Added the function of send state in renren.com.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Added Personal Home Page (PHP) in renren. Users can look over the basic information, friends number, visitors number, states number, journals number and albums number.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Users can look over the list of journals and albums.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Added the function of manage journal in renren. Users can publish journals and check it.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Added the function of manage albums in renren. Users can establish albums and upload photos.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Added the function of search users by category. According to birthday and hometown to search classmate or colleague.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Added the web singn in page of renren.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Added notification function of sharing, state, journal and album.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Repaired of Twitter display and retweet messages in sohu micro-blog.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Repaired of @message.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Repaired of Application Square.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Repaired of background image settings.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Repaired of user search.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Repaired add account function.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Modified the login interface.</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>	
+	<tip>
+		<text>★ Fixed the Login Interface,make it clear.</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ Add LBS（Location Based Service） in Twitter、Sina、Tencent and RenRen.</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ Repair of retweet notification in Twitter.</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ Added the function of edit user's head portrait in Tencent.</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ Added the function of public page in RenRen.</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ Added the function of search blog in Sohu.</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ New-added the feature of mood-releasing and mood-getting in Tencent Weibo.</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ New-added the feature of label-adding,label-deleting,label-getting,user-searching by label and label-getting on user instited in Tencent Weibo and Sina Weibo.</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ New-added the feature of Celebrity list in Tencent Weibo.</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ New-added the feature of getting Location timeline in Tencent Weibo.</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ Other bugs fixed.</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+</tips-list>

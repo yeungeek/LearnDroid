@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/tools_header" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dip"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/left_relative"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dip"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/account_manage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/account"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:drawablePadding="5dip"
+                            android:text="@string/setting_account_manage"
+                            android:background="@drawable/selector_button_add"
+                            />
+
+                        <TextView
+                            android:id="@+id/themes_setting"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:drawableLeft="@drawable/theme"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:drawablePadding="5dip"
+                            android:text="@string/setting_theme" 
+                            android:background="@drawable/selector_button_add"
+                            />
+
+                        <TextView
+                            android:id="@+id/skim"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:drawableLeft="@drawable/skim"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:drawablePadding="5dip"
+                            android:text="@string/setting_browse_mode" 
+                            android:background="@drawable/selector_button_add"
+                            />
+
+                        <TextView
+                            android:id="@+id/weibo_setting"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:drawableLeft="@drawable/wsetting"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:drawablePadding="5dip"
+                            android:text="@string/setting_microblogging" 
+                            android:background="@drawable/selector_button_add"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/right_relative"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dip"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/setting"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/profilesetting"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:drawablePadding="5dip"
+                            android:text="@string/setting_preferences" 
+                            android:background="@drawable/selector_button_add"
+                            />
+
+                        <TextView
+                            android:id="@+id/license"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:drawableLeft="@drawable/license"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:drawablePadding="5dip"
+                            android:text="@string/license" 
+                            android:background="@drawable/selector_button_add"
+                            />
+
+                        <TextView
+                            android:id="@+id/office_weibo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:drawableLeft="@drawable/client"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:drawablePadding="5dip"
+                            android:text="@string/setting_official_microblogging"
+                            android:background="@drawable/selector_button_add"
+                            />
+
+                        <TextView
+                            android:id="@+id/check_update"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:drawableLeft="@drawable/update"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:drawablePadding="5dip"
+                            android:text="@string/check_update"
+                            android:background="@drawable/selector_button_add"
+                            />
+
+                        <TextView
+                            android:id="@+id/about"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:drawableLeft="@drawable/about"
+                            android:autoLink="web"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:drawablePadding="5dip"
+                            android:text="@string/about" 
+                            android:background="@drawable/selector_button_add"
+                            />
+
+                        <TextView
+                            android:id="@+id/logout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:drawableLeft="@drawable/newlogout"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:drawablePadding="5dip"
+                            android:text="@string/logout" 
+                            android:background="@drawable/selector_button_add"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="15dip" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <TextView
+                        android:id="@+id/feedback"
+                        android:layout_width="100dip"
+                        android:layout_height="50dip"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:layout_marginRight="20dip"
+                        android:text="@string/feedback" 
+                        android:background="@drawable/profile_background_cloud"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

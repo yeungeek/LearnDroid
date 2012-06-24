@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+  <Button 
+        android:id="@+id/back"
+        android:layout_width="45dip"
+        android:layout_height="35dip"
+        android:background="@drawable/back"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="20dip"
+        />
+
+  <ScrollView 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      >
+    <RelativeLayout
+        android:id="@+id/select"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="120dip"
+        android:gravity="center_vertical" >
+
+        <RadioGroup
+            android:id="@+id/selectitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <RadioButton
+                android:id="@+id/language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/speech_language_selected" />
+
+            <RadioButton
+                android:id="@+id/autorefresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_auto_refresh" />
+
+            <RadioButton
+                android:id="@+id/translation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_translation" />
+
+            <RadioButton
+                android:id="@+id/notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_notification" />
+
+            <RadioButton
+                android:id="@+id/multi_tweet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/multi_tweet" />
+        </RadioGroup>
+    </RelativeLayout>
+</ScrollView>
+</LinearLayout>

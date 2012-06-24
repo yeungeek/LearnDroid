@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+   <CheckBoxPreference
+            android:key="autocheck"
+            android:order="1"
+            android:title="@string/setting_auto_refresh" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:dialogTitle="@string/setting_auto_refresh_interval"
+            android:entries="@array/time"
+            android:entryValues="@array/time_values"
+            android:key="timeselection"
+            android:order="2"
+            android:title="@string/setting_auto_refresh_interval" >
+        </ListPreference>  
+
+</PreferenceScreen>

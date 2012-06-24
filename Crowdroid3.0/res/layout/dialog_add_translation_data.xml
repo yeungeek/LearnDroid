@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	
+	
+		
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal"
+		android:gravity="center_vertical">
+
+		<TextView 
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip"
+			android:layout_marginTop="5dip" 
+			android:gravity="center" 
+			android:layout_width="70dip" 
+			android:textSize="18sp" android:text="@string/name"/>
+		
+
+	<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginRight="10dip" android:id="@+id/dialog_add_translation_name"></EditText>
+</LinearLayout><LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal"
+		android:gravity="center_vertical">
+
+		<TextView 
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip"
+			android:layout_marginTop="5dip" 
+			android:gravity="center" 
+			android:layout_width="70dip" 
+			android:textSize="18sp" android:text="@string/from"/>
+		<Spinner 
+			android:layout_height="wrap_content"
+			android:layout_marginRight="10dip" android:layout_width="fill_parent" android:id="@+id/dialog_add_translation_from"/>
+
+	</LinearLayout>
+
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal">
+
+		<TextView 
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip"
+			android:layout_marginTop="5dip" 
+			android:textSize="18sp" 
+			android:layout_width="70dip" android:gravity="center" android:text="@string/to"/>
+		<Spinner 
+			android:layout_height="wrap_content"
+			android:layout_marginRight="10dip" android:layout_width="fill_parent" android:id="@+id/dialog_add_translation_to"/>
+
+	</LinearLayout>
+
+	
+
+
+
+</LinearLayout>

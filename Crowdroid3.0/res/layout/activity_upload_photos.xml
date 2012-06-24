@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:id="@+id/tools_head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <include layout="@layout/tools_header" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sc"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/toolsbottom"
+        android:layout_below="@+id/tools_head"
+        android:layout_marginBottom="10dip"
+        android:background="@color/white_gray" >
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:id="@+id/info"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="10dip"
+                    android:text="@string/select_album"
+                    android:textColor="#F08700"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/select_albums"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/info"
+                    android:layout_marginLeft="30dip"
+                    android:layout_marginRight="30dip"
+                    android:layout_marginTop="15dip" />
+
+                <RelativeLayout
+                    android:id="@+id/btn_select"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/select_albums"
+                    android:layout_marginTop="25dip"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/albums_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/photos_description"
+                        android:textColor="#F08700"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/description"
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dip"
+                        android:layout_below="@+id/albums_description"
+                        android:layout_marginLeft="30dip"
+                        android:layout_marginRight="30dip"
+                        android:freezesText="true"
+                        android:gravity="top"
+                        android:text=""
+                        android:textColorHint="#000000"
+                        android:textSize="12dp" />
+
+                    <RelativeLayout
+                        android:id="@+id/ly2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/description"
+                        android:layout_marginBottom="2dip"
+                        >
+
+                        <TextView
+                            android:id="@+id/counterText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="30dip"
+                            android:text=""
+                            android:textColor="#0F5A78"
+                            android:textSize="14px"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/upload"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dip"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20dip"
+                            android:background="@drawable/selector_button_add"
+                            android:gravity="center"
+                            android:text="@string/ok"
+                            android:textColor="#0F5A78"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/ly1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btn_select"
+                    android:layout_marginTop="30dip"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/webview_preview"
+                        android:layout_width="120dip"
+                        android:layout_height="120dip"
+                        android:visibility="gone" >
+                    </ImageView>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/toolsbottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" 
+        android:visibility="gone">
+
+        <include layout="@layout/tools_update_bottom" />
+    </RelativeLayout>
+
+</RelativeLayout>
