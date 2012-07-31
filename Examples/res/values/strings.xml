@@ -4,4 +4,6 @@
     <string name="hello">Hello World, ExampleActivity!</string>
     <string name="app_name">Example</string>
 
+    <!-- examples-->
+    <string name="example_pinnedheader">PinnedHeaderListView</string>
 </resources>
