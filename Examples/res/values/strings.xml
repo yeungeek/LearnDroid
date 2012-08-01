@@ -6,4 +6,7 @@
 
     <!-- examples-->
     <string name="example_pinnedheader">PinnedHeaderListView</string>
+    <string name="example_popuowindow">PopupWindow</string>
+    
+    <string name="contact_list">全部联系人</string>
 </resources>
