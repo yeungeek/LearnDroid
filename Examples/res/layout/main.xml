@@ -14,4 +14,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/example_pinnedheader" />
+    
+    <Button android:id="@+id/example_popupwindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/example_popuowindow"/>
 </LinearLayout>

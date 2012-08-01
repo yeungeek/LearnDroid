@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".pinnedheader.PinnedHeaderActivity"></activity>
+        <activity android:name=".popupwindow.PopupWindowActivity"/>
     </application>
 
 </manifest>
