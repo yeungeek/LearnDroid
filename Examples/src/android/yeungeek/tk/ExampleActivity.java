@@ -9,6 +9,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.yeungeek.tk.pinnedheader.PinnedHeaderActivity;
 import android.yeungeek.tk.popupwindow.PopupWindowActivity;
+import android.yeungeek.tk.service.UpdateServiceActivity;
 
 public class ExampleActivity extends Activity {
     /** Called when the activity is first created. */
@@ -20,6 +21,8 @@ public class ExampleActivity extends Activity {
 
         Button mPinnedBtn = (Button) findViewById(R.id.example_pinnedheader);
         Button mPopupBtn = (Button) findViewById(R.id.example_popupwindow);
+
+        Button mIntentService = (Button) findViewById(R.id.example_intentService);
 
         mPopupBtn.setOnClickListener(new OnClickListener() {
             @Override
@@ -34,6 +37,13 @@ public class ExampleActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(ExampleActivity.this, PinnedHeaderActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        mIntentService.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ExampleActivity.this, UpdateServiceActivity.class));
             }
         });
     }

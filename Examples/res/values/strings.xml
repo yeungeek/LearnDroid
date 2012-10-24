@@ -7,6 +7,11 @@
     <!-- examples-->
     <string name="example_pinnedheader">PinnedHeaderListView</string>
     <string name="example_popuowindow">PopupWindow</string>
+    <string name="example_intentService">IntentService</string>
+    
     
     <string name="contact_list">全部联系人</string>
+    
+    <string name="check_update">检查更新</string>
+    <string name="download_update">下载</string>
 </resources>

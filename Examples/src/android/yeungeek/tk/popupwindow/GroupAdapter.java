@@ -2,7 +2,6 @@
 package android.yeungeek.tk.popupwindow;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,12 +48,11 @@ public class GroupAdapter extends BaseAdapter {
             convertView = LayoutInflater.from(mContext).inflate(R.layout.group_item_view, null);
             holder = new ViewHolder();
             convertView.setTag(holder);
-            holder.groupItem = (TextView) convertView.findViewById(R.id.group_item);
+            holder.groupItem = (TextView) convertView.findViewById(R.id.groupItem);
         }
         else {
             holder = (ViewHolder) convertView.getTag();
         }
-        holder.groupItem.setTextColor(Color.BLACK);
         holder.groupItem.setText(mList.get(position));
 
         return convertView;

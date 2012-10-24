@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:layout_height="wrap_content"
+    android:background="@drawable/message_list_item_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="3.0dip" >
 
     <TextView
-        android:id="@+id/group_item"
-        android:layout_width="40dip"
-        android:layout_height="fill_parent"
-        android:gravity="center"
-        android:textColor="#ffffff"
-        android:textSize="18dip" />
+        android:id="@+id/groupItem"
+        style="@style/grouplist_item_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/group_item_height"
+        android:gravity="center" />
 
 </LinearLayout>

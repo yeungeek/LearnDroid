@@ -3,6 +3,7 @@ package android.yeungeek.tk.popupwindow;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.util.Log;
@@ -15,6 +16,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.PopupWindow;
+import android.widget.PopupWindow.OnDismissListener;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.yeungeek.tk.R;
@@ -34,22 +36,61 @@ public class PopupWindowActivity extends Activity {
     private ListView mListView;
     private List<String> mList;
     private GroupAdapter mAdapter;
+    private PopupMenu popupMenu;
+    private TextView mHeaderView;
 
+    /**
+     *
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_popupwindow);
 
-        TextView mHeaderView = (TextView) findViewById(R.id.header_text);
+        mList = new ArrayList<String>();
+
+        mList.add("在线联系人");
+        mList.add("全部联系人");
+        mHeaderView = (TextView) findViewById(R.id.header_text);
         mHeaderView.setText(R.string.contact_list);
+        popupMenu = new PopupMenu(this, mList);
+
+        popupMenu.setOnItemClickListener(new OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(PopupWindowActivity.this, mList.get(position), 1000).show();
+                mHeaderView.setText(mList.get(position));
+                if (null != popupMenu.getPopupWindow()) {
+                    popupMenu.getPopupWindow().dismiss();
+                }
+            }
+        });
 
         mHeaderView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                showWindow(v);
+                popupMenu.showPopupMenu(v, R.dimen.popup_menu_xoff, R.dimen.popup_menu_yoff);
             }
         });
+
+        popupMenu.getPopupWindow().setOnDismissListener(new OnDismissListener() {
+            @Override
+            public void onDismiss() {
+                Log.d("Popupwindow", "Popupwindow dismiss()");
+            }
+        });
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        Log.d("Popupwindow", "onConfigurationChanged");
+        if (null != popupMenu.getPopupWindow() && popupMenu.getPopupWindow().isShowing()) {
+            Log.d("Popupwindow", "onConfigurationChanged popMenu");
+            popupMenu.getPopupWindow().dismiss();
+            popupMenu.showPopupMenu(mHeaderView, R.dimen.popup_menu_xoff, R.dimen.popup_menu_yoff);
+        }
     }
 
     private void showWindow(View parent) {
