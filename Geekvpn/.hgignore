@@ -1,0 +1,24 @@
+syntax: glob
+gen/
+bin/
+.svn/
+classes/
+cache/
+dist/
+coverage/
+
+.sublime-project
+local.properties
+*.jar
+.git*
+*.log*
+log.txt
+*.tmp
+*.db
+*.swp
+*.orig
+.DS_Store
+*.apk
+*.bak
+~*
+jarlist.cache

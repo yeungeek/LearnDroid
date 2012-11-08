@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XinkVPN</string>
+    <string name="selectVpn">選取活動VPN</string>
+    <string name="add_vpn">新增VPN</string>
+    <string name="del">刪除</string>
+    <string name="add">新增</string>
+    <string name="vpn_pptp">VPN\&quot;PPTP\&quot;</string>
+    <string name="vpn_l2tp">VPN\&quot;L2TP\&quot;</string>
+    <string name="vpn_l2tp_psk">VPN\&quot;L2TP/IPSec PSK\&quot;</string>
+    <string name="vpn_pptp_info">點對點通道通訊協定</string>
+    <string name="vpn_l2tp_info">第二層通道通訊協定</string>
+    <string name="vpn_l2tp_psk_info">採用預先共用金鑰的L2TP/IPSec VPN</string>
+    <string name="err_empty_name">請輸入VPN名稱。</string>
+    <string name="err_duplicated_profile_name">VPN名稱\'%s\'已經存在。</string>
+    <string name="vpn_list_desc">VPN</string>
+    <string name="save">儲存</string>
+    <string name="cancel">取消</string>
+    <string name="edit">編輯</string>
+    <string name="about">關於</string>
+    <string name="lbl_email">郵箱:</string>
+    <string name="lbl_report_bug">反饋缺陷:</string>
+    <string name="del_vpn_confirm">確定要刪除此VPN嗎？</string>
+    <string name="connecting">連線中...</string>
+    <string name="disconnecting">中斷連線中...</string>
+    <string name="vpnname">VPN名稱</string>
+    <string name="password">密碼</string>
+    <string name="username">使用者名稱</string>
+    <string name="comma_sep">逗號分隔</string>
+    <string name="dns_suffices">DNS搜尋網域</string>
+    <string name="server">VPN伺服器</string>
+    <string name="encrypt_enabled">啟用加密</string>
+    <string name="l2tp_secret_enabled">啟用L2TP密碼</string>
+    <string name="l2tp_secret">L2TP密碼</string>
+    <string name="psk">IPSec預先共用金鑰</string>
+    <string name="err_no_active_vpn">尚未設定活動VPN。</string>
+    <string name="export">備份</string>
+    <string name="err_no_writable_storage">無法訪問外部記憶體。</string>
+    <string name="err_exp_write_storage_failed">無法訪問外部記憶體。</string>
+    <string name="err_exp_failed">備份失敗。</string>
+    <string name="i_exp_done">備份成功。</string>
+    <string name="i_exp">資料將備份至\'%1$s\'，原有資料將被覆蓋。</string>
+    <string name="imp">還原</string>
+    <string name="err_imp_nodata">沒有在外部記憶體中找到備份資料。</string>
+    <string name="err_imp_failed">還原失敗。</string>
+    <string name="i_imp_done">還原成功。</string>
+    <string name="i_imp">資料將會還原，\'%1$s\'之後的改變將會丟失。</string>
+    <string name="err_empty_psk">請輸入IPSec預先共用金鑰。</string>
+    <string name="err_empty_secret">請輸入L2TP密碼。</string>
+    <string name="hack_keystore">L2TP密碼 / IPSec PSK無法使用</string>
+    <string name="i_hack_keystore">如需使用L2TP密碼和IPSec預先共用金鑰，必須替換系統的keystore服務。詳情請見：http://bit.ly/H4GatY</string>
+    <string name="neverShow">不再提示</string>
+    <string name="diag">破解</string>
+    <string name="hacked">OK，KeyStore服務破解成功。</string>
+    <string-array name="keepalive_period">
+        <item>5分鐘</item>
+        <item>10分鐘</item>
+        <item>15分鐘</item>
+        <item>30分鐘</item>
+    </string-array>
+    <string name="settings">設定</string>
+    <string name="enable_keepalive">保持連線</string>
+    <string name="keepalive_on">已開啟 *通過週期性的網路訪問保持連線活躍，將會產生少量的網路流量</string>
+    <string name="keepalive_off">已關閉</string>
+    <string name="keepalive_period">心跳週期</string>
+    <string name="keepalive_period_sum">每%s心跳一次</string>
+    <string name="task_main">XinkVpn</string>
+    <string name="task_toggle">VPN開關</string>
+
+    <string name="crash_dialog_title">發送錯誤報告</string>
+    <string name="crash_dialog_text">哎呀！XinkVpn發生了點小狀况...
+        請允許通過電郵發送錯誤報告，從而幫助我們改進。</string>
+    <string name="crash_dialog_comment_prompt">您可以在此留言:</string>
+    <string name="crash_dialog_ok_toast">謝了！</string>
+
+    <string name="pref_crash_report_title">錯誤報告</string>
+    <string name="pref_crash_report_enabled_title">允許發送錯誤報告</string>
+    <string name="pref_crash_report_enabled_sum">通過電郵發送錯誤報告</string>
+    <string name="pref_crash_conn_broken_title">報告VPN連線錯誤</string>
+    <string name="pref_crash_conn_broken_threshold_title">連線錯誤次數</string>
+    <string name="pref_crash_conn_broken_threshold_sum">連續%s次連線失敗後發送錯誤報告</string>
+</resources>

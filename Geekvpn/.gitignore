@@ -1,0 +1,13 @@
+libs/
+gen/
+bin/
+build/
+
+local.properties
+local_config.xml
+
+.DS_Store
+*.orig
+.project
+.classpath
+jarlist.cache
