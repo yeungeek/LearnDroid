@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <dimen name="group_item_height">40.0dip</dimen>
+     
+     <dimen name="popup_menu_width">150dip</dimen>
+     
+     <dimen name="popup_menu_xoff">30dip</dimen>
+     <dimen name="popup_menu_yoff">12dip</dimen>
+</resources>
