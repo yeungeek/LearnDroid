@@ -76,4 +76,6 @@
     <string name="pref_crash_conn_broken_title">Report connect problems</string>
     <string name="pref_crash_conn_broken_threshold_title">Connect problems threshold</string>
     <string name="pref_crash_conn_broken_threshold_sum">Reports error after %s connection failures detected</string>
+    
+    <string name="login_btn_value">login</string>
 </resources>
