@@ -27,11 +27,11 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import xink.crypto.StreamCrypto;
-import xink.vpn.wrapper.L2tpProfile;
-import xink.vpn.wrapper.PptpProfile;
-import xink.vpn.wrapper.VpnProfile;
-import xink.vpn.wrapper.VpnType;
+import yeungeek.tk.crypto.StreamCrypto;
+import yeungeek.tk.wrapper.L2tpProfile;
+import yeungeek.tk.wrapper.PptpProfile;
+import yeungeek.tk.wrapper.VpnProfile;
+import yeungeek.tk.wrapper.VpnType;
 import android.test.AndroidTestCase;
 
 /**

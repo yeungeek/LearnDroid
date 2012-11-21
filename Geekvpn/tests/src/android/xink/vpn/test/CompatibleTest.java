@@ -18,10 +18,10 @@ package xink.vpn.test;
 
 import java.lang.reflect.Method;
 
-import xink.vpn.wrapper.KeyStore;
-import xink.vpn.wrapper.PptpProfile;
-import xink.vpn.wrapper.VpnManager;
-import xink.vpn.wrapper.VpnService;
+import yeungeek.tk.wrapper.KeyStore;
+import yeungeek.tk.wrapper.PptpProfile;
+import yeungeek.tk.wrapper.VpnManager;
+import yeungeek.tk.wrapper.VpnService;
 import android.content.ServiceConnection;
 import android.os.IBinder;
 import android.test.AndroidTestCase;

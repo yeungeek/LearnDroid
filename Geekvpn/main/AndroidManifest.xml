@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="yeungeek.tk"
-    android:versionCode="7"
-    android:versionName="3.1" >
+    android:versionCode="1"
+    android:versionName="1.0" >
 
     <uses-sdk
         android:maxSdkVersion="10"
         android:minSdkVersion="7"
         android:targetSdkVersion="10" />
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
-    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <supports-screens
         android:anyDensity="true"
@@ -19,11 +20,7 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
 
-    <uses-permission android:name="android.permission.READ_LOGS" />
-
     <application
-        android:name=".XinkVpnApp"
-        android:debuggable="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name" >
         <activity
@@ -31,16 +28,9 @@
             android:label="@string/task_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+				<action android:name="android.net.vpn.SETTINGS" />
+				
                 <category android:name="android.intent.category.LAUNCHER" />
-
-                <action android:name="android.net.vpn.SETTINGS" >
-                </action>
-
-                <category android:name="com.android.settings.SHORTCUT" >
-                </category>
-                <category android:name="android.intent.category.DEFAULT" >
-                </category>
             </intent-filter>
         </activity>
 

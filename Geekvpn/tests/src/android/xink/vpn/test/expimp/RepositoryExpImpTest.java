@@ -18,11 +18,11 @@ package xink.vpn.test.expimp;
 
 import java.io.File;
 
-import xink.vpn.AppException;
-import xink.vpn.VpnProfileRepository;
 import xink.vpn.test.helper.RepositoryHelper;
-import xink.vpn.wrapper.L2tpProfile;
-import xink.vpn.wrapper.VpnProfile;
+import yeungeek.tk.AppException;
+import yeungeek.tk.VpnProfileRepository;
+import yeungeek.tk.wrapper.L2tpProfile;
+import yeungeek.tk.wrapper.VpnProfile;
 import android.test.AndroidTestCase;
 
 /**

@@ -16,10 +16,10 @@
 
 package xink.vpn.wrapper.test;
 
-import xink.vpn.wrapper.L2tpIpsecPskProfile;
-import xink.vpn.wrapper.L2tpProfile;
-import xink.vpn.wrapper.PptpProfile;
-import xink.vpn.wrapper.VpnProfile;
+import yeungeek.tk.wrapper.L2tpIpsecPskProfile;
+import yeungeek.tk.wrapper.L2tpProfile;
+import yeungeek.tk.wrapper.PptpProfile;
+import yeungeek.tk.wrapper.VpnProfile;
 import android.test.AndroidTestCase;
 
 public class VpnProfileCloneTest extends AndroidTestCase {

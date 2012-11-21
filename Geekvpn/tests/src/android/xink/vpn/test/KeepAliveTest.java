@@ -15,16 +15,16 @@
  */
 package xink.vpn.test;
 
-import static xink.vpn.Constants.*;
-import static xink.vpn.KeepAlive.*;
+import static yeungeek.tk.KeepAlive.*;
+import static yeungeek.tk.vpn.Constants.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import xink.vpn.VpnProfileRepository;
 import xink.vpn.test.helper.RepositoryHelper;
-import xink.vpn.wrapper.VpnProfile;
-import xink.vpn.wrapper.VpnState;
+import yeungeek.tk.VpnProfileRepository;
+import yeungeek.tk.wrapper.VpnProfile;
+import yeungeek.tk.wrapper.VpnState;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;

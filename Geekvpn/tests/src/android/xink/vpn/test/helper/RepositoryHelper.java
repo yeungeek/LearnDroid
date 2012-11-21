@@ -21,10 +21,10 @@ import static junit.framework.Assert.*;
 import java.io.File;
 import java.util.List;
 
-import xink.vpn.VpnProfileRepository;
-import xink.vpn.wrapper.L2tpIpsecPskProfile;
-import xink.vpn.wrapper.PptpProfile;
-import xink.vpn.wrapper.VpnProfile;
+import yeungeek.tk.VpnProfileRepository;
+import yeungeek.tk.wrapper.L2tpIpsecPskProfile;
+import yeungeek.tk.wrapper.PptpProfile;
+import yeungeek.tk.wrapper.VpnProfile;
 import android.content.Context;
 
 public class RepositoryHelper {
@@ -73,15 +73,13 @@ public class RepositoryHelper {
     public void cleanDir(final String dir) {
         File extDir = new File(dir);
 
-        if (!extDir.exists()) {
+        if (!extDir.exists())
             return;
-        }
 
         File[] files = extDir.listFiles();
 
-        if (files == null) {
+        if (files == null)
             return;
-        }
 
         for (File f : files) {
             System.out.println(f + " delete? " + f.delete());

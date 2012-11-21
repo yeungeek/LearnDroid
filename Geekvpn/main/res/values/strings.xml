@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">XinkVPN</string>
+    <string name="app_name">GeekVPN</string>
     <string name="selectVpn">Choose Active VPN</string>
     <string name="add_vpn">Add VPN</string>
     <string name="del">Delete</string>
@@ -61,7 +61,7 @@
     <string name="keepalive_on">Enabled *Keep connection alive by accessing internet periodically, may produce a small amount of network traffic</string>
     <string name="keepalive_period">Heartbeat interval</string>
     <string name="keepalive_period_sum">Take a keep-alive heartbeat every %s</string>
-    <string name="task_main">XinkVpn</string>
+    <string name="task_main">GeekVPN</string>
     <string name="task_toggle">Toggle VPN Connection</string>
 
     <string name="crash_dialog_title">Error Report</string>

@@ -26,7 +26,6 @@ import javax.crypto.CipherOutputStream;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-import yeungeek.tk.R;
 import yeungeek.tk.vpn.Assert;
 import android.content.Context;
 
@@ -46,7 +45,14 @@ public final class StreamCrypto {
      *            Context
      */
     public static void init(final Context ctx) {
-        rawKey = ctx.getString(R.string.crypto_raw_key).getBytes();
+        // rawKey = ctx.getString(R.string.crypto_raw_key).getBytes();
+        try {
+            InputStream in = ctx.getAssets().open("crypto_raw_key.properties");
+            rawKey = new byte[in.available()];
+            in.read(rawKey);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         Assert.isEquals(rawKey.length, 16, "AES-128 requires a 16 bytes raw key");
     }
 

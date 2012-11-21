@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vpn_names">
+        <item>免费路线1</item>
+        <item>免费路线2</item>
+        <item>美国VIP1</item>
+        <item>美国VIP2</item>
+        <item>美国VIP3</item>
+        <item>美国VIP4</item>
+        <item>美国VIP5</item>
+        <item>美国VIP6</item>
+        <item>美国VIP7</item>
+        <item>香港VIP1</item>
+        <item>视屏线路1,禁止大流量下载,违者封</item>
+        <item>视屏线路2,禁止大流量下载,违者封</item>
+        <item>日本线路1,禁止下载,违者封</item>
+        <item>游戏线路1,禁止下载,违者封</item>
+    </string-array>
+    <string-array name="vpn_ips">
+        <item>198.96.93.166</item>
+        <item>173.254.201.87</item>
+        <item>74.82.189.109</item>
+        <item>173.252.215.151</item>
+        <item>74.82.178.104</item>
+        <item>74.82.185.86</item>
+        <item>173.252.226.178</item>
+        <item>199.245.60.68</item>
+        <item>50.115.129.58</item>
+        <item>103.246.246.22</item>
+        <item>198.74.51.202</item>
+        <item>192.155.81.43</item>
+        <item>106.187.47.96</item>
+        <item>106.187.93.44</item>
+    </string-array>
+</resources>
