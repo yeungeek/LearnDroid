@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout_right"
+    android:layout_width="35dip"
+    android:layout_height="fill_parent"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/main_at"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_marginRight="2dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/tools_at" />
+
+    <TextView
+        android:id="@+id/at_count"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignLeft="@+id/main_at"
+        android:layout_alignTop="@+id/main_at"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/count"
+        android:gravity="center"
+        android:text="10+"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/main_my_timeline"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_below="@id/main_at"
+        android:layout_marginRight="2dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/right_my_time_line" />
+
+    <TextView
+        android:id="@+id/state_count"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignLeft="@+id/main_my_timeline"
+        android:layout_alignTop="@+id/main_my_timeline"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/count"
+        android:gravity="center"
+        android:text="10"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/main_direct"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_below="@id/main_my_timeline"
+        android:layout_marginRight="2dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/direct_message" />
+
+    <TextView
+        android:id="@+id/direct_count"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignLeft="@+id/main_direct"
+        android:layout_alignTop="@+id/main_direct"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/count"
+        android:gravity="center"
+        android:text="10"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/main_comment"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_below="@id/main_direct"
+        android:layout_marginRight="2dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/comment" />
+
+    <TextView
+        android:id="@+id/comment_count"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignLeft="@+id/main_comment"
+        android:layout_alignTop="@+id/main_comment"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/count"
+        android:gravity="center"
+        android:text="10"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/main_retweet_by_me"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_below="@+id/main_comment"
+        android:layout_marginRight="2dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/main_retweet_by_me"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/retweet_by_me_count"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignLeft="@+id/main_retweet_by_me"
+        android:layout_alignTop="@+id/main_retweet_by_me"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/count"
+        android:gravity="center"
+        android:text="10"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/main_schedule"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_below="@+id/main_retweet_by_me"
+        android:layout_marginRight="2dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/main_retweet_by_me"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/main_lbs"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_below="@id/main_retweet_by_me"
+        android:layout_marginRight="2dip"
+        android:layout_marginTop="10dip"
+        android:background="#fff000"
+        android:visibility="gone" />
+
+</RelativeLayout>

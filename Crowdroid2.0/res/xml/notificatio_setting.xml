@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="notification" >
+
+    <CheckBoxPreference
+        android:key="notificationcheck"
+        android:order="1"
+        android:title="@string/setting_notification" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:dependency="notificationcheck"
+        android:key="directmessage"
+        android:order="2"
+        android:title="@string/setting_notification_direct_message" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:dependency="notificationcheck"
+        android:key="atmessage"
+        android:order="3"
+        android:title="@string/setting_notification_at_message" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:dependency="notificationcheck"
+        android:key="generalmessage"
+        android:order="4"
+        android:title="@string/setting_notification_general_message" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:dependency="notificationcheck"
+        android:key="commentmessage"
+        android:order="5"
+        android:title="@string/comment" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:dependency="notificationcheck"
+        android:key="followmessage"
+        android:order="6"
+        android:title="@string/followed" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:dependency="notificationcheck"
+        android:key="unfollowmessage"
+        android:order="7"
+        android:title="@string/notification_unfollow" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:dependency="notificationcheck"
+        android:key="twitterfollowmessage"
+        android:order="8"
+        android:title="@string/followed" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:dependency="notificationcheck"
+        android:key="retweetofme"
+        android:order="9"
+        android:title="@string/retweet_of_me" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:dependency="notificationcheck"
+        android:key="feedstates"
+        android:order="10"
+        android:title="@string/status" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:dependency="notificationcheck"
+        android:key="feedalbums"
+        android:order="11"
+        android:title="@string/album" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:dependency="notificationcheck"
+        android:key="feedblogs"
+        android:order="12"
+        android:title="@string/blog" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:dependency="notificationcheck"
+        android:key="feedshare"
+        android:order="13"
+        android:title="@string/share" >
+    </CheckBoxPreference>
+
+    <ListPreference
+        android:defaultValue="300000"
+        android:dialogTitle="@string/setting_notification_interval"
+        android:entries="@array/time_notification"
+        android:entryValues="@array/time_notification_values"
+        android:key="notification_time_selection"
+        android:order="0"
+        android:title="@string/setting_notification_interval" >
+    </ListPreference>
+
+</PreferenceScreen>

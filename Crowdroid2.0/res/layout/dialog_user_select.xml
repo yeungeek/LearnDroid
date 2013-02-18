@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="fill_parent" 
+		android:layout_width="fill_parent"
+		android:orientation="vertical">
+	
+	<!-- Input Area -->
+	<!-- 
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:background="#FFFFFF"
+		android:orientation="horizontal">
+		<EditText android:id="@+id/search_edit_view" 
+			android:layout_height="wrap_content"
+			android:layout_width="200dip"
+			android:layout_marginLeft="20dip" 
+			/>
+		<ImageButton android:id="@+id/search_button"
+			android:src="@drawable/mainsetting_ic_menu_search"
+			android:scaleType="fitXY"
+			android:layout_height="48dip" 
+			android:layout_width="48dip"
+			android:layout_marginLeft="10dip" 
+			android:layout_marginRight="20dip"/>
+			 
+     </LinearLayout>
+     -->
+     
+     
+     <!-- Button -->
+     <RelativeLayout android:id="@+id/RelativeLayout01"
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:layout_margin="10dip">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/title"
+			android:layout_alignParentTop="true" 
+			android:id="@+id/dialog_title"
+			android:textSize="22dip" 
+			android:textColor="#ffffff">
+			</TextView>
+         <ProgressBar android:layout_height="20dip" android:layout_width="20dip" android:id="@+id/dialog_progress_bar" android:layout_alignParentRight="true" android:layout_marginTop="7dip">
+			</ProgressBar>
+		
+	</RelativeLayout><LinearLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:orientation="horizontal" 
+	android:background="#ffffff" 
+	android:paddingTop="2dip">
+			<Button 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:text="@string/prev" 
+			android:layout_weight="1" 
+			android:id="@+id/prev_button"/>
+			<Button 
+			android:id="@+id/next_button" 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:layout_weight="1" 
+			android:text="@string/next" />
+			<Button 
+			android:id="@+id/close_button" 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:layout_weight="1" 
+			android:text="@string/close" />
+	
+	</LinearLayout><ListView 
+	android:id="@+id/user_select_listview" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+	</ListView>
+
+     <!-- List -->
+	
+
+
+	</LinearLayout>
+
+

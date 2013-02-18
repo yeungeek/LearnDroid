@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="30dip"
+    android:layout_marginLeft="-1dip"
+    android:layout_marginRight="-1dip" >
+
+    <TextView
+        android:id="@+id/tab_label"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:background="@drawable/selector_tabhost"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

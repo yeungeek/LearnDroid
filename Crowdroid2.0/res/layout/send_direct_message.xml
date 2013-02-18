@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+     >
+
+    <RelativeLayout
+        android:id="@+id/relative_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <include layout="@layout/tools_header" />
+    </RelativeLayout>
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/relative_1"
+    android:layout_above="@+id/toolsbottom"
+    >
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+   <!--  <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_1"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="10dip" >
+
+        <EditText
+            android:id="@+id/direct_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </EditText>
+
+        <Button
+            android:id="@+id/direct_name_change"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:background="@android:drawable/ic_menu_search" >
+        </Button>
+    </LinearLayout>
+     -->
+    
+    
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_below="@+id/relative_1"
+         android:layout_marginRight="20dip"
+          android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip"
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <EditText
+                android:id="@+id/direct_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                 android:layout_marginRight="48dip"
+                 >
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/direct_name_change"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                android:src="@android:drawable/ic_menu_search" >
+            </ImageButton>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/ly2"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="7dip" >
+
+        <EditText
+            android:id="@+id/update_text"
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:layout_above="@+id/ly2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:gravity="top"
+            android:text=""
+            android:textColorHint="#000000"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ly1"
+        android:layout_marginBottom="10dip" 
+        android:layout_marginTop="10dip">
+
+        <TextView
+            android:id="@+id/counterText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:text="100"
+            android:textColor="#123456"
+            android:textSize="14px"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/selector_button_add"
+            android:text="@string/send"
+            android:textColor="#0F5A78"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ly1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dip"
+        android:layout_above="@+id/toolsbottom"
+        android:layout_marginBottom="7dip"
+        android:layout_marginLeft="10dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/direct_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:gravity="center_vertical"
+            android:focusable="false"
+            android:text="@string/view_private"
+            android:textColor="#000000" 
+            android:drawableLeft="@drawable/direct_message"/>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+    <RelativeLayout
+        android:id="@+id/toolsbottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <include layout="@layout/tools_update_bottom" />
+    </RelativeLayout>
+
+</RelativeLayout>

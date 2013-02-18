@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#8796B4"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/broadcast_notify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="@string/schedule_detail"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/line01"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/broadcast_notify"
+        android:background="#ffffff" >
+    </TextView>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+od/linear02"
+        android:layout_below="@+id/line01" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/schedule_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#697878"
+                android:gravity="center"
+                android:paddingBottom="5dip"
+                android:paddingTop="5dip"
+                android:text="Title"
+                android:textColor="#ffffff"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/line02"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_below="@+id/schedule_title"
+                android:background="#ffffff" >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/line02"
+                android:layout_marginBottom="5dip"
+                android:orientation="vertical" 
+                android:id="@+id/linear1">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:paddingBottom="3dip"
+                        android:paddingTop="3dip"
+                        android:text="@string/add_schedule_start"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" 
+                        />
+
+                    <TextView
+                        android:id="@+id/schedule_start_time"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingBottom="3dip"
+                        android:paddingTop="3dip"
+                        android:text=""
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:paddingBottom="3dip"
+                        android:paddingTop="3dip"
+                        android:text="@string/add_schedule_end"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/schedule_end_time"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:paddingBottom="3dip"
+                        android:paddingTop="3dip"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:paddingBottom="3dip"
+                        android:paddingTop="3dip"
+                        android:text="@string/add_schedule_participant"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/schedule_injoy_users"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:paddingBottom="3dip"
+                        android:paddingTop="3dip"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                 <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:paddingBottom="3dip"
+                        android:paddingTop="3dip"
+                        android:text="@string/add_schedule_owner"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/schedule_make_user"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:paddingBottom="3dip"
+                        android:paddingTop="3dip"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                 <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:paddingBottom="3dip"
+                        android:paddingTop="3dip"
+                        android:text="@string/add_schedule_type"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/schedule_type"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:paddingBottom="3dip"
+                        android:paddingTop="3dip"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/line06"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_below="@+id/schedule_title"
+                    android:background="#ffffff" >
+                </TextView>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/linear1"
+                android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:orientation="vertical">
+                <LinearLayout android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:paddingBottom="3dip"
+                        android:paddingTop="3dip"
+                        android:text="@string/add_schedule_detail"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+                     <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingBottom="3dip"
+                        android:paddingTop="3dip"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                
+                <TextView
+                        android:id="@+id/schedule_detail_content"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:paddingBottom="3dip"
+                        android:paddingTop="3dip"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linear02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#697878"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/line05"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#ffffff" >
+            </TextView>
+
+            <SeekBar
+                android:id="@+id/schedule_seekBar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/line04"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#ffffff" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/broadcast_history"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/selector_button_add"
+                android:paddingBottom="5dip"
+                android:paddingTop="5dip"
+                android:text="@string/history"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/schedule_close"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/selector_button_add"
+                android:paddingBottom="5dip"
+                android:paddingTop="5dip"
+                android:text="@string/ok"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_height="wrap_content"
+	android:background="#FFFFFF"
+	android:paddingTop="10dip"
+	android:paddingLeft="10dip"
+	android:paddingRight="10dip" android:layout_width="300dip">
+    <TextView android:id="@+id/textView1" android:layout_width="fill_parent" android:text="                                                                                                            " android:singleLine="true" android:layout_height="1dip"></TextView>
+	<TextView
+		android:layout_height="wrap_content"
+		android:id="@+id/tip_1"
+		android:layout_width="fill_parent"
+		android:textColor="#000000"/>
+	<CheckBox
+		android:text="@string/tips_dialog_is_show_next_time"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dip"
+		android:id="@+id/check_show"
+		android:textColor="#000000"/>
+	<Button
+		android:layout_height="wrap_content"
+		android:id="@+id/close_dialog"
+		android:layout_width="fill_parent"
+		android:layout_marginTop="5dip"
+		android:layout_marginBottom="10dip"
+		android:text="@string/close"/>
+</LinearLayout>

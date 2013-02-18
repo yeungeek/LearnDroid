@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button android:id="@+id/here1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbs_here"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_background"/>
+    
+     <Button android:id="@+id/near1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbs_near"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/here1"
+        android:background="@drawable/button_background"
+        />
+    
+    <ListView android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/here_list1"
+        android:visibility="gone"
+        android:layout_above="@+id/near_n01"
+        android:layout_below="@+id/near1"
+        android:cacheColorHint="#00000000">
+        
+    </ListView>
+    
+  
+    <ListView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/near_list1"
+        android:visibility="gone"
+        android:cacheColorHint="#00000000">
+        </ListView>
+        
+     <Button android:id="@+id/near_n01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbs_near"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:background="@drawable/button_background"
+        />
+    
+
+</RelativeLayout>

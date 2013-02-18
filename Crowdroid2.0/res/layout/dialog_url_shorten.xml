@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:id="@+id/ScrollView01"
+	android:layout_width="300dip" android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="300dip"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center" android:background="#ffffff">
+	
+	<RelativeLayout android:id="@+id/RelativeLayout01"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:background="#424242" android:padding="10dip">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:id="@+id/dialog_title"
+			android:textSize="22dip" 
+			android:textColor="#ffffff" 
+			android:layout_alignLeft="@+id/dialog_icon" android:text="@string/title">
+			</TextView>
+		
+	
+</RelativeLayout><TextView android:layout_width="fill_parent"
+		android:layout_height="1dip"
+		android:text="" 
+		android:background="#000000"></TextView><EditText
+		android:id="@+id/willconvert"
+		android:layout_width="fill_parent"
+		android:layout_height="90dip"
+		android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip"/>
+	<Button
+		android:id="@+id/convert"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="10dip"
+		android:layout_gravity="right"
+		android:text="@string/bit_ly"/>
+	<EditText
+		android:id="@+id/haveconverted"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip"
+		android:editable="false"/>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dip"
+		android:background="#cccccc"
+		android:weightSum="2"
+		android:orientation="horizontal" android:paddingTop="3dip">
+		<Button
+			android:id="@+id/okButton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/ok"/>
+		<Button
+			android:id="@+id/cancelButton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/cancel"/>
+	</LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="bottom|center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        xmlns:Android="http://schemas.android.com/apk/res/android"
+        Android:id="@+id/layout_main_top"
+        Android:layout_width="fill_parent"
+        Android:layout_height="wrap_content"
+        Android:layout_alignParentTop="true" >
+
+        <include layout="@layout/calendar_header" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.04"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/linear_right"
+            android:layout_width="24dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/week1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ee3CD2F0"
+                android:gravity="center"
+                android:text="22周"
+                android:textColor="#ffffff"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/week2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ee3CD2F0"
+                android:gravity="center"
+                android:text="23周"
+                android:textColor="#ffffff" 
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/week3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ee3CD2F0"
+                android:gravity="center"
+                android:text="24周"
+                android:layout_weight="1"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/week4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ee3CD2F0"
+                android:gravity="center"
+                android:text="25周"
+                android:layout_weight="1"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/week5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ee3CD2F0"
+                android:gravity="center"
+                android:text="26周"
+                android:layout_weight="1"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/week6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ee3CD2F0"
+                android:gravity="center"
+                android:text="27周"
+                android:layout_weight="1"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_main"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

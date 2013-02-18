@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+          android:background="@drawable/tools_header_background"
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"     
+         >
+
+        <TextView
+            android:id="@+id/select_loc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="我的位置"
+            android:textColor="#ffffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/select_loc"
+            android:gravity="center_vertical"
+            android:text="--->"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/targetTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/content"
+            android:gravity="center_vertical"
+            android:text="目的地"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+        <RelativeLayout
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+               android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:background="#ffffff" >
+
+                <TextView
+                    android:id="@+id/range"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="默认"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/popupwindow"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"             
+                    android:layout_toRightOf="@+id/range"
+                    android:background="@drawable/more_select" />
+            </RelativeLayout>
+        </RelativeLayout>
+      <!--   <Spinner
+            android:id="@+id/range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />--> 
+    </RelativeLayout>
+
+  <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top" >
+
+        <ListView
+            android:fadingEdge="none"
+            android:id="@+id/list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+          
+            android:cacheColorHint="#00000000" >
+        </ListView>
+
+      
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:id="@+id/tools_head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <include layout="@layout/tools_header" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sc"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/tools_bottom"
+        android:layout_below="@+id/tools_head"
+        android:layout_marginBottom="10dip"
+        android:background="@color/white_gray" >
+
+        <LinearLayout
+            android:id="@+id/status_linear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/linear_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:id="@+id/show_user_image"
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:layout_marginLeft="10dip" >
+
+                        <android.webkit.WebView
+                            android:id="@+id/user_image"
+                            android:layout_width="60dip"
+                            android:layout_height="60dip" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/screen_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:text=""
+                            android:textColor="#0F5A78"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/blog_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:text=""
+                            android:textColor="#0F5A78"
+                            android:textSize="16sp" />
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/create_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dip"
+                                android:text=""
+                                android:textColor="#0F5A78"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/view_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="10dip"
+                                android:textColor="#0F5A78"
+                                android:textSize="12sp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/weibo_WebView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/tools_bottom"
+                    android:layout_below="@+id/linear_1"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="10dip"
+                    android:paddingBottom="10dip" >
+
+                    <TextView
+                        android:id="@+id/translateStatus"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dip"
+                        android:layout_marginRight="2dip"
+                        android:autoLink="all"
+                        android:textColor="#0F5A78"
+                        android:visibility="gone" />
+
+                    <android.webkit.WebView
+                        android:id="@+id/blog_content"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" 
+                        android:layout_below="@+id/translateStatus"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/tools_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <include layout="@layout/tools_tweet_bottom" />
+    </LinearLayout>
+
+</RelativeLayout>

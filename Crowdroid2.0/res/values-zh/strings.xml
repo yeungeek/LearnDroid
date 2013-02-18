@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common -->
+    <string name="app_name">Crowdroid</string>
+    <string name="sina">新浪</string>
+    <string name="tencent">腾讯</string>
+    <string name="sohu">搜狐</string>
+    <string name="renren">人人</string>
+    <string name="netease">网易</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="add">添加</string>
+    <string name="ok">确定</string>
+    <string name="ng">NG</string>
+    <string name="yes">是</string>
+    <string name="no">不是</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="prev">上一页</string>
+    <string name="next">下一页</string>
+    <string name="finish">完成</string>
+    <string name="close">关闭</string>
+    <string name="send">发送</string>
+    <string name="help">帮助</string>
+    <string name="reply">回复</string>
+    <string name="reply_all">回复所有人</string>
+    <string name="name">名字</string>
+    <string name="tips_title">新增功能和改善事项</string>
+    <string name="priority_normal">普</string>
+    <string name="priority_middle">中</string>
+    <string name="priority_high">高</string>
+    <string name="reset">重置</string>
+    <string name="success">成功</string>
+    <string name="history">历史</string>
+    <string name="clear">清空</string>
+    <!--
+//==========================================
+	Notification
+//==========================================
+    -->
+    <string name="notification_direct">私信</string>
+    <string name="retweet_of_me">被转发</string>
+
+    <!--
+//==========================================
+	Menu
+//==========================================
+    -->
+    <!-- Login Menu -->
+    <string name="login_menu_add_account">帐户</string>
+    <string name="login_menu_help">帮助</string>
+    <string name="login_menu_license">许可协议</string>
+    <string name="login_crowdroid_info">面向企业内部的微博系统</string>
+    <string name="login_register">注册</string>
+    <string name="login">登录</string>
+    <string name="login_more">其他微博服务</string>
+    <!-- Option Menu -->
+    <string name="menu_setting">设置</string>
+    <string name="menu_new_tweet">发布微博</string>
+    <string name="menu_fullscreen">全屏显示</string>
+    <string name="menu_display_tabs">显示标签</string>
+    <string name="menu_gallery">标签</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_logout">退出</string>
+
+    <!--
+//==========================================
+	Gallery
+//==========================================
+    -->
+    <!-- Name -->
+    <string name="home">首页</string>
+    <string name="at_message">\@提到我的</string>
+    <string name="direct_message_sent">已发送私信</string>
+    <string name="direct_message_alert_sent">已发送私信</string>
+    <string name="direct_message_alert_received">已接收私信</string>
+    <string name="my_timeline">我的微博</string>
+    <string name="logout">退出</string>
+    <string name="update">发布微博</string>
+    <string name="user_search">查找用户</string>
+    <string name="keyword_search">关键字检索</string>
+    <string name="direct_message_received">已接收私信</string>
+    <string name="user_timeline">用户推送的信息</string>
+    <string name="favorite_timeline">我的收藏</string>
+    <string name="direct_update">发送私信</string>
+    <string name="profile">个人资料</string>
+    <string name="retweets_mention_me">转推相关</string>
+    <string name="retweets_to_me">别人转发的信息</string>
+    <string name="retweets_by_me">你转发的信息</string>
+    <string name="retweets_of_me">你被转发的信息</string>
+    <string name="reply_history">回复的历史记录</string>
+    <string name="send_direct_message">发送私信</string>
+    <string name="casual_watch">随便看看</string>
+    <string name="public_timeline">广播大厅</string>
+    <string name="hot_retweet_timeline">转播热榜</string>
+    <string name="hot_followretweet_timeline">跟贴转播热榜</string>
+    <string name="group_list">列表</string>
+    <string name="group_list_default">默认</string>
+    <string name="group_list_default_all">全部</string>
+    <string name="area_timeline">地区时间线</string>
+    <!-- Description -->
+    <string name="hometimeline_tab">当登录到这个应用程序时，您将首先看到此页。此页显示最新的信息。</string>
+    <string name="atmessagetimeline_tab">此页显示别人发送给您的@信息。</string>
+    <string name="direct_message_sent_tab">当您点击已发送私信后，这一页将显示您已经发送的私信。</string>
+    <string name="my_timeline_tab">当您点击此标签时，这一页将显示您已经发送的信息。</string>
+    <string name="logout_tab">您可以点击这个标签来退出应用程序。</string>
+    <string name="update_tab">当您点击此标签后，您可以输入并发送你的信息。</string>
+    <string name="usersearch_tab">当您点击此标签后，您将可以搜索用户。</string>
+    <string name="keyword_search_tab">当您点击此标签后，您可以输入关键字进行搜索。</string>
+    <string name="direct_message_received_tab">点击此标签，您将看到其他用户发送给您的私信。</string>
+    <string name="user_timeline_tab">当您点击此标签时，您可以搜索用户，然后它将返回该用户的信息。</string>
+    <string name="favorite_timeline_tab">当您点击此标签时，它显示您收藏的信息。</string>
+    <string name="direct_update_tab">当您点击此标签时，您可以输入并发送私信。</string>
+    <string name="profile_tab">当您点击此标签时，您可以看到简介信息。</string>
+    <string name="retweets_to_me_tab">它将显示您所关注的用户发送的转发。</string>
+    <string name="retweets_by_me_tab">它将显示所有您转发的信息。</string>
+    <string name="retweets_of_me_tab">它将显示别人转发您的信息。</string>
+    <string name="reply_history_tab">此标签显示所有回复的历史记录。</string>
+
+    <!--
+//==========================================
+	Setting Menu (Preference) 
+//==========================================
+    -->
+    <string name="setting_language">语言</string>
+    <string name="setting_auto_refresh">自动更新</string>
+    <string name="setting_auto_refresh_interval">更新时间间隔</string>
+    <string name="setting_translation">翻译</string>
+    <string name="setting_translation_auto">自动翻译</string>
+    <string name="setting_translation_engine">翻译引擎</string>
+    <string name="setting_translation_add_auto_translation">添加自动翻译</string>
+    <string name="setting_translation_auto_translation_list">翻译列表</string>
+    <string name="more_app">应用广场</string>
+    <string name="setting_wallpaper">壁纸</string>
+    <string name="setting_wallpaper_picture">图片</string>
+    <string name="setting_wallpaper_background_color">颜色</string>
+    <string name="setting_wallpaper_theme">主题</string>
+    <string name="setting_wallpaper_theme_list">主题列表</string>
+    <string name="setting_wallpaper_theme_preview">图片预览</string>
+    <string name="setting_wallpaper_theme_resolution">分辨率</string>
+    <string name="setting_wallpaper_theme_size">大小</string>
+    <string name="setting_wallpaper_theme_description">描述</string>
+    <string name="login_cfb_description">为什么要用Crowdroid for Business ?</string>
+    <string name="login_cfb_description_detail">Crowdroid for Business 是最适合企业2.0的微博型企业社交系统解决方案。</string>
+    <string name="login_cfb_description_more">详细>></string>
+    <string name="view_private">查看私信记录</string>
+    <string name="feedback">反馈</string>
+    <string name="about">关于</string>
+    <string name="setting_background_color">背景颜色设置</string>
+    <string name="setting_background_image">背景图片设置</string>
+    <string name="setting_check">检测新版本</string>
+    <string name="setting_official_microblogging">官方微博</string>
+    <string name="setting_preferences">个性设置</string>
+    <string name="setting_microblogging">微博设置</string>
+    <string name="setting_theme">主题设置</string>
+    <string name="setting_account_manage">账户管理</string>
+    <string name="setting_notification">通知</string>
+    <string name="setting_notification_interval">通知时间间隔</string>
+    <string name="setting_notification_direct_message">私信</string>
+    <string name="setting_notification_at_message">\@信息</string>
+    <string name="setting_notification_general_message">主页</string>
+    <string name="setting_font">字体</string>
+    <string name="setting_font_color">字体颜色</string>
+    <string name="setting_font_size">字体大小</string>
+    <string name="setting_filter">过滤</string>
+    <string name="setting_keyword_filter">关键字过滤</string>
+    <string name="setting_add_keyword_filter">添加关键字过滤</string>
+    <string name="setting_keyword_filter_list">关键字过滤列表</string>
+    <string name="setting_user_filter">用户名过滤</string>
+    <string name="setting_add_user_filter">添加用户名过滤</string>
+    <string name="setting_user_filter_list">用户名过滤列表</string>
+    <string name="setting_list">列表</string>
+    <string name="setting_list_add">添加列表</string>
+    <string name="setting_list_my_all_list">所有列表</string>
+    <string name="setting_list_warning1">不能多于5个列表！</string>
+    <string name="user_list">%s的全部列表：</string>
+    <string name="setting_gallery">标签</string>
+    <string name="setting_account">帐户</string>
+    <string name="list_dialog">%s的列表：</string>
+    <string name="setting_more">更多设置</string>
+    <string name="setting_crowdroid_for_business">Crowdroid for Business</string>
+    <string name="setting_twitter">Twitter</string>
+    <string name="setting_twitter_proxy">Twitter Proxy</string>
+    <string name="setting_follow5">Follow5</string>
+    <string name="setting_sina">Sina</string>
+    <string name="setting_casual_watch">随便看看</string>
+    <string name="setting_casual_watch_choose">随便看看设置</string>
+    <string name="setting_casual_watch_public">广播大厅</string>
+    <string name="setting_casual_watch_region">地域搜索设置</string>
+    <string name="setting_casual_watch_search">关键字搜索设置</string>
+    <string name="setting_browse_mode">浏览模式</string>
+    <string name="setting_broadcast">信息通知</string>
+    <string name="setting_auto_broadcast">信息通知设置</string>
+
+    <!--
+//==========================================
+	Account
+//==========================================
+    -->
+    <string name="service_address_empty">服务器地址为空！</string>
+    <string name="user_name_empty">用户名为空！</string>
+    <string name="password_empty">密码为空！</string>
+    <string name="no_account">无帐户信息！</string>
+    <string name="add_follow5_account">添加Follow5帐户</string>
+    <string name="follow5_account_list">Follow5帐户列表</string>
+    <string name="add_crowdroidforbusiness_account">添加Crowdroid for Business帐户</string>
+    <string name="crowdroidforbusiness_account_list">Crowdroid for Business帐户列表</string>
+    <string name="add_sina_account">添加Sina帐户</string>
+    <string name="sina_account_list">Sina帐户列表</string>
+    <string name="add_tencent_account">添加Tencent帐户</string>
+    <string name="tencent_account_list">Tencent帐户列表</string>
+    <string name="add_sohu_account">添加Sohu账户</string>
+    <string name="add_wangyi_account">添加163账户</string>
+    <string name="sohu_account_list">Sohu账户列表</string>
+    <string name="add_twitter_account">添加Twitter帐户</string>
+    <string name="twitter_account_list">Twitter帐户列表</string>
+    <string name="add_renren_account">添加RenRen账户</string>
+    <string name="renren_account_list">RenRen账户列表</string>
+    <string name="wangyi_account_list">163账户列表</string>
+    <string name="pin_code">请输入Pin码</string>
+    <string name="proxy_ip">Proxy IP</string>
+    <string name="proxy_ip_empty">Proxy IP为空！</string>
+    <string name="add_twitter_proxy_account">添加Twitter-Proxy帐户</string>
+    <string name="twitter_proxy_account_list">Twitter-Proxy帐户列表</string>
+    <string name="whether_delete">您确定删除吗？</string>
+    <string name="register_error">注册失败</string>
+    <string name="server_address">服务器地址</string>
+    <string name="service">服务</string>
+    <string name="user_name">用户名</string>
+    <string name="password">密码</string>
+    <string name="what_is_crowdroid_for_business">什么是Crowdroid for Business？</string>
+
+    <!--
+//==========================================
+	Action Dialog
+//==========================================
+    -->
+    <string name="action_dialog_qt">QT (正式 RT)</string>
+    <string name="action_dialog_rt">RT</string>
+    <string name="action_dialog_reply">回复</string>
+    <string name="action_dialog_email">邮件</string>
+    <string name="action_dialog_translation">翻译</string>
+    <string name="action_dialog_profile">简介</string>
+    <string name="action_dialog_dm">私信</string>
+    <string name="action_dialog_delete">删除</string>
+    <string name="whether_retweet">您想要转发吗？</string>
+    <string name="no_list_for_user">没有%s的列表</string>
+
+    <!--
+//==========================================
+	License
+//==========================================
+    -->
+    <string name="company_name">安徽开源软件有限公司</string>
+    <string name="right_reserved">版权所有</string>
+    <string name="license">许可协议</string>
+    <string name="application_name">应用程序：Crowdroid</string>
+    <string name="version_name">版本：</string>
+    <string name="developer">开发者：</string>
+    <string name="app_license">许可协议：</string>
+    <string name="license_text">Copyright ©2009-2013 \nAnhui Opensource Software Inc. Licensed under the Apache License, Version 2.0 (the "License"); You may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+    <string name="anhuioss_website">www.anhuioss.com/cn</string>
+    <string name="check_update">检测更新</string>
+    <string name="update_version">版本更新</string>
+    <string name="download">下载</string>
+    <string name="download_success">下载成功!</string>
+    <string name="download_path">保存路径:</string>
+    <string name="download_alert">下载提示</string>
+    <string name="download_fail">下载失败！</string>
+    <string name="check_no_latest_version">当前已是最新版本！</string>
+    <string name="check_has_latest_version">检测到新版本，需要更新吗？</string>
+
+    <!--
+//==========================================
+	Update Tweet
+//==========================================
+    -->
+    <string name="update_tweet_message1">更新信息</string>
+    <string name="long_tweet">推送长篇信息</string>
+    <string name="select_picture">请选择一张图片</string>
+    <string name="bit_ly">缩短URL</string>
+    <string name="shorten_url_title">缩短URL</string>
+    <string name="direct_message_to">发送私信给</string>
+    <string name="file_path">文件路径</string>
+    <string name="file_name">文件名</string>
+    <string name="no_sd">没有插入SD卡</string>
+    <string name="select_picture_title">请选择一张图片</string>
+    <string name="dialog_long_tweet_twitlonger">长篇文章的编辑</string>
+    <string name="twitlonger">推送长篇信息</string>
+    <string name="upload_image">上传图片...</string>
+    <string name="on">开</string>
+    <string name="off">关</string>
+    <string name="close_multi_tweet">您想关闭多服务同时推送吗？</string>
+    <string name="open_multi_tweet">您想开启多服务同时推送吗？</string>
+    <string name="multi_tweet">多服务同时推送</string>
+    <string name="insert_topic">插入话题</string>
+    <string name="insert_at_name">名单</string>
+    <string name="alert_input_data">请输入内容</string>
+    <string name="sendmsg_tip">发送内容不能为空哦！</string>
+    <string name="attach_path">附件路径:</string>
+
+    <!-- GPS -->
+    <string name="obtain_location_info">能够获取当地所处位置信息</string>
+    <string name="obtain_location_info_failed">不能获取当地所处位置信息</string>
+    <string name="obtaining_location_info">正在获取当前所处位置信息(30s)</string>
+    <string name="open_gps_module_title">开启GPS模块</string>
+    <string name="open_gps_module_message">为了能够快速的获取当前位置，需要打开系统中的GPS模块</string>
+
+    <!--
+//==========================================
+	TimeLine
+//==========================================
+    -->
+    <string name="type_or_select_user">输入或者选择一个用户名</string>
+    <string name="get_more_tweets">. . . . . .</string>
+    <string name="no_more_tweets">无更多信息！</string>
+    <string name="enter_message_id">键入一条信息的Id</string>
+    <string name="twitter_alert_retweet_of_me">转推了这条推文</string>
+
+    <!--
+//==========================================
+	Error Messages
+//==========================================
+    -->
+    <string name="error">错误</string>
+    <string name="error_message_server">对不起，服务器繁忙！</string>
+    <string name="error_message_badgateway">对不起，服务器正在升级中！</string>
+    <string name="error_message_service_unavailable">对不起，服务器不可用！</string>
+    <string name="error_message">无法认证，请重新添加帐户！</string>
+    <string name="error_message_input">无法认证，请检查您的输入！</string>
+    <string name="error_message_rejected_for_ngword">您推送的内容中含有禁用词，无法推送！</string>
+    <string name="error_message_nick">昵称已经存在，请重新输入！</string>
+
+    <!--
+//==========================================
+	Profile
+//==========================================
+    -->
+    <string name="follow">关注</string>
+    <string name="followed">粉丝</string>
+    <string name="profile_followed">粉丝</string>
+    <string name="friends_list">好友列表</string>
+    <string name="followers_list">粉丝列表</string>
+    <string name="profile_activity_column">微专栏信息</string>
+    <string name="profile_activity_column_timeline">微专栏微博</string>
+
+    <!--
+//==========================================
+	Translation
+//==========================================
+    -->
+    <string name="auto">自动</string>
+    <string name="translate_result">翻译结果</string>
+    <string name="arabic">阿拉伯语</string>
+    <string name="chinese_simple">简体中文</string>
+    <string name="chiness_traditional">繁体中文</string>
+    <string name="dutch">荷兰语</string>
+    <string name="english">英语</string>
+    <string name="french">法语</string>
+    <string name="german">德语</string>
+    <string name="greek">希腊语</string>
+    <string name="italian">意大利语</string>
+    <string name="japanese">日语</string>
+    <string name="korea">韩语</string>
+    <string name="portugese">葡萄牙语</string>
+    <string name="russian">俄语</string>
+    <string name="spanish">西班牙语</string>
+    <string name="engine">引擎</string>
+    <string name="from">源语言</string>
+    <string name="to">目标语言</string>
+    <string name="translate_original">原文:</string>
+    <string name="translate_content">译文:</string>
+
+    <!--
+//==========================================
+Utility 
+//==========================================
+    -->
+    <string name="bug_report">错误报告</string>
+    <string name="whether_report_to_developer">您确定要向软件开发者发送软件错误信息吗？</string>
+    <string name="whether_unfollow_list">您想取消关注这个列表吗？</string>
+    <string name="whether_follow_list">您想关注这个列表吗？</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="count">数目</string>
+    <string name="status">状态</string>
+    <string name="screen_name">昵称</string>
+    <string name="update_time">发布时间</string>
+    <string name="title">标题</string>
+    <string name="list_name">列表名称</string>
+    <string name="is_exist">已经存在</string>
+    <string name="retweeted_list">转发列表</string>
+    <string name="retweeted_user">转发用户</string>
+    <string name="show_password">显示密码</string>
+    <string name="reply_to_comment">回复给</string>
+    <string name="comments">我的评论</string>
+    <string name="retweet_count">转发</string>
+    <string name="comment_count">评论</string>
+    <string name="get_more_comments">获得更多评论！</string>
+    <string name="sohu_retweet_addstr">转发：</string>
+    <string name="trend">话题</string>
+    <string name="trends">话题</string>
+    <string name="comment">评论</string>
+    <string name="comment_and_retweet">评论并转发</string>
+    <string name="original_text">原文</string>
+    <string name="comment_to_original_author">同时评论给原文作者%s</string>
+    <string name="also_comment_to">同时评论给%s</string>
+    <string name="setting_display_image">图片显示</string>
+    <string name="display_all_image">显示所有图片</string>
+    <string name="disable_image_preview">禁用图片预览</string>
+    <string name="disable_all_image">禁用图片显示</string>
+    <string name="gallery_hot_users_title">系统推荐用户</string>
+    <string name="gallery_suggestion_users">感兴趣的用户</string>
+    <string name="profile_activity_set_unfollow">取消关注</string>
+    <string name="profile_activity_set_follow">加关注</string>
+    <string name="profile_activity_tweets_count">微博</string>
+    <string name="notification_unfollow">取消关注</string>
+    <string name="profile_activity_list">列表</string>
+    <string name="notification_at_message">\@提到我的</string>
+    <string name="notification_direct_message">新私信提醒</string>
+    <string name="notification_new_follower">新增粉丝提醒</string>
+    <string name="notification_comment">新评论提醒</string>
+    <string name="profile_user_tweets">查看</string>
+    <string name="profile_user_mood">查看</string>
+    <string name="gallery_original_tweet">原文</string>
+    <string name="also_tweet_to_timeline">同时转发到我的微博</string>
+    <string name="wheter_to_logout">确定退出Crowdroid？</string>
+    <string name="history_reply">查看回复历史</string>
+    <string name="tips_1">如果您在2011年7月9日之前在Crowdroid软件中登录过Twitter,您现在可能无法使用私信功能，请在Crowdroid中重新注册Twitter帐户。</string>
+    <string name="tips_dialog_is_show_next_time">下次不要显示。</string>
+
+    <!-- Camera -->
+    <string name="camera_cancel">取消</string>
+    <string name="camera_save">保存</string>
+    <string name="camera_rec">拍照</string>
+    <string name="camera_small">小图</string>
+    <string name="camera_large">大图</string>
+
+    <!-- Recorder -->
+    <string name="recorder_rec">录音</string>
+    <string name="recorder_stt">语音识别</string>
+    <string name="recorder_save">保存</string>
+    <string name="recorder_cancel">取消</string>
+    <string name="speech_language_selected">语言选择</string>
+    <string name="speech_not_recongnizer">无法进行语音识别</string>
+    <string name="no_sdcard_mounted">没有挂载Sdcard</string>
+    <string name="can_not_be_sent">不能发送本地mp3文件</string>
+
+    <!-- Trends -->
+    <string name="trends_hourly">一小时</string>
+    <string name="trends_daily">一天</string>
+    <string name="trends_weekly">一周</string>
+    <string name="trends_back">返回</string>
+    <string name="trends_no_data">没有该类型的话题列表</string>
+    <string name="trends_name">话题名称</string>
+    <string name="trends_keyword">话题关键字</string>
+    <string name="server">服务器</string>
+    <string name="user_not_exist">这个用户不存在。</string>
+    <string name="share_image">#共享图片#</string>
+    <string name="error_msg_400">服务器无法解析来自客户端的连接请求。</string>
+    <string name="error_msg_401">客户端访问的资源被保护或没有提供有效的身份认证凭据。</string>
+    <string name="error_msg_403">客户端的连接请求被拒绝。</string>
+    <string name="error_msg_404">客户端请求的资源不存在。</string>
+    <string name="error_msg_500">服务器内部产生错误。</string>
+    <string name="error_msg_501">服务器不支持客户端的请求方式。</string>
+    <string name="error_msg_502">服务器暂时不可用。</string>
+    <string name="error_msg_503">服务器暂时无法处理客户端请求。</string>
+    <string name="error_msg_504">客户端连接到服务器超时。</string>
+    <string name="error_msg_505">服务器拒绝访问。</string>
+
+    <!-- Tips -->
+    <string name="user_tip">很抱歉，未找到该用户!</string>
+    <string name="keyword_tip">很抱歉，未找到任何与该关键字相关的微博!</string>
+    <string name="comment_tip">您未收到任何评论!</string>
+
+    <!-- Discovery -->
+    <string name="suggestion_slug">推荐分类</string>
+    <!-- Mention -->
+    <string name="mention_retweeted_alert">转推了这条推文: </string>
+
+    <!-- RenRen -->
+    <string name="album">相册</string>
+    <string name="blog">日志</string>
+    <string name="share">分享</string>
+    <string name="visitors">最近来访</string>
+    <string name="status_list">状态列表</string>
+    <string name="my_feed">我的新鲜事</string>
+    <string name="my_status">我的状态</string>
+    <string name="my_sharing">我的分享</string>
+    <string name="blog_list">日志列表</string>
+    <string name="friends">好友</string>
+    <string name="content">正文</string>
+    <string name="update_blog">发表日志</string>
+    <string name="update_status">发布状态</string>
+    <string name="album_list">相册列表</string>
+    <string name="my_sharing_feed">我的分享新鲜事</string>
+    <string name="everyone">所有人可见</string>
+    <string name="network_visible">同网络人可见</string>
+    <string name="only_friends">仅好友可见</string>
+    <string name="myself">仅自己可见</string>
+    <string name="password_accessed">用密码访问</string>
+    <string name="views">浏览数</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="blog_management">日志管理</string>
+    <string name="album_management">相册管理</string>
+    <string name="my_friends">我的好友</string>
+    <string name="web_sign">网页登录</string>
+    <string name="upload_photos">上传照片</string>
+    <string name="university">大学</string>
+    <string name="high_school">高中</string>
+    <string name="secondary">中专</string>
+    <string name="junior">初中</string>
+    <string name="primary">小学</string>
+    <string name="local_upload">本地上传</string>
+    <string name="camera_upload">拍照上传</string>
+    <string name="create_album">创建新相册</string>
+    <string name="album_name">相册名称</string>
+    <string name="album_description">描述</string>
+    <string name="browse_permissions">浏览权限</string>
+    <string name="setting_password">密码设置</string>
+    <string name="password_limite">请输入1-16位密码</string>
+    <string name="official_account">官方帐号</string>
+    <string name="permission">暂时无权限查看</string>
+    <string name="msgnull">内容为空</string>
+    <string name="city">城市名称</string>
+    <string name="search">搜索</string>
+    <string name="photos_description">照片描述</string>
+    <string name="select_album">请选择要上传到的相册</string>
+    <string name="psword">密码</string>
+    <string name="password_access">密码访问</string>
+
+    <!-- RenRen Serch -->
+    <string name="serch_quick">快速查找</string>
+    <string name="serch_classmate">找同学</string>
+    <string name="serch_colleague">找同事</string>
+    <string name="serch_by_birth">按生日查找</string>
+    <string name="serch_by_base">按家乡查找</string>
+    <string name="serch_name">输入姓名</string>
+    <string name="serch_birth">出生年月</string>
+    <string name="serch_company">输入公司名称</string>
+    <string name="serch_school">输入学校名称</string>
+    <string name="serch_province">省份名称</string>
+    <string name="not_limited">不限</string>
+    <string name="serch_gender">性别</string>
+    <string name="serch_hometown">家乡</string>
+    <string name="serch_network">网络</string>
+
+    <!-- Discovery -->
+    <string name="discovery_group_timeline">组广播时间线</string>
+    <string name="discovery_group_admin">组创建者</string>
+    <string name="discovery_group_user_list">组成员列表</string>
+    <string name="discovery_page_name">公共主页</string>
+    <string name="discovery_page_category">公共主页分类</string>
+    <string name="discovery_lbs_name">位置功能</string>
+    <string name="discovery_lbs_sign">位置签到</string>
+    <string name="discovery_lbs_location_name">位置名称</string>
+    <string name="discovery_lbs_location_address">位置地址</string>
+    <string name="discovery_lbs_view_map">查看地图位置</string>
+    <string name="discovery_lbs_view_detail_map">查看放大位置</string>
+    <string name="discovery_lbs_timeline">位置微博列表</string>
+    <string name="discovery_lbs_around_user">附近的人</string>
+    <string name="discovery_lbs_decide">开始确定位置</string>
+    <string name="discovery_lbs_no_get">无法获得位置信息</string>
+    <string name="discovery_lbs_no_data">没有地址信息</string>
+    <string name="discovery_sohu_status_search">文章搜索</string>
+    <string name="discovery_tencent_trend_search">话题搜索</string>
+    <string name="tencent_update_user_image">修改头像</string>
+    <string name="tencent_select_update_user_image">选择图片类型</string>
+    <string name="discovery_tencent_mood">心情</string>
+    <string name="discovery_tencent_send_mood">发布心情</string>
+    <string name="discovery_tencent_get_mood_status">心情列表</string>
+    <string name="alert_mood_no_data">该用户未发布任何心情</string>
+    <string name="discovery_tencent_mood_type">还没有选择心情类型哦</string>
+    <string name="discovery_tencent_mood_content">还没有填写心情内容哦</string>
+    <string name="discovery_sina_tag">标签</string>
+    <string name="discovery_sina_tag_add">添加标签</string>
+    <string name="discovery_sina_tag_list">标签列表</string>
+    <string name="discovery_sina_tag_suggest">可能感兴趣标签</string>
+    <string name="discovery_del_tag">删除标签</string>
+    <string name="discovery_serch_user_by_tag">标签搜索用户</string>
+    <string name="alert_tag_add_overflow">最多可以拥有10个标签</string>
+    <string name="alert_input_data_overflow">内容太长,请重新输入</string>
+    <string name="alert_tag_no_data">该用户未添加任何标签</string>
+    <string name="alert_tag_same_data">此标签已经存在，请重新输入！</string>
+    <string name="discovery_famous_list">名人列表</string>
+    <string name="discovery_select_area">选择地区</string>
+    <string name="discovery_select_area_country">国家</string>
+    <string name="discovery_select_area_state">省份</string>
+    <string name="discovery_select_area_city">城市</string>
+
+    <!-- schedule -->
+    <string name="sunday">星期天</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wendesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="add_schedule_title_tip">添加标题</string>
+    <string name="add_schedule_detail_tip">添加描述</string>
+    <string name="add_schedule_participant_tip">选择参与者</string>
+    <string name="schedule_title_tip">标题不能为空</string>
+    <string name="schedule_detail_tip">描述不能为空</string>
+    <string name="schedule_time_tip">结束时间不能小于开始时间</string>
+    <string name="add_schedule_title">标题: </string>
+    <string name="add_schedule_type">类别:</string>
+    <string name="add_schedule_detail">描述:</string>
+    <string name="add_schedule_start">开始时间:</string>
+    <string name="add_schedule_end">结束时间:</string>
+    <string name="add_schedule_participant">参与者:</string>
+    <string name="add_schedule_owner">所属者:</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="week">周</string>
+    <string name="calendar">日历</string>
+    <string name="schedule">日程表</string>
+    <string name="schedule_month">月视图</string>
+    <string name="schedule_add">添加日程</string>
+    <string name="schedule_detail">详细日程</string>
+    <string name="schedule_detail_list">详细日程列表</string>
+    <string name="schedule_user">用户日程</string>
+    <string name="search_user_schedule">查看用户日程</string>
+    <string name="select_user_schedule">选择用户</string>
+    <string name="wangyi_hot_retweet_timechoose">请选择榜单的时间类型</string>
+    <string name="wangyi_rss">发现频道</string>
+    <string name="wangyi_column">微专栏</string>
+    <string name="huors">小时前</string>
+    <string name="minutes">分钟前</string>
+    <string name="seconds">秒前</string>
+    <string name="today">今天</string>
+    <string name="yestoday">昨天</string>
+    <string name="column_null">内容为空</string>
+    <string name="new_token">授权认证过期，请删除原有账户信息，重新添加</string>
+    <string name="search_tip">请填写搜索内容 </string>
+    <string name="more_disable">已达到选择的上限</string>
+    <string name="network_tip">没有网络</string>
+    <string name="network_connection_tip">请开启GPRS或WIFI网路连接</string>
+    <string name="qt_tip">转发成功</string>
+    <string name="send_da_tip">你不能发送私信给不关注你的人</string>
+    <string name="weather_delate_now">您正在使用此帐号登录，删除将退出登录，下次登录将需要重新授权</string>
+    <string name="casual_watch_setting_tip">是否对随便看看进行设置</string>
+    <string name="casual_watch_setting_public_tip">该功能暂时不可用</string>
+    <string name="wangyi_send_da_401_tip">此用户未开通网易微博</string>
+    <string name="wangyi_send_da_404_tip">找不到对应的用户</string>
+    <string name="wangyi_send_da_403_tip">不能给未关注你的人发送私信</string>
+
+    <!--
+//==========================================
+sina-LBS 
+//==========================================
+    -->
+    <string name="now_location">当前位置</string>
+    <string name="location_albility">搜索结果</string>
+    <string name="history_location">我的足迹</string>
+    <string name="lbs_timeline">热议</string>
+    <string name="lbs_user">用户</string>
+    <string name="lbs_commit">点评</string>
+    <string name="lbs_send">签到</string>
+    <string name="lbs_picture">热图</string>
+    <string name="lbs_here">此地</string>
+    <string name="lbs_near">周边</string>
+    <string name="xnext">第1页</string>
+    <string name="xnext_1">第</string>
+    <string name="xnext_2">页</string>
+    <string name="location_detail">地点详情</string>
+    <string name="location_user_num">签到人数</string>
+    <string name="bus_route">公交路线</string>
+    <string name="car_route">驾车路线</string>
+    <string name="send_success">签到成功</string>
+    <string name="comment_success">点评成功</string>
+
+    <!--
+  //==========================================
+CFB-LBS 
+//==========================================
+    -->
+    <string name="menu_share_loc">位置共享</string>
+    <string name="menu_search_route">寻找线路</string>
+    <string name="menu_poi_search">附近查找</string>
+    <string name="menu_my_loc">当前位置</string>
+    <string name="menu_clearn_loc">清空信息</string>
+    <string name="menu_return_home">回到首页</string>
+    <string name="m">米</string>
+    <string name="km">千米</string>
+    <string name="poi_type_tip">请输入查询的类别</string>
+    <string name="poi_result_tip">抱歉，未找到结果</string>
+    <string name="poi_type_edit_tip">输入其他类型</string>
+    <string name="poi_type_map">在地图上选取</string>
+    <string name="route_dialog_edit_tip">请输入值</string>
+    <string name="route_dialog_end_tip">您要找的终点是</string>
+    <string name="route_dialog_start_tip">您要找的起点是</string>
+    <string name="loc_loading">正在定位</string>
+    <string name="route_dialog_transit">公交</string>
+    <string name="route_dialog_driving">驾车</string>
+    <string name="route_dialog_walk">步行</string>
+    <string name="route_dialog_swap">交换</string>
+    <string name="route_dialog_set_start">起点设置</string>
+    <string name="route_dialog_set_end">终点设置</string>
+    <string name="route_dialog_edit_start">输入起点</string>
+    <string name="route_dialog_edit_end">输入终点</string>
+    <string name="route_dialog_map">地图上的点</string>
+    <string name="set_drivingpolicy">设置驾车路线规划策略</string>
+    <string name="set_transitpolicy ">设置公交路线规划策略</string>
+    <string name="policy_EBUS_TIME_FIRST">时间优先</string>
+    <string name="policy_EBUS_TRANSFER_FIRST">少换乘</string>
+    <string name="policy_EBUS_WALK_FIRST">少步行</string>
+    <string name="policy_EBUS_NO_SUBWAY">非地铁</string>
+    <string name="policy_ECAR_DIS_FIRST">距离最短</string>
+    <string name="policy_ECAR_FEE_FIRST">费用最少</string>
+    <string name="policy_tip">请选择路线的搜索方式</string>
+    <string name="bus_scheme">公交方案</string>
+    <string name="poi_in">在</string>
+    <string name="poi_poi">附近找</string>
+    <string name="pick_end">选取该点作为终点</string>
+    <string name="pick_start">选取该点作为起点</string>
+    <string name="pick_point">选取该点</string>
+
+    <!--
+  //==========================================
+CFB-Center
+//==========================================
+    -->
+
+    <string name="photoCenter">图片中心</string>
+    <string name="docCentert">文档中心</string>
+    <string name="vedioCenter">视频中心</string>
+    <string name="photoAlpum">图片专辑</string>
+    <string name="docAlbum">文档专辑</string>
+    <string name="vedioAlbum">视频专辑</string>
+    <string name="photoList">图片列表</string>
+    <string name="docList">文档列表</string>
+    <string name="vedioList">视频列表</string>
+    <string name="photoMsg">图片信息</string>
+    <string name="docMsg">文档信息</string>
+    <string name="vedioMsg">视频信息</string>
+    <string name="albumMsg">专辑信息</string>
+    <string name="checkAlbumMsg">查看专辑详细信息</string>
+    <string name="checkPhotoMsg">查看图片详细信息</string>
+    <string name="checkDocMsg">查看文档详细信息</string>
+    <string name="checkVedioMsg">查看视频详细信息</string>
+    <string name="checkAlbumContent">查看专辑内容</string>
+    <string name="uploadPhoto">上传图片到专辑</string>
+    <string name="uploadDoc">上传文档到专辑</string>
+    <string name="uploadVedio">上传视频到专辑</string>
+    <string name="delAlbum">刪除专辑</string>
+    <string name="createAlbum">创建专辑</string>
+    <string name="createTime">创建时间</string>
+    <string name="creator">创建者</string>
+    <string name="photoCount">图片个数</string>
+    <string name="docCount">文档个数</string>
+    <string name="vedioCount">视频个数</string>
+    <string name="albumDes">专辑描述</string>
+    <string name="photoDes">图片描述</string>
+    <string name="docDes">文档描述</string>
+    <string name="vedioDes">视频描述</string>
+    <string name="photoTip">此专辑中图片个数为零</string>
+    <string name="docTip">此专辑中文档个数为零</string>
+    <string name="vedioTip">此专辑中视频个数为零</string>
+    <string name="rtTip">请输入转发内容</string>
+    <string name="rtsuccessTip">转发成功</string>
+    <string name="commentPhoto">评论图片</string>
+    <string name="commentDoc">评论文档</string>
+    <string name="commentVedio">评论视频</string>
+    <string name="commentList">评论列表</string>
+    <string name="commentContent">评论内容</string>
+    <string name="commentSuccessTip">评论成功</string>
+    <string name="commentTip">评论数为零</string>
+    <string name="downFileTip">文件保存在</string>
+    <string name="setCover">设图片为专辑封面</string>
+    <string name="setCoverSuccess">设置成功</string>
+    <string name="albumName">专辑名称</string>
+    <string name="albumNameTip">请输入专辑名称</string>
+    <string name="createTip">创建成功</string>
+    <string name="delPhoto">删除图片</string>
+    <string name="delPhotoTip">确定要删除此图片嘛？</string>
+    <string name="delAlbumTip">确定要删除此专辑嘛？</string>
+    <string name="delPhotoSuccessTip">删除成功</string>
+    <string name="uploadPhotoDialogTip">您上传的文件不是图片格式，是否重新上传？</string>
+    <string name="uploadDocDialogTip">您上传的文件不是文件格式，是否重新上传？</string>
+    <string name="saveImage">保存图片</string>
+    <string name="upload">上传</string>
+
+</resources>

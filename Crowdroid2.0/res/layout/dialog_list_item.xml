@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+	<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent"><TextView android:layout_height="wrap_content" android:id="@+id/list_name" android:text="@string/list_name" android:layout_width="fill_parent" android:layout_marginLeft="20dip" android:layout_marginRight="20dip" android:textSize="20dip" android:textColor="#ffffff">
+	 	</TextView><TextView android:layout_height="wrap_content" android:id="@+id/list_description" android:text="AAAAAAAAAAAAAaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" android:layout_width="fill_parent" android:layout_marginLeft="30dip" android:layout_marginRight="30dip" android:layout_below="@+id/list_name">
+	</TextView><ImageView android:id="@+id/list_image" android:scaleType="fitXY" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignBottom="@+id/list_description"></ImageView>
+</RelativeLayout>
+
+	
+
+</LinearLayout>

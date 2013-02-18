@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/relative_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <include layout="@layout/tools_header" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/toolsbottom"
+        android:layout_below="@+id/relative_1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/relative_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@+id/ly2"
+                android:layout_below="@+id/relative_1" >
+
+                <TextView
+                    android:id="@+id/location_name_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:textColor="#0F78B4"
+                    android:textSize="17px" />
+
+                <EditText
+                    android:id="@+id/location_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_below="@+id/location_name_title"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip"
+                    android:freezesText="true"
+                    android:text=""
+                    android:textColorHint="#000000"
+                    android:textSize="12dp" />
+                
+                <TextView
+                    android:id="@+id/location_address_title"
+                    android:layout_below="@+id/location_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:textColor="#0F78B4"
+                    android:textSize="17px" />
+
+                <EditText
+                    android:id="@+id/location_address"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_below="@+id/location_address_title"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip"
+                    android:freezesText="true"
+                    android:text=""
+                    android:textColorHint="#000000"
+                    android:textSize="12dp" />
+                <Spinner 
+                    android:id="@+id/spinner_location_address"
+                    android:layout_below="@+id/location_address"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dip"
+                    android:layout_marginLeft="20dip"
+                    
+                    />
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spinner_location_address"
+                    android:layout_marginLeft="20dip"
+                    android:textColor="#0F78B4"
+                    android:textSize="17px"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/update_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dip"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/content"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip"
+                    android:layout_marginTop="10dip"
+                    android:freezesText="true"
+                    android:gravity="top"
+                    android:text=""
+                    android:textColorHint="#000000"
+                    android:textSize="12dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ly1"
+                android:layout_below="@+id/update_text"
+                android:layout_marginBottom="2dip"
+                android:layout_marginTop="5dip" >
+
+                <TextView
+                    android:id="@+id/counterText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dip"
+                    android:textColor="#0F5A78"
+                    android:textSize="14px"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dip"
+                    android:background="@drawable/selector_button_add"
+                    android:gravity="center"
+                    android:text="@string/send"
+                    android:textColor="#0F5A78"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/ly3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ly2"
+                android:layout_below="@+id/ly1"
+                android:layout_marginBottom="2dip"
+                android:layout_marginTop="5dip" >
+                <Button
+                    android:id="@+id/btn_lookup_location_map"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dip"
+                    android:layout_marginLeft="20dip"
+                    android:background="@drawable/selector_button_add"
+                    android:gravity="center_vertical"
+                    android:text="@string/discovery_lbs_view_map"
+                    android:textColor="#0F5A78"
+                    android:textSize="16sp"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/toolsbottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <include layout="@layout/tools_update_bottom" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:descendantFocusability="blocksDescendants">
+    
+    <android.webkit.WebView
+                android:id="@+id/sina_pois_image"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip" 
+                android:focusable="false"/>
+    <TextView 
+        android:id="@+id/sina_pois_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_toRightOf="@id/sina_pois_image"
+        android:focusable="false"/>
+    <TextView 
+        android:id="@+id/sina_pois_des"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_toRightOf="@id/sina_pois_image"
+        android:layout_below="@id/sina_pois_name"
+        android:focusable="false"/>
+    <TextView 
+        android:id="@+id/sina_pois_num"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_toRightOf="@id/sina_pois_image"
+        android:layout_below="@id/sina_pois_des"
+        android:focusable="false"/>
+    
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+   <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+
+   <item name="android:button">@drawable/check</item>
+
+   <item name="android:paddingLeft">30dip</item>
+
+   <item name="android:maxHeight">30dip</item>
+
+   </style>
+   <style name="Transparent">
+　　
+　　<item name="android:windowBackground">@color/transparent</item>
+　　
+　　<item name="android:windowIsTranslucent">true</item>
+　　
+　　<item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+　　
+　　</style>
+
+   <style name="custom_dialog_style" parent="@android:style/Theme.Dialog">  
+    <!--Dialog的windowFrame框为无 -->  
+     <item name="android:windowFrame">@null</item>  
+	<!--是否浮现在activity之上 -->  
+	<item name="android:windowIsFloating">false</item>  
+	<!-- 是否半透明 -->  
+	<item name="android:windowIsTranslucent">false</item>   
+	<item name="android:windowNoTitle">true</item>  
+	<item name="android:windowBackground">@drawable/account_manage</item>  
+	<!-- 背景是否模糊显示 -->  
+	<item name="android:backgroundDimEnabled">true</item>  
+	</style>  
+	
+   <style name="AppTheme" parent="android:Theme.Light" />
+
+
+</resources>

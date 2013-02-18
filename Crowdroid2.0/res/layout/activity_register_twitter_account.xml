@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/parent">
+
+	<WebView 
+	android:id="@+id/web_view" 
+	android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_above="@+id/LinearLayout01"/>
+
+	<RelativeLayout 
+	android:id="@+id/RelativeLayout01"
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:layout_above="@+id/LinearLayout01">
+
+
+		<LinearLayout
+	android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:id="@+id/tableImage"
+			android:layout_centerInParent="true">
+			<TableLayout 
+			android:id="@+id/TableLayout01"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content">
+
+
+				<TableRow 
+					android:id="@+id/TableRow01"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content">
+					<Button 
+						android:text="@string/one" 
+						android:background="@drawable/number"
+						android:id="@+id/Button01" 
+						android:layout_height="50dip"
+						android:layout_width="50dip">
+						</Button>
+					<Button 
+						android:text="@string/two" 
+						android:background="@drawable/number"
+						android:id="@+id/Button02" 
+						android:layout_height="50dip"
+						android:layout_width="50dip">
+						</Button>
+					<Button 
+						android:text="@string/three" 
+						android:background="@drawable/number"
+						android:id="@+id/Button03" 
+						android:layout_height="50dip"
+						android:layout_width="50dip">
+						</Button>
+					<Button 
+						android:text="@string/four" 
+						android:background="@drawable/number"
+						android:id="@+id/Button04" 
+						android:layout_height="50dip"
+						android:layout_width="50dip">
+						</Button>
+					<Button 
+						android:text="@string/five" 
+						android:background="@drawable/number"
+						android:id="@+id/Button05" 
+						android:layout_height="50dip"
+						android:layout_width="50dip">
+						</Button>
+				</TableRow>
+
+
+				<TableRow 
+					android:id="@+id/TableRow02"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+					<Button 
+						android:text="@string/six" 
+						android:background="@drawable/number"
+						android:id="@+id/Button06" 
+						android:layout_height="50dip"
+						android:layout_width="50dip">
+						</Button>
+					<Button 
+						android:text="@string/seven" 
+						android:background="@drawable/number"
+						android:id="@+id/Button07" 
+						android:layout_height="50dip"
+						android:layout_width="50dip">
+						</Button>
+					<Button 
+						android:text="@string/eight" 
+						android:background="@drawable/number"
+						android:id="@+id/Button08" 
+						android:layout_height="50dip"
+						android:layout_width="50dip">
+						</Button>
+					<Button 
+						android:text="@string/nine" 
+						android:background="@drawable/number"
+						android:id="@+id/Button09" 
+						android:layout_height="50dip"
+						android:layout_width="50dip">
+						</Button>
+					<Button 
+					android:text="@string/zero" 
+					android:background="@drawable/number"
+						android:id="@+id/Button00" 
+						android:layout_height="50dip"
+						android:layout_width="50dip">
+						</Button>
+				</TableRow>
+
+
+			</TableLayout>
+			<Button 
+			android:background="@drawable/number" 
+			android:id="@+id/ButtonCancel"
+				android:text="←" 
+				android:layout_height="100dip"
+				android:layout_width="50dip">
+				</Button>
+		</LinearLayout>
+
+
+
+	</RelativeLayout>
+	<LinearLayout 
+	android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical" 
+		android:layout_alignParentBottom="true" android:background="#cccccc">
+
+		<TextView 
+		android:layout_height="wrap_content" 
+		android:id="@+id/pin_text"
+			android:hint="@string/pin_code" 
+			android:editable="false"
+			android:layout_width="fill_parent" 
+			android:singleLine="true"
+			android:textSize="24dip" android:paddingLeft="10dip" android:paddingRight="10dip" android:background="#0000cd">
+			</TextView>
+
+		<LinearLayout 
+		android:id="@+id/LinearLayout02"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<RelativeLayout 
+			android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:paddingLeft="5dip"
+				android:paddingRight="5dip" 
+				android:id="@+id/buttom" android:paddingTop="3dip">
+
+				<Button 
+				android:id="@+id/finish_button"
+					android:layout_height="wrap_content" 
+					android:text="@string/ok" android:layout_alignParentRight="true" android:layout_width="120dip"/>
+
+
+			</RelativeLayout>
+
+		</LinearLayout>
+
+
+	</LinearLayout>
+
+</RelativeLayout>
+	
+	

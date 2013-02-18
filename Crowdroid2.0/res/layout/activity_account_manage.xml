@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="45dip"
+        android:layout_height="35dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/back" />
+
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        >
+    <RelativeLayout
+        android:id="@+id/select"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="120dip"
+        android:gravity="center_vertical" >
+
+        <RadioGroup
+            android:id="@+id/selectitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <RadioButton
+                android:id="@+id/cfb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_crowdroid_for_business" />
+
+            <RadioButton
+                android:id="@+id/twitter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_twitter" />
+
+            <RadioButton
+                android:id="@+id/twitter_proxy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_twitter_proxy" />
+
+            <RadioButton
+                android:id="@+id/sina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sina" />
+
+            <RadioButton
+                android:id="@+id/tencent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tencent" />
+
+            <RadioButton
+                android:id="@+id/sohu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sohu" />
+            <RadioButton
+                android:id="@+id/netease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/netease" />
+            <RadioButton
+                android:id="@+id/renren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/renren" />
+        </RadioGroup>
+    </RelativeLayout>
+</ScrollView>
+</LinearLayout>

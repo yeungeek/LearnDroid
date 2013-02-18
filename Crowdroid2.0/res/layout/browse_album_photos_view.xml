@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/showLinear"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="fill_parent"
+            android:layout_height="35dip"
+            android:background="#000000" >
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:text="back"
+                android:textColor="#FFFFFF" >
+            </Button>
+
+            <TextView
+                android:id="@+id/preview_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/setting_wallpaper_theme_preview"
+                android:textColor="#ff0000" >
+            </TextView>
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:text="save"
+                android:textColor="#FFFFFF" >
+            </Button>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/r1"
+        android:layout_gravity="center" >
+
+        <com.anhuioss.crowdroid.util.GalleryFlow
+            android:id="@+id/Gallery01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:unselectedAlpha="0.1" />
+
+        <!-- android:unselectedAlpha="0.5"设置Gallery中没有选中的选项的透明度，这样可以有突出显示的效果 -->
+        <!--
+        <WebView
+            android:id="@+id/web_view"
+            android:layout_width="300dip"
+            android:layout_height="300dip"
+            android:layout_centerInParent="true"
+            android:focusable="false" 
+            >
+        </WebView>
+        -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/comment" />
+
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment" >
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+</RelativeLayout>

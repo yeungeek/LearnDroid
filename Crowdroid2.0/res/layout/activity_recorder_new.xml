@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#696969"
+	android:padding="15dip"
+	android:orientation="vertical">
+	<LinearLayout
+		android:orientation="vertical"
+		android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+		<Spinner
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/spinner_speech_language" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/LinearLayout01"
+		android:layout_alignParentRight="true"
+		android:layout_height="fill_parent"
+		android:layout_width="wrap_content">
+		<RelativeLayout
+			android:id="@+id/controller"
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content">
+			<TextView
+				android:gravity="center|top"
+				android:id="@+id/text_recorder_time"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:textSize="80sp"
+				android:text="01:00" />
+			<ListView
+				android:cacheColorHint="#00000000"
+				android:id="@+id/list_speech_to_text"
+				android:layout_width="fill_parent"
+				android:layout_height="300dp" />
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:orientation="horizontal"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:gravity="center">
+				<ImageButton
+					android:scaleType="fitXY"
+					android:id="@+id/recorder_rec"
+					android:src="@drawable/record_button"
+					android:layout_width="40dip"
+					android:layout_weight="1"
+					android:layout_height="60dip" />
+				<ImageButton
+					style="fitXY"
+					android:id="@+id/recorder_stt"
+					android:src="@drawable/yuyin_button"
+					android:layout_width="40dip"
+					android:layout_weight="1"
+					android:layout_height="60dip" />
+				<ImageButton
+					style="fitXY"
+					android:id="@+id/recorder_save"
+					android:src="@drawable/camera_save"
+					android:layout_width="40dip"
+					android:layout_weight="1"
+					android:layout_height="60dip" />
+				<ImageButton
+					style="fitXY"
+					android:id="@+id/recorder_cancel"
+					android:src="@drawable/camera_cancel"
+					android:layout_width="40dip"
+					android:layout_weight="1"
+					android:layout_height="60dip"
+					android:layout_gravity="center" />
+			</LinearLayout>
+		</RelativeLayout>
+	</LinearLayout>
+
+
+</LinearLayout>

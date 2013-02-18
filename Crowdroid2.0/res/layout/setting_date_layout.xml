@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/parent" >
+        
+        <com.anhuioss.crowdroid.util.NumberPicker
+            android:id="@+id/dialog_data_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.anhuioss.crowdroid.util.NumberPicker
+            android:id="@+id/dialog_data_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.anhuioss.crowdroid.util.NumberPicker
+            android:id="@+id/dialog_data_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

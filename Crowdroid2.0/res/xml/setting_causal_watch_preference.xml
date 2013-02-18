@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="casual_watch_screen" >
+
+    <PreferenceCategory
+        android:key="casual_watch_category"
+        android:title="@string/setting_casual_watch_choose" >
+        <com.anhuioss.crowdroid.settings.RadioPreference
+            android:key="casual_watch_public"
+            android:title="@string/setting_casual_watch_public"
+            android:widgetLayout="@layout/radiobutton_with_in_preference" />
+        <com.anhuioss.crowdroid.settings.RadioPreference
+            android:key="casual_watch_region"
+            android:title="@string/setting_casual_watch_region"
+            android:widgetLayout="@layout/radiobutton_with_in_preference" />
+        <com.anhuioss.crowdroid.settings.RadioPreference
+            android:key="casual_watch_search"
+            android:title="@string/setting_casual_watch_search"
+            android:widgetLayout="@layout/radiobutton_with_in_preference" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

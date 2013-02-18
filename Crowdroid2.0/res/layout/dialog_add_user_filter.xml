@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:paddingLeft="20dip" android:paddingRight="20dip">
+
+
+	<TextView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/text_user_name" 
+	android:text="@string/user_name">
+	</TextView>
+	<EditText 
+	android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:id="@+id/edit_text_user_name"/>
+
+<TextView 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:id="@+id/text_service" 
+android:text="@string/service"></TextView>
+
+
+<Spinner 
+android:layout_height="wrap_content" 
+android:id="@+id/spinner_service" 
+android:layout_width="fill_parent">
+</Spinner>
+</LinearLayout>

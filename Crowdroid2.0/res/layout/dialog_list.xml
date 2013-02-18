@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:orientation="vertical"
+	android:layout_width="fill_parent">
+
+	<RelativeLayout android:id="@+id/RelativeLayout01"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_margin="10dip">
+		<TextView android:layout_width="wrap_content"
+			android:text="@string/title"
+			android:layout_alignParentTop="true" android:id="@+id/dialog_title"
+			android:textSize="22dip" android:textColor="#ffffff" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/dialog_next_button_for_list_dialog" android:layout_alignParentLeft="true">
+		</TextView>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/dialog_next_button_for_list_dialog"
+			android:background="@android:drawable/btn_default_small"
+			android:text="@string/next" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:visibility="gone"></Button>
+
+	</RelativeLayout>
+	<TextView android:layout_width="fill_parent"
+		android:background="#ffffff" android:layout_height="1dip">
+	</TextView>
+
+	<ListView android:layout_height="wrap_content" android:id="@+id/list_name_listview"
+		android:layout_width="fill_parent" android:cacheColorHint="#00000000">
+	</ListView>
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_below="@id/cancelButton" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="#cccccc"
+		android:orientation="horizontal" android:paddingTop="3dip">
+
+		<Button android:layout_height="wrap_content"
+			android:layout_weight="1" android:layout_width="fill_parent"
+			android:text="@string/close" android:id="@+id/closeButton" />
+
+
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/tools_header" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="专辑名称"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/album_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r_des"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/tis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="专辑描述"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/album_description"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@+id/tis"
+            android:freezesText="true"
+            android:gravity="top"
+            android:singleLine="false" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/r_des"
+        android:layout_marginRight="20dip"
+        android:background="@drawable/selector_button_add"
+        android:gravity="center"
+        android:text="创建"
+        android:textColor="#0F5A78"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

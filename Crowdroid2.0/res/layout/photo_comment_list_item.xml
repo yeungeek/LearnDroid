@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <android.webkit.WebView
+                android:id="@+id/user_image"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/right"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/left"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="liulingyu"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2012-12-14"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <android.webkit.WebView
+                android:id="@+id/web_status"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/linear_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/top"
+        android:layout_marginTop="10dp"
+        android:background="#C3E1F0" />
+
+    <com.anhuioss.crowdroid.util.IconTextView
+        android:id="@+id/text_get_more_tweets"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_line"
+        android:gravity="center"
+        android:paddingBottom="7dip"
+        android:paddingTop="7dip"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

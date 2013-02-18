@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        xmlns:Android="http://schemas.android.com/apk/res/android"
+        Android:id="@+id/layout_main_top"
+        Android:layout_width="fill_parent"
+        Android:layout_height="wrap_content"
+        Android:layout_alignParentTop="true" >
+
+        <include layout="@layout/tools_header" />
+    </RelativeLayout>
+<!-- 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/location_search_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_button_add"
+            android:text="类型选择" />
+
+        <ImageButton
+            android:id="@+id/location_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_action_search" />
+
+        <EditText
+            android:id="@+id/location_search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@id/location_search"
+            android:layout_toRightOf="@id/location_search_type"
+            android:inputType="text" />
+    </RelativeLayout>
+ -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TabHost
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/TabHost01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/layout_main_bottom"
+            android:background="#00000000" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#3e00B4F0"
+                android:orientation="vertical" >
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffffff">
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <!--
+                                 <TextView android:text="one"
+                                        android:id="@+id/TextView01" android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+                                </TextView>
+                        -->
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" >
+
+                            <ListView
+                                android:id="@+id/list01"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_above="@+id/button_list01" >
+                            </ListView>
+
+                            <LinearLayout
+                                android:id="@+id/button_list01"
+                                android:layout_width="fill_parent"
+                                android:layout_height="35dip"
+                                android:layout_alignParentBottom="true"
+                                android:orientation="horizontal" >
+
+                                <Button
+                                    android:id="@+id/location_prev1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:textColor="#ffffff"
+                                    android:background="@drawable/tools_background"
+                                    android:text="@string/prev" />
+
+                                <Button
+                                    android:id="@+id/location_xnext1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/tools_background"
+                                    android:textColor="#ffffff"
+                                    android:text="@string/xnext" 
+                                    android:visibility="gone"/>
+
+                                <Button
+                                    android:id="@+id/location_next1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/tools_background"
+                                    android:textColor="#ffffff"
+                                    android:text="@string/next" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <!--
+                                <TextView android:text="two"
+                                        android:id="@+id/TextView02" android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content">
+                                </TextView>
+                        -->
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" >
+
+                            <ListView
+                                android:id="@+id/list02"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_above="@+id/button_list02" >
+                            </ListView>
+
+                            <LinearLayout
+                                android:id="@+id/button_list02"
+                                android:layout_width="fill_parent"
+                                android:layout_alignParentBottom="true"
+                                android:layout_height="35dip"
+                                android:orientation="horizontal"
+                                android:background="@drawable/tools_header_background"
+                                >
+
+                                <Button
+                                    android:id="@+id/location_prev2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/tools_background"
+                                    android:textColor="#ffffff"
+                                    android:text="@string/prev" />
+
+                                <Button
+                                    android:id="@+id/location_xnext2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:textColor="#ffffff"
+                                    android:background="@drawable/tools_background"
+                                    android:text="@string/xnext"
+                                    android:visibility="gone" />
+                                
+                                <Button
+                                    android:id="@+id/location_next2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:textColor="#ffffff"
+                                    android:background="@drawable/tools_background"
+                                    android:text="@string/next" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <!--
+                                <TextView android:text="three"
+                                        android:id="@+id/TextView03" android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content">
+                                </TextView>
+                        -->
+                       
+                            
+        <LinearLayout
+                       
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >                    
+
+        <Spinner
+            android:id="@+id/location_search_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:text="类型选择" />
+         <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" >
+
+        <ImageButton
+            android:id="@+id/location_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_action_search" />
+
+        <EditText
+            android:id="@+id/location_search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@id/location_search"
+            
+            android:inputType="text" />
+    </RelativeLayout>
+    </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" >
+
+                            <ListView
+                                android:id="@+id/list03"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_above="@+id/button_list03" >
+                            </ListView>
+
+                            <LinearLayout
+                                android:id="@+id/button_list03"
+                                android:layout_width="fill_parent"
+                                android:layout_alignParentBottom="true"
+                                android:layout_height="35dip"
+                                android:background="@drawable/tools_header_background">
+
+                                <Button
+                                    android:id="@+id/location_prev3"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:textColor="#ffffff"
+                                    android:background="@drawable/tools_background"
+                                    android:text="@string/prev" />
+
+                                <Button
+                                    android:id="@+id/location_xnext3"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:textColor="#ffffff"
+                                    android:background="@drawable/tools_background"
+                                    android:text="@string/xnext" 
+                                    android:visibility="gone"/>
+                                
+                                <Button
+                                    android:id="@+id/location_next3"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:textColor="#ffffff"
+                                    android:background="@drawable/tools_background"
+                                    android:text="@string/next" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+
+        <RelativeLayout
+            xmlns:Android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/layout_main_bottom"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            Android:layout_alignParentBottom="true"
+            android:visibility="gone" >
+
+            <include layout="@layout/tools_home_bottom" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.baidu.mapapi.MapView
+        android:id="@+id/bmapsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true" />
+
+</LinearLayout>

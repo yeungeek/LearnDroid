@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#8796B4"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/broadcast_notify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="Crowdroid通知历史记录"
+        android:textColor="#ffffff"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/line01"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/broadcast_notify"
+        android:background="#ffffff" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/linear02"
+        android:layout_below="@+id/line01" >
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#697878"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/broadcast_check"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tips_dialog_is_show_next_time"
+                android:textColor="#ffffff"
+                android:visibility="gone" >
+            </CheckBox>
+
+            <TextView
+                android:id="@+id/line04"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#ffffff" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/broadcast_clear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="2"
+                android:background="@drawable/selector_button_add"
+                android:paddingBottom="5dip"
+                android:paddingTop="5dip"
+                android:text="@string/clear"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/broadcast_back"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="2"
+                android:background="@drawable/selector_button_add"
+                android:paddingBottom="5dip"
+                android:paddingTop="5dip"
+                android:text="@string/close"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

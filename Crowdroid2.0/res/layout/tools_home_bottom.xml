@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/basic_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/tools_main_bottom" >
+
+        <RelativeLayout
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/tools_bottom_home"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/selector_button_home"
+                android:clickable="false"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/home_count"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignRight="@+id/tools_bottom_home"
+                android:layout_alignTop="@+id/tools_bottom_home"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/count"
+                android:gravity="center"
+                android:text="10+"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/tools_bottom_new"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/selector_button_new"
+                android:clickable="false"
+                android:focusable="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_app"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/tools_bottom_app"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/selector_button_app"
+                android:clickable="false"
+                android:focusable="true" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/tools_bottom_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/selector_button_profile"
+                android:clickable="false"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/profile_count"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignRight="@+id/tools_bottom_profile"
+                android:layout_alignTop="@+id/tools_bottom_profile"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/count"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/tools_bottom_more"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/selector_button_more"
+                android:clickable="false"
+                android:focusable="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+
+	<LinearLayout
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#FFFFFF" android:layout_height="fill_parent" android:layout_width="wrap_content">
+   	<TextView
+   		android:id="@+id/application_name"
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:text="@string/application_name"
+   		android:textColor="#000000"/>
+   	<TextView
+   		android:id="@+id/version_name"
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:textColor="#000000"/>
+   	<LinearLayout
+   		android:orientation="horizontal"
+   		android:layout_height="wrap_content" android:layout_width="wrap_content">
+	  	<TextView
+	  		android:id="@+id/developer"
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:text="@string/developer"
+	  		android:textColor="#000000"/>
+	  	<TextView
+	  		android:id="@+id/developer_name"
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content" android:textColor="#0000ff" android:text="www"/>
+    </LinearLayout>
+    <TextView
+    	android:id="@+id/license"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/app_license"
+    	android:textColor="#000000"/>
+    <EditText
+    	android:id="@+id/apachedoc"
+    	android:layout_width="fill_parent"
+    	android:layout_height="200dp"
+    	android:text="@string/license_text"
+    	android:autoLink="web"
+    	android:editable="false"
+    	android:scrollbars="vertical"
+    	android:textColor="#000000"/>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:id="@+id/btn_check_apk_version" android:layout_width="fill_parent"
+		android:layout_weight="1" 
+		android:layout_height="wrap_content" android:text="@string/check_update" />
+		<Button android:id="@+id/close_dialog" android:layout_width="fill_parent"
+		android:layout_weight="1" 
+		android:layout_height="wrap_content" android:text="@string/close" />	
+	</LinearLayout>
+	
+<TextView android:layout_height="1dip" android:background="#ffffff" android:text="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            " android:layout_width="wrap_content"></TextView>
+</LinearLayout>
+	
+
+</ScrollView>
+

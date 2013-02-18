@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/tools_header" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/update_status"
+        android:layout_width="fill_parent"
+        android:layout_height="80dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="5dip"
+        android:gravity="top" />
+
+    <RelativeLayout
+        android:id="@+id/relative01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/multiTweet"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_marginLeft="40dip"
+            android:text="@string/comment_and_retweet"
+            android:textColor="#123456"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/status_count"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dip"
+            android:layout_toLeftOf="@+id/okButton"
+            android:gravity="center_vertical"
+          
+            android:textColor="#123456" />
+
+        <Button
+            android:id="@+id/okButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/selector_button_add"
+            android:text="@string/send"
+            android:textColor="#0F5A78"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="38dip"
+            android:cacheColorHint="#00000000"
+            android:fadingEdge="none" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <include layout="@layout/tools_update_bottom" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

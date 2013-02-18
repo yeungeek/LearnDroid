@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button android:id="@+id/here3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbs_here"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_background"/>
+    
+     <Button android:id="@+id/near3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbs_near"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/here3"
+        android:background="@drawable/button_background"
+        /> 
+    
+    <GridView
+        android:id="@+id/lbs_here_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:gravity="center"
+        android:horizontalSpacing="3dp"
+        android:numColumns="4"
+        android:verticalSpacing="3dp"
+        android:visibility="gone" 
+        android:layout_above="@+id/near_near"
+        android:layout_below="@+id/near3">
+    </GridView>
+    <!-- 
+    <GridView
+        android:id="@+id/lbs_near_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:gravity="center"
+        android:horizontalSpacing="1dp"
+        android:numColumns="4"
+        android:verticalSpacing="1dp" 
+        android:visibility="gone"
+        android:layout_above="@+id/near_n"
+        android:layout_below="@+id/near3">
+    </GridView>
+     -->
+    
+    
+    <Button android:id="@+id/near_n03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbs_near"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:background="@drawable/button_background"
+        />
+    
+    <Button android:id="@+id/near_near"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/button_background"
+        android:layout_alignParentBottom="true"
+        
+        />
+    
+
+</RelativeLayout>

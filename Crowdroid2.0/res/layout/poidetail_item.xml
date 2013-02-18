@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_margin="5dp"
+        android:text="宏泰新白"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+         android:layout_margin="5dp"
+        android:text="地址：安徽省马鞍山市花山区解放路1号"
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:visibility="gone"
+         android:layout_margin="5dp"
+        android:text="电话：0555-2256894"
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:visibility="gone"
+         android:layout_margin="5dp"
+        android:text="邮编：243000"
+        android:id="@+id/postcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+    <TextView
+         android:layout_margin="5dp"
+        android:text="距离：100米"
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+</LinearLayout>

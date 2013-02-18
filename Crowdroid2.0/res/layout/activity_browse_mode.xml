@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="45dip"
+        android:layout_height="35dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/back" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/select"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="120dip"
+            android:gravity="center_vertical" >
+
+            <RadioGroup
+                android:id="@+id/selectitem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+
+                <RadioButton
+                    android:id="@+id/fontSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_font_size" />
+
+                <RadioButton
+                    android:id="@+id/fontColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_font_color" />
+
+                <RadioButton
+                    android:id="@+id/keyword_filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_keyword_filter" />
+
+                <RadioButton
+                    android:id="@+id/user_filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_user_filter" />
+
+                <RadioButton
+                    android:id="@+id/browse_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_browse_mode" />
+            </RadioGroup>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

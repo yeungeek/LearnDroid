@@ -1,0 +1,727 @@
+<tips-list>
+	<tip>
+		<text>如果您在2011年7月9日之前在Crowdroid软件中登录过Twitter,您现在可能无法使用私信功能，请在Crowdroid中重新注册Twitter账户。
+		</text>
+		<min-version>26</min-version>
+		<max-version>28</max-version>
+	</tip>
+	<tip>
+		<text>新浪的用户验证方法已经改变，请您重新添加帐户。</text>
+		<min-version>26</min-version>
+		<max-version>28</max-version>
+	</tip>
+	<tip>
+		<text>添加语音输入功能</text>
+		<min-version>30</min-version>
+		<max-version>32</max-version>
+	</tip>
+	<tip>
+		<text>支持腾讯微博</text>
+		<min-version>30</min-version>
+		<max-version>32</max-version>
+	</tip>
+	<tip>
+		<text>UI的改进</text>
+		<min-version>30</min-version>
+		<max-version>32</max-version>
+	</tip>
+	<tip>
+		<text>Crowdroid 2.5.0 新增功能和改善事项</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增搜狐微博服务</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ 优化Twitter、Follow5、Crowdroid for Business的回复(Re)功能</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ 优化上传图片功能</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ 增加Twitter转发(QT)通知功能</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ 去除Google翻译功能</text>
+		<min-version>35</min-version>
+		<max-version>35</max-version>
+	</tip>
+	<tip>
+		<text>★ 更改新浪、腾讯、搜狐微博的用户登录方法参照</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text> http://www.anhuioss.com/cn/crowdroid/manual3.html</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text> http://www.anhuioss.com/cn/crowdroid/manual4.html</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text> http://www.anhuioss.com/cn/crowdroid/manual5.html</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ 优化错误信息</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ 修正多服务同时发布的执行方法</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ 去除Follow5的服务</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ 其他修正事项</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ 登录画面的改进</text>
+		<min-version>36</min-version>
+		<max-version>36</max-version>
+	</tip>
+	<tip>
+		<text>★ 登录画面的改进</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ 标签图标的改进</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ 添加随便看看的功能(Twitter)</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ GPS信息取得功能的改进</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ 通知功能的性能改进</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ 自动更新功能的方法改进</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ 其它的Bug Fix</text>
+		<min-version>38</min-version>
+		<max-version>38</max-version>
+	</tip>
+	<tip>
+		<text>★ 添加腾讯微博“转播热榜”的功能及显示转发评论数的布局修改</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增新浪微博、腾讯微博与搜狐微博在发布微博时插入话题的功能</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ Twitter随便看看自动更新功能和关键字搜索的自动更新功能的添加</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ Crowdroid for Business新增收藏功能，设置收藏、取消收藏及显示收藏列表</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增Crowdroid版本手动与自动检测更新下载功能</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增主题下载功能,下载壁纸后自动添加至图片媒体库，可自行设置主页背景</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ 其它的Bug Fix</text>
+		<min-version>41</min-version>
+		<max-version>41</max-version>
+	</tip>
+	<tip>
+		<text>★ 大幅改善了UI界面、用户体验</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 登录界面焕然一新</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 精简的主界面</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 界面右上为主要界面的跳转按钮</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 界面下方为设置、应用广场等图标</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 应用广场界面</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 搜索用户，搜索关键词</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 配置了其他便利的功能</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 设置界面</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 设置多语言化选择、翻译、文字大小、壁纸更换及软件更新提示功能</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 改善发布微博时的界面</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 在附图转发时具有图片预览功能</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 改善图片预览功能（及下载功能）</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增转发微博页面并添加插入话题功能</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增腾讯和搜狐修改个人资料的功能</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增查看私信功能</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增官方微博，以及反馈功能，方便用户反馈信息</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 修改添加多账户时，清除缓存信息</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增更多种颜色选择，用于设置背景色及字体颜色</text>
+		<min-version>45</min-version>
+		<max-version>46</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增发私信，转推信息，评论信息中添加了表情及@某用户的功能</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增Twitter及Twitter-proxy插入话题及插入@用户名的功能</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增@某用户及插入话题时的自动提示和保存历史记录</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增Twitter及Twitter-proxy所订阅及创建的列表功能</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增Twitter-proxy服务器随便看看的功能</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 修复CFB 根据用户名搜索该用户微博功能</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 修复Twitter感兴趣用户的分类搜索功能</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 微博图片是否显示的设置功能修复</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 针对ANR(Application Not Responding)问题，自动更新功能的修复</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 修复在Android2.3.3及Android4.0.2系统上运行的功能</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 插入表情的重新布局</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 修复CFB的图片预览与附件下载功能</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 修复Twitter上图片服务器大图预览功能</text>
+		<min-version>47</min-version>
+		<max-version>47</max-version>
+	</tip>
+	<tip>
+		<text>★ 支持人人网</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增人人网查看分享，状态，日志，相册，最近来访等新鲜事的功能</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增人人网发送状态的功能</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增人人网个人主页，查看基本信息以及好友数，访客数，状态数，日志数，相册数的功能</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增人人网查看日志列表，相册列表，以及日志详细内容，相册照片列表的功能</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增人人网日志管理，实现发表日志，查看日志的功能</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增人人网相册管理，实现创建相册，上传图片到指定相册，查看相册的功能</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增人人网分类查找用户，实现快速查找，找同学，找同事，按生日查找，按家乡查找的功能</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增人人网网页登录的功能</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增人人网分享新鲜事、状态新鲜事、发布日志新鲜事及上传相册新鲜事的通知功能</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ Twitter显示及sohu转推信息重复的修复</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 插入@的修复</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 应用广场的修复</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 设置主题壁纸的修复</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 搜索用户的修复</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ cfb不同服务器相同账户添加不成功的修复</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 登录界面的修改</text>
+		<min-version>48</min-version>
+		<max-version>48</max-version>
+	</tip>
+	<tip>
+		<text>★ 修改了登录界面，使界面更加清新自然</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ Twitter、Sina、Tencent、RenRen新增位置服务功能</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ Twitter修改@message中被转推信息的提示功能</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ Tencent新增话题搜索功能；新增修改用户头像功能</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ RenRen新增公共主页功能</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ Sohu新增微博文章检索功能</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ 新添加了腾讯微博用户发布心情帖子和获得心情帖子的功能</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ 新添加了腾讯微博服务和新浪微博服务，用户添加标签，删除标签，获得标签列表，根据标签搜索用户以及获得用户感兴趣的标签的功能</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ 新添加了腾讯微博名人列表功能，方便用户分类查找名人</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ 新添加了腾讯微博获得地区时间线的功能</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ 其他Bugs修复等</text>
+		<min-version>49</min-version>
+		<max-version>49</max-version>
+	</tip>
+	<tip>
+		<text>★ Twitter、Tencent、Sohu服务器添加账户的功能修改</text>
+		<min-version>50</min-version>
+		<max-version>50</max-version>
+	</tip>
+	<tip>
+		<text>★ Sina V2版本升级（软件升级用户需重新添加账户）</text>
+		<min-version>50</min-version>
+		<max-version>50</max-version>
+	</tip>
+	<tip>
+		<text>★ Crowdroid通知管理功能添加</text>
+		<min-version>50</min-version>
+		<max-version>50</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增CFB添加日程表的功能</text>
+		<min-version>50</min-version>
+		<max-version>50</max-version>
+	</tip>
+	<tip>
+		<text>★ 问卷调查的功能添加</text>
+		<min-version>50</min-version>
+		<max-version>50</max-version>
+	</tip>
+	<tip>
+		<text>★ 通信及加载表情的异常修复</text>
+		<min-version>50</min-version>
+		<max-version>50</max-version>
+	</tip>
+	<tip>
+		<text>★ 其他bugs修复</text>
+		<min-version>50</min-version>
+		<max-version>50</max-version>
+	</tip>
+	
+	<tip>
+		<text>★ 新添加了网易服务器</text>
+		<min-version>52</min-version>
+		<max-version>52</max-version>
+	</tip>
+	<tip>
+		<text>★ 新添加Crowdroid for Business及Twitter多图发布功能</text>
+		<min-version>52</min-version>
+		<max-version>52</max-version>
+	</tip>
+	<tip>
+		<text>★ 新添加了网络环境检测及网络设置的功能</text>
+		<min-version>52</min-version>
+		<max-version>52</max-version>
+	</tip>
+	<tip>
+		<text>★ 新添加了账户管理中限制对当前账户进行删除或编辑功能</text>
+		<min-version>52</min-version>
+		<max-version>52</max-version>
+	</tip>
+	<tip>
+		<text>★ 新添加了新浪和网易验证过期问题的处理</text>
+		<min-version>52</min-version>
+		<max-version>52</max-version>
+	</tip>
+	<tip>
+		<text>★ 变更Twitter API由1.0升级为1.1</text>
+		<min-version>52</min-version>
+		<max-version>52</max-version>
+	</tip>
+	<tip>
+		<text>★ 各个服务器的搜索功能优化</text>
+		<min-version>52</min-version>
+		<max-version>52</max-version>
+	</tip>
+	<tip>
+		<text>★ 去除新浪微博私信功能，优化话题搜索</text>
+		<min-version>52</min-version>
+		<max-version>52</max-version>
+	</tip>
+	<tip>
+		<text>★ 优化新浪微博和腾讯微博标签</text>
+		<min-version>52</min-version>
+		<max-version>52</max-version>
+	</tip>
+	<tip>
+		<text>★ 优化语音发布</text>
+		<min-version>52</min-version>
+		<max-version>52</max-version>
+	</tip>
+	<tip>
+		<text>★ 其他bugs修复</text>
+		<min-version>52</min-version>
+		<max-version>52</max-version>
+	</tip>
+	
+	
+	<tip>
+		<text>★ 修正Twitter服务“回复历史”功能</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>★ 新增Crowdroid for Business服务部分功能：</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>  ● 新增带多附件微博发布功能</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>  ● 新增带多附件及图片转发微博功能</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>  ● 新增LBS（Location Based Service）功能：</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>    ◆ 获取用户当前位置信息</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>    ◆ 实现基于公交、乘车、步行三种方案的路线搜索</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>    ◆ 实现基于地点类型与自定义地点类型搜索附近位置列表的功能</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>    ◆ 实现显示搜索定位地点的详细地图信息</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>    ◆ 实现定位及搜索路线的位置分享功能</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>★ Sina Ｗeibo服务新增LBS（Location Based Service）功能</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>  ● 获得周围的地点列表功能</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>  ● 获取位置签到列表功能</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>  ● 根据服务类型及关键字搜索地点列表，查看公交及驾车路线</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>  ● 获取位置的详细信息及查看当前和周边的微博、用户、图片列表</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>  ● 位置点评与签到功能</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>★ 其他bugs修复</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>  ● 修正Twitter服务在转推信息及关注用户时的异常</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>  ● 修正Sohu微博服务在注册账户时的异常</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>  ● 修正Crowdroid for Business服务中位置定位的精度</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>  ● 修正Notification通信发生ANR及其他Bugs</text>
+		<min-version>53</min-version>
+		<max-version>53</max-version>
+	</tip>
+	<tip>
+		<text>★ Crowdroid for Business新增图片中心</text>
+		<min-version>54</min-version>
+		<max-version>54</max-version>
+	</tip>
+	<tip>
+		<text>★ Crowdroid for Business新增文档中心</text>
+		<min-version>54</min-version>
+		<max-version>54</max-version>
+	</tip>
+	<tip>
+		<text>★ Crowdroid for Business新增视频中心</text>
+		<min-version>54</min-version>
+		<max-version>54</max-version>
+	</tip>
+	<tip>
+		<text>★ 修复Tencent位置微博时间线</text>
+		<min-version>54</min-version>
+		<max-version>54</max-version>
+	</tip>
+	<tip>
+		<text>★ 修复发送带中文名称文件的微博</text>
+		<min-version>54</min-version>
+		<max-version>54</max-version>
+	</tip>
+	<tip>
+		<text>★ 其他Bugs修复</text>
+		<min-version>54</min-version>
+		<max-version>54</max-version>
+	</tip>
+	
+	<tip>
+		<text>★ 通知功能完善，应用处于活动时，通知显示在程序中，应用处于非活动时，通知显示在状态栏中 </text>
+		<min-version>56</min-version>
+		<max-version>56</max-version>
+	</tip>
+	<tip>
+		<text>★ 网易微博授权过期问题的修复 </text>
+		<min-version>56</min-version>
+		<max-version>56</max-version>
+	</tip>
+	<tip>
+		<text>★ Crowdroid for Business服务器多图下载修复 </text>
+		<min-version>56</min-version>
+		<max-version>56</max-version>
+	</tip>
+	<tip>
+		<text>★ Crowdroid for Business服务器上传含有中文字符名称的图片修复 </text>
+		<min-version>56</min-version>
+		<max-version>56</max-version>
+	</tip>
+	<tip>
+		<text>★ 其他Bugs修复 </text>
+		<min-version>56</min-version>
+		<max-version>56</max-version>
+	</tip>
+</tips-list>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/tools_header" />
+    </RelativeLayout>
+
+    <com.anhuioss.crowdroid.cfb.ScrollLayout
+        android:id="@+id/ScrollLayoutTest"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/header"
+        android:visibility="gone" >
+    </com.anhuioss.crowdroid.cfb.ScrollLayout>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="10dip"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dip"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dip" >
+    </GridView>
+
+</RelativeLayout>

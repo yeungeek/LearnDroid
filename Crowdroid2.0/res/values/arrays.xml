@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Used in add user filter -->
+    <string-array name="services">
+        <item>Crowdroid for Business</item>
+        <item>Twitter</item>
+        <item>Sina</item>
+        <item>Tencent</item>
+        <item>Sohu</item>
+        <item>RenRen</item>
+        <item>163</item>
+    </string-array>
+    <string-array name="upload_items_cfb">
+        <item>Images</item>
+        <item>Files</item>
+    </string-array>
+    <string-array name="upload_items">
+        <item>@string/local_upload</item>
+        <item>@string/camera_upload</item>
+        <item>@string/cancel</item>
+    </string-array>
+
+    <!-- Used in dialog select service -->
+    <string-array name="services_more">
+        <item>Twitter</item>
+        <item>Twitter-Proxy</item>
+        <item>Sina</item>
+        <item>Tencent</item>
+        <item>Sohu</item>
+        <item>RenRen</item>
+    </string-array>
+
+    <!-- Used in dialog select service -->
+    <string-array name="engine">
+        <item>Baidu</item>
+        <item>Bing</item>
+    </string-array>
+    <string-array name="time">
+        <item>1 Minute</item>
+        <item>2 Minutes</item>
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>20 Minutes</item>
+        <item>40 Minutes</item>
+        <item>60 Minutes</item>
+    </string-array>
+    <string-array name="time_values">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="time_notification">
+        <item>1 Minute</item>
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>20 Minutes</item>
+        <item>30 Minutes</item>
+        <item>60 Minutes</item>
+    </string-array>
+    <string-array name="time_notification_values">
+        <item>60000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>36000000</item>
+    </string-array>
+    <string-array name="translation">
+        <item>Baidu</item>
+        <item>Bing</item>
+    </string-array>
+    <string-array name="translation_values">
+        <item>Baidu</item>
+        <item>Bing</item>
+    </string-array>
+    <string-array name="font_size">
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+    </string-array>
+    <string-array name="service_less">
+        <item>Crowdroid for Business</item>
+        <item>Sina</item>
+        <item>Tencent</item>
+        <item>Sohu</item>
+        <item>RenRen</item>
+        <item>163</item>
+    </string-array>
+    <string-array name="item">
+        <item>@string/edit</item>
+        <item>@string/delete</item>
+    </string-array>
+    <string-array name="select_background">
+        <item>@string/setting_wallpaper_picture</item>
+        <item>@string/setting_wallpaper_background_color</item>
+        <item>@string/setting_wallpaper_theme</item>
+    </string-array>
+    <string-array name="reply_item">
+        <item>Reply</item>
+    </string-array>
+    <string-array name="image_show_select">
+        <item>@string/display_all_image</item>
+        <item>@string/disable_image_preview</item>
+        <item>@string/disable_all_image</item>
+    </string-array>
+    <string-array name="select_operation">
+        <item>Reply</item>
+        <item>Original Tweet</item>
+        <item>Profile</item>
+    </string-array>
+    <string-array name="sohu_select_operation">
+        <item>Original Tweet</item>
+        <item>Profile</item>
+    </string-array>
+    <string-array name="timeline_operation_select">
+        <item>@string/reply</item>
+        <item>@string/profile</item>
+    </string-array>
+    <string-array name="speech_language">
+        <item>English</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+    </string-array>
+    <string-array name="setting_speech_language">
+        <item>Auto</item>
+        <item>English</item>
+        <item>Japanese</item>
+        <item>Chinese</item>
+    </string-array>
+    <string-array name="setting_speech_language_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="group_list_slug_operate">
+        <item>@string/discovery_group_timeline</item>
+        <item>@string/discovery_group_user_list</item>
+        <item>@string/discovery_group_admin</item>
+    </string-array>
+    <string-array name="renren_discovery_blog_manager">
+        <item>@string/update_blog</item>
+        <item>@string/blog_list</item>
+    </string-array>
+    <string-array name="renren_discovery_album_manager">
+        <item>@string/create_album</item>
+        <item>@string/upload_photos</item>
+        <item>@string/album_list</item>
+    </string-array>
+    <string-array name="renren_discovery_feed_manager">
+        <item>All Feeds</item>
+        <item>@string/my_status</item>
+        <item>@string/my_sharing</item>
+    </string-array>
+    <string-array name="renren_discovery_upload_photo_manager">
+        <item>@string/local_upload</item>
+        <item>@string/camera_upload</item>
+    </string-array>
+    <string-array name="renren_serch_type">
+        <item>@string/university</item>
+        <item>@string/high_school</item>
+        <item>@string/secondary</item>
+        <item>@string/junior</item>
+        <item>@string/primary</item>
+    </string-array>
+    <string-array name="renren_discovery_page_manager">
+        <item>@string/discovery_group_admin</item>
+        <item>@string/discovery_group_user_list</item>
+    </string-array>
+    <string-array name="renren_discovery_lbs_manager">
+        <item>@string/discovery_lbs_sign</item>
+    </string-array>
+    <string-array name="tencent_discovery_lbs_manager">
+        <item>@string/discovery_lbs_sign</item>
+        <item>@string/discovery_lbs_timeline</item>
+        <item>@string/discovery_lbs_around_user</item>
+    </string-array>
+    <string-array name="sina_discovery_lbs_manager">
+        <item>@string/discovery_lbs_sign</item>
+        <item>@string/discovery_lbs_timeline</item>
+    </string-array>
+    <string-array name="twitter_discovery_lbs_manager">
+        <item>@string/discovery_lbs_sign</item>
+        <item>@string/discovery_lbs_timeline</item>
+    </string-array>
+    <string-array name="discovery_tencent_mood_manager">
+        <item>@string/discovery_tencent_send_mood</item>
+        <item>@string/discovery_tencent_get_mood_status</item>
+    </string-array>
+    <string-array name="discovery_sina_tag_manager">
+        <item>@string/discovery_sina_tag_add</item>
+        <item>@string/discovery_sina_tag_list</item>
+        <item>@string/discovery_sina_tag_suggest</item>
+    </string-array>
+    <string-array name="discovery_tencent_tag_manager">
+        <item>@string/discovery_sina_tag_add</item>
+        <item>@string/discovery_sina_tag_list</item>
+        <item>@string/discovery_serch_user_by_tag</item>
+    </string-array>
+    <string-array name="suggestion_tags_add">
+        <item>@string/discovery_sina_tag_add</item>
+        <item>@string/user_search</item>
+    </string-array>
+    <string-array name="suggestion_tags_delect">
+        <item>@string/user_search</item>
+        <item>@string/discovery_del_tag</item>
+    </string-array>
+    <string-array name="user_tags_search">
+        <item>@string/user_search</item>
+    </string-array>
+    <string-array name="discovery_tencent_search_manager">
+        <item>@string/keyword_search</item>
+        <item>@string/user_search</item>
+        <item>@string/discovery_tencent_trend_search</item>
+    </string-array>
+    <string-array name="discovery_sohu_search_manager">
+
+        <!-- <item>@string/user_search</item> -->
+        <!-- <item>@string/keyword_search</item> -->
+        <item>@string/discovery_sohu_status_search</item>
+    </string-array>
+    <string-array name="discovery_search_manager">
+        <item>@string/keyword_search</item>
+        <item>@string/user_search</item>
+    </string-array>
+    <string-array name="discovery_sina_search_manager">
+        <item>@string/user_search</item>
+    </string-array>
+    <string-array name="discovery_twitter_retweeted_manager">
+        <item>@string/retweets_by_me</item>
+        <item>@string/retweets_to_me</item>
+        <item>@string/retweets_of_me</item>
+    </string-array>
+    <string-array name="discovery_tencent_suggest_user_manager">
+        <item>@string/gallery_suggestion_users</item>
+        <item>@string/gallery_hot_users_title</item>
+    </string-array>
+    <string-array name="discovery_suggest_user_manager">
+        <item>@string/gallery_suggestion_users</item>
+    </string-array>
+    <string-array name="broadcast_history_manager">
+        <item>Detail</item>
+        <item>@string/delete</item>
+    </string-array>
+    <string-array name="wangyi_hotretweet_choose">
+        <item>Top of Retweets</item>
+        <item>Top of FollowRetweets</item>
+    </string-array>
+    <string-array name="wangyi_hotretweet_timechoose">
+        <item>1 Hour</item>
+        <item>6 Hours</item>
+        <item>1 Day</item>
+        <item>1 Week</item>
+    </string-array>
+    <string-array name="sina_location_search_type">
+        <item>Car Service</item>
+        <item>Car shop</item>
+        <item>Car maintenance</item>
+        <item>Motorcycle shop</item>
+        <item>Restaurant</item>
+        <item>Shopping</item>
+        <item>Life</item>
+        <item>Sports facility</item>
+        <item>Hospital</item>
+        <item>Lodging facility</item>
+        <item>Sights</item>
+        <item>Business building</item>
+        <item>Public agency</item>
+        <item>Educational, Scientific and Cultural Organization</item>
+        <item>Transportation</item>
+        <item>Finance and insurance</item>
+        <item>Company</item>
+        <item>Road facility</item>
+        <item>Place and address</item>
+        <item>Community</item>
+    </string-array>
+    <string-array name="sina_location_search_range">
+        <item>Nationwide</item>
+        <item>Nearby</item>
+    </string-array>
+    <string-array name="sina_location_search_way">
+        <item>@string/car_route</item>
+        <item>@string/bus_route</item>
+    </string-array>
+    <string-array name="sina_location_page">
+        <item>page 1</item>
+        <item>page 2</item>
+        <item>page 3</item>
+        <item>page 4</item>
+        <item>page 5</item>
+        <item>page 6</item>
+        <item>page 7</item>
+        <item>page 8</item>
+        <item>page 9</item>
+        <item>page 10</item>
+        <item>page 11</item>
+        <item>page 12</item>
+        <item>page 13</item>
+        <item>page 14</item>
+        <item>page 15</item>
+        <item>page 16</item>
+        <item>page 17</item>
+        <item>page 18</item>
+        <item>page 19</item>
+        <item>page 20</item>
+    </string-array>
+
+    <!-- 图片专辑 -->
+    <string-array name="cfb_photo_album_del_dialog">
+        <item>@string/checkAlbumMsg</item>
+        <item>@string/checkAlbumContent</item>
+        <item>@string/uploadPhoto</item>
+        <item>@string/createAlbum</item>
+        <item>@string/delAlbum</item>
+    </string-array>
+    <string-array name="cfb_photo_album_dialog">
+        <item>@string/checkAlbumMsg</item>
+        <item>@string/checkAlbumContent</item>
+        <item>@string/uploadPhoto</item>
+        <item>@string/createAlbum</item>
+    </string-array>
+    <!-- 文档专辑 -->
+    <string-array name="cfb_doc_album_del_dialog">
+        <item>@string/checkAlbumMsg</item>
+        <item>@string/checkAlbumContent</item>
+        <item>@string/uploadDoc</item>
+        <item>@string/createAlbum</item>
+        <item>@string/delAlbum</item>
+    </string-array>
+    <string-array name="cfb_doc_album_dialog">
+        <item>@string/checkAlbumMsg</item>
+        <item>@string/checkAlbumContent</item>
+        <item>@string/uploadDoc</item>
+        <item>@string/createAlbum</item>
+    </string-array>
+    <!-- 视频专辑 -->
+    <string-array name="cfb_vedio_album_del_dialog">
+        <item>@string/checkAlbumMsg</item>
+        <item>@string/checkAlbumContent</item>
+        <item>@string/uploadVedio</item>
+        <item>@string/createAlbum</item>
+        <item>@string/delAlbum</item>
+    </string-array>
+    <string-array name="cfb_vedio_album_dialog">
+        <item>@string/checkAlbumMsg</item>
+        <item>@string/checkAlbumContent</item>
+        <item>@string/uploadVedio</item>
+        <item>@string/createAlbum</item>
+    </string-array>
+
+    <!-- 图片信息 -->
+    <string-array name="cfb_photo_del_dialog">
+        <item>@string/checkPhotoMsg</item>
+        <item>@string/retweet_count</item>
+        <item>@string/comment_count</item>
+        <item>@string/setCover</item>
+        <item>@string/saveImage</item>
+        <item>@string/delPhoto</item>
+    </string-array>
+    <string-array name="cfb_photo_dialog">
+        <item>@string/checkPhotoMsg</item>
+        <item>@string/retweet_count</item>
+        <item>@string/comment_count</item>
+        <item>@string/setCover</item>
+        <item>@string/saveImage</item>
+    </string-array>
+
+    <!-- 文档信息 -->
+    <string-array name="cfb_doc_del_dialog">
+        <item>@string/checkDocMsg</item>
+        <item>@string/retweet_count</item>
+        <item>@string/comment_count</item>
+        <item>@string/download</item>
+        <item>@string/delPhoto</item>
+    </string-array>
+    <string-array name="cfb_doc_dialog">
+        <item>@string/checkDocMsg</item>
+        <item>@string/retweet_count</item>
+        <item>@string/comment_count</item>
+        <item>@string/download</item>
+    </string-array>
+
+    <!-- 视频信息 -->
+    <string-array name="cfb_vedio_del_dialog">
+        <item>@string/checkVedioMsg</item>
+        <item>@string/retweet_count</item>
+        <item>@string/comment_count</item>
+        <item>@string/delete</item>
+    </string-array>
+    <string-array name="cfb_vedio_dialog">
+        <item>@string/checkVedioMsg</item>
+        <item>@string/retweet_count</item>
+        <item>@string/comment_count</item>
+    </string-array>
+
+</resources>

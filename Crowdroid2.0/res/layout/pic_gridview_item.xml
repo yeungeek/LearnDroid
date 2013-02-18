@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp" >
+    
+    <ImageView android:id="@+id/pic_item"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/gallery_bg"
+        
+        android:scaleType="fitXY"/>
+    <ImageView android:id="@+id/pic_item_choose_ok"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/choose"
+        android:background="@drawable/imageview_border"
+        android:visibility="gone"/>
+    <ImageView android:id="@+id/pic_item_choose_no"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/nochoose"
+        android:background="@drawable/imageview_border"
+        
+        />
+
+</RelativeLayout>

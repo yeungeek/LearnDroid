@@ -1,0 +1,7 @@
+#preview_box img{
+	float:left; 
+	height:160px; 
+	width:160px; 
+	border:1px solid #000000;
+	margin:3px
+}

@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        xmlns:Android="http://schemas.android.com/apk/res/android"
+        Android:id="@+id/layout_main_top"
+        Android:layout_width="fill_parent"
+        Android:layout_height="wrap_content"
+        Android:layout_alignParentTop="true" >
+
+        <include layout="@layout/tools_header" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_middle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/layout_main_bottom"
+        android:layout_below="@+id/layout_main_top"
+        android:cacheColorHint="#00000000"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/schedule_month_title"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:background="@drawable/tools_header_background"
+            android:gravity="center"
+            android:text="日历-月历图：[qinhuan]秦欢 06-19"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/schedule_month_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#78B4F0" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ee3CD2F0"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="15dip"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#00ffffff" />
+
+                <LinearLayout
+                    android:id="@+id/linear_week_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="1dip"
+                            android:layout_height="wrap_content"
+                            android:background="#78B4F0" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="星期天"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="1dip"
+                            android:layout_height="wrap_content"
+                            android:background="#78B4F0" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="星期一"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="1dip"
+                            android:layout_height="wrap_content"
+                            android:background="#78B4F0" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="星期二"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="1dip"
+                            android:layout_height="wrap_content"
+                            android:background="#78B4F0" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="星期三"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="1dip"
+                            android:layout_height="wrap_content"
+                            android:background="#78B4F0" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="星期四"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="1dip"
+                            android:layout_height="wrap_content"
+                            android:background="#78B4F0" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="星期五"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="1dip"
+                            android:layout_height="wrap_content"
+                            android:background="#78B4F0" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="星期六"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#78B4F0" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#6e3CD2F0"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linear_week1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/week_group1"
+                            android:gravity="center"
+                            android:layout_width="15dip"
+                            android:layout_height="fill_parent"
+                            android:text="22周"
+                            android:textColor="#ffffff" 
+                            android:background="#ee3CD2F0"/>
+
+                        <LinearLayout
+                            android:id="@+id/linear_week_days1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="00"
+                                    android:id="@+id/month00"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="01"
+                                    android:id="@+id/month01"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="02"
+                                    android:id="@+id/month02"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="03"
+                                    android:id="@+id/month03"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="04"
+                                    android:id="@+id/month04"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="05"
+                                    android:id="@+id/month05"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="06"
+                                    android:id="@+id/month06"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="#78B4F0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linear_week2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/week_group2"
+                            android:layout_width="15dip"
+                            android:layout_height="fill_parent"
+							android:gravity="center"
+                            android:text="23周"
+                            android:textColor="#ffffff"
+                            android:background="#ee3CD2F0" />
+
+                        <LinearLayout
+                            android:id="@+id/linear_week_day2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="10"
+                                    android:id="@+id/month10"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="11"
+                                    android:id="@+id/month11"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="12"
+                                    android:id="@+id/month12"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="13"
+                                    android:id="@+id/month13"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="14"
+                                    android:id="@+id/month14"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="15"
+                                    android:id="@+id/month15"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="16"
+                                    android:id="@+id/month16"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="#78B4F0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linear_week3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/week_group3"
+                            android:layout_width="15dip"
+                            android:layout_height="fill_parent"
+                            android:gravity="center"
+                            android:text="24周"
+                            android:textColor="#ffffff" 
+                            android:background="#ee3CD2F0"/>
+
+                        <LinearLayout
+                            android:id="@+id/linear_week_day3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="20"
+                                    android:id="@+id/month20"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="21"
+                                    android:id="@+id/month21"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="22"
+                                    android:id="@+id/month22"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="23"
+                                    android:id="@+id/month23"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="24"
+                                    android:id="@+id/month24"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="25"
+                                    android:id="@+id/month25"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="26"
+                                    android:id="@+id/month26"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="#78B4F0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linear_week4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/week_group4"
+                            android:layout_width="15dip"
+                            android:layout_height="fill_parent"
+                            android:gravity="center"
+                            android:text="25周"
+                            android:textColor="#ffffff"
+                            android:background="#ee3CD2F0"/>
+
+                        <LinearLayout
+                            android:id="@+id/linear_week_day4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="30"
+                                    android:id="@+id/month30"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="31"
+                                    android:id="@+id/month31"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="32"
+                                    android:id="@+id/month32"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="33"
+                                    android:id="@+id/month33"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="34"
+                                    android:id="@+id/month34"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="35"
+                                    android:id="@+id/month35"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="36"
+                                    android:id="@+id/month36"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="#78B4F0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linear_week5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/week_group5"
+                            android:layout_width="15dip"
+                            android:layout_height="fill_parent"
+                            android:gravity="center"
+                            android:text="26周"
+                            android:textColor="#ffffff"
+                            android:background="#ee3CD2F0"/>
+
+                        <LinearLayout
+                            android:id="@+id/linear_week_day5"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="40"
+                                    android:id="@+id/month40"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="41"
+                                    android:id="@+id/month41"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="42"
+                                    android:id="@+id/month42"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="43"
+                                    android:id="@+id/month43"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="44"
+                                    android:id="@+id/month44"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="45"
+                                    android:id="@+id/month45"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="46"
+                                    android:id="@+id/month46"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="#78B4F0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linear_week6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/week_group6"
+                            android:layout_width="15dip"
+                            android:layout_height="fill_parent"
+                            android:gravity="center"
+                            android:text="27周"
+                            android:textColor="#ffffff"
+                            android:background="#ee3CD2F0"/>
+
+                        <LinearLayout
+                            android:id="@+id/linear_week_day6"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="50"
+                                    android:id="@+id/month50"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="51"
+                                    android:id="@+id/month51"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="52"
+                                    android:id="@+id/month52"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="53"
+                                    android:id="@+id/month53"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="54"
+                                    android:id="@+id/month54"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="55"
+                                    android:id="@+id/month55"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="1dip"
+                                    android:layout_height="fill_parent"
+                                    android:background="#78B4F0" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:text="56"
+                                    android:id="@+id/month56"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="#78B4F0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        xmlns:Android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_main_bottom"
+        Android:layout_width="fill_parent"
+        Android:layout_height="wrap_content"
+        Android:layout_alignParentBottom="true" >
+    </RelativeLayout>
+
+</RelativeLayout>

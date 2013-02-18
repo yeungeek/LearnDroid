@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00F0FFFF"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <include layout="@layout/tools_header" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dip"
+                    android:layout_margin="2dip"
+                    android:orientation="horizontal" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="3"
+                        android:completionThreshold="1"
+                        android:hint="@string/serch_quick" />
+
+                    <ImageButton
+                        android:id="@+id/search_button"
+                        android:layout_width="48dip"
+                        android:layout_height="48dip"
+                        android:layout_gravity="center_vertical"
+                        android:scaleType="fitXY"
+                        android:src="@android:drawable/ic_menu_search" >
+                    </ImageButton>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="2dip"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linear_search_classmate"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dip"
+                        android:layout_margin="3dip"
+                        android:background="@drawable/selector_button_click" >
+
+                        <TextView
+                            android:id="@+id/serch_classmate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="8dip"
+                            android:text="@string/serch_classmate"
+                            android:textColor="#0F5A78"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_search_colleague"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dip"
+                        android:layout_margin="3dip"
+                        android:background="@drawable/selector_button_click" >
+
+                        <TextView
+                            android:id="@+id/serch_colleague"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="8dip"
+                            android:text="@string/serch_colleague"
+                            android:textColor="#0F5A78"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_search_friends_by_detail"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dip"
+                        android:layout_margin="3dip"
+                        android:background="@drawable/selector_button_click" >
+
+                        <TextView
+                            android:id="@+id/serch_friends_by_detail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="8dip"
+                            android:text="@string/serch_by_birth"
+                            android:textColor="#0F5A78"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_search_friends_by_hometown"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dip"
+                        android:layout_margin="3dip"
+                        android:background="@drawable/selector_button_click" >
+
+                        <TextView
+                            android:id="@+id/serch_friends_by_hometown"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="8dip"
+                            android:text="@string/serch_by_base"
+                            android:textColor="#0F5A78"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

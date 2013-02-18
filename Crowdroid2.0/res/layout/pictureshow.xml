@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--
+    <TextView android:id="@+id/pic_show_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25px"
+        android:textColor="#ffff0000"
+        android:text="picture"
+        android:gravity="center_horizontal"/>
+    -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4B6978" >
+
+        <Button
+            android:id="@+id/pic_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="#00000000"
+            android:onClick="Back"
+            android:text="Back"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:padding="5dip" />
+
+        <Button
+            android:id="@+id/pic_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="#00000000"
+            android:onClick="Ok"
+            android:text=" OK "
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:padding="5dip" />
+
+        <TextView
+            android:id="@+id/pic_show_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="@string/setting_wallpaper_theme_preview"
+            android:textColor="#ffff0000"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <!--
+    <ScrollView android:id="@+id/pic_show"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    -->
+
+    <GridView
+        android:id="@+id/pic_show_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#00000000"
+        android:gravity="center"
+        android:horizontalSpacing="1dp"
+        android:numColumns="4"
+        android:verticalSpacing="1dp" >
+    </GridView>
+
+</LinearLayout>

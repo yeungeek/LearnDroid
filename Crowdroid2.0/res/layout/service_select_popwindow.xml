@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/service_icon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ly01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/add_cfb"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:src="@drawable/icon" />
+
+            <ImageView
+                android:id="@+id/add_twitter"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:src="@drawable/twitter" />
+
+            <ImageView
+                android:id="@+id/add_twitterP"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:src="@drawable/twitter_proxy" />
+
+            <ImageView
+                android:id="@+id/add_sina"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:src="@drawable/sina" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/add_tencent"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:src="@drawable/tencent" />
+
+            <ImageView
+                android:id="@+id/add_sohu"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:src="@drawable/sohu" />
+
+            <ImageView
+                android:id="@+id/add_renren"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:src="@drawable/renren" />
+              <ImageView
+                android:id="@+id/add_wangyi"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:src="@drawable/wangyi" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="90dip"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dip"
+        android:layout_marginRight="15dip"
+        android:background="@drawable/btn_shape" >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="90dip"
+            android:layout_height="40dip"
+            android:background="@drawable/selector_button_add"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

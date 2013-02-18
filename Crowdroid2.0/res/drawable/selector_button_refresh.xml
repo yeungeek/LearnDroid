@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><shape>
+            <gradient android:angle="270" android:endColor="#00ffffff" android:startColor="#00ffffff" />
+
+            <stroke android:width="2dip" android:color="#00FFFFFF" />
+
+            <corners android:radius="5dip" />
+
+            <padding android:bottom="2dip" android:left="2dip" android:right="2dip" android:top="2dip"></padding>
+        </shape></item>
+    <item android:drawable="@drawable/refresh"/>
+
+</selector>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/quetip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+       
+        android:layout_margin="2dip"
+        android:textColor="#000000"
+        android:text="是否启动有奖问卷调查？"
+        android:textSize="18sp" />
+
+    <CheckBox
+        
+        android:id="@+id/check_box_show_next_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quetip"
+        
+        android:text="@string/tips_dialog_is_show_next_time"
+        android:textColor="#000000">
+    </CheckBox>
+
+    <LinearLayout
+        android:id="@+id/lBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/check_box_show_next_time"
+        android:layout_margin="5dip" >
+
+        <Button
+            android:id="@+id/quesOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="确定" />
+
+        <Button
+            android:id="@+id/quesNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消" />
+    </LinearLayout>
+
+</RelativeLayout>
