@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF" >
+
+    <ImageView
+        android:id="@+id/friendsfindsearch_item_avatar"
+        android:layout_width="45dip"
+        android:layout_height="45dip"
+        android:layout_margin="8dip"
+        android:src="@drawable/v5_0_1_widget_default_head" />
+
+    <TextView
+        android:id="@+id/friendsfindsearch_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/friendsfindsearch_item_avatar"
+        android:layout_toLeftOf="@+id/friendsfindsearch_item_button"
+        android:layout_toRightOf="@+id/friendsfindsearch_item_avatar"
+        android:padding="8dip"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/friendsfindsearch_item_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/friendsfindsearch_item_name"
+        android:layout_alignRight="@+id/friendsfindsearch_item_name"
+        android:layout_below="@+id/friendsfindsearch_item_name"
+        android:paddingBottom="8dip"
+        android:paddingLeft="8dip"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/friendsfindsearch_item_button"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dip"
+        android:background="@drawable/v5_0_1_guide_button_black_background"
+        android:padding="8dip"
+        android:textColor="#ff005092"
+        android:textSize="14sp" />
+
+</RelativeLayout>

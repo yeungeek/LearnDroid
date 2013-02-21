@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="提醒设置" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="message_key"
+        android:summary="收到留言、评论、或好友请求时提醒"
+        android:title="消息提醒" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:dependency="message_key"
+        android:summary="退出程序后仍能接收信息通知"
+        android:title="消息接收" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:dependency="message_key"
+        android:summary="收到提醒时振动"
+        android:title="振动" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:dependency="message_key"
+        android:summary="收到提醒时点亮LED灯"
+        android:title="LED" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:dependency="message_key"
+        android:summary="收到提醒时播放铃声"
+        android:title="铃声提醒" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:dependency="message_key"
+        android:summary="00:00-7:00关闭消息通知"
+        android:title="防打扰模式" />
+
+    <RingtonePreference
+        android:dependency="message_key"
+        android:ringtoneType="all"
+        android:showDefault="true"
+        android:showSilent="true"
+        android:title="选择铃声" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:summary="登录显示更新通讯录提醒"
+        android:title="通讯录提醒" />
+
+    <PreferenceCategory android:title="系统设置" />
+
+    <Preference android:title="屏幕亮度" />
+
+    <PreferenceCategory android:title="流量管理" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:title="新鲜事图片显示" />
+
+    <PreferenceCategory android:title="缓存设置" />
+
+    <CheckBoxPreference android:title="退出时清空缓存" />
+
+    <Preference android:title="立即清除缓存" />
+
+    <PreferenceCategory android:title="其他" />
+
+    <Preference android:title="意见反馈" />
+
+    <Preference android:title="帮助" />
+
+    <Preference
+        android:summary="人人 Android 5.1.3"
+        android:title="关于" />
+
+    <Preference android:title="升级更新" />
+
+</PreferenceScreen>

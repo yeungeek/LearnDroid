@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/FrameLayout01"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	xmlns:android=" http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/tv_wb" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:background="@drawable/titlebar_lightgray_bg"
+		></TextView>	
+	<LinearLayout android:gravity="center_horizontal" android:paddingTop="5dip"   
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+		<Button android:text="@string/main_at" android:id="@+id/bt_group_left"
+			android:background="@drawable/title_button_group_left" android:textColor="#ffffffff"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="@string/main_comment" android:id="@+id/bt_group_middle"
+			android:background="@drawable/title_button_group_middle" android:textColor="#ffffffff"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+      
+		<Button android:text="@string/main_message" android:id="@+id/bt_group_right"
+			android:background="@drawable/title_button_group_right" android:textColor="#ffffffff"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</FrameLayout>

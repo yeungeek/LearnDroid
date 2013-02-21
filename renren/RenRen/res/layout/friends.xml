@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/v5_0_1_flipper_head_blue_background"
+            android:orientation="horizontal"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/friends_flip"
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/v5_0_1_flipper_head_title_wrapper_background"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/v5_0_1_flipper_head_flip" />
+
+            <ImageView
+                android:layout_width="2px"
+                android:layout_height="24dip"
+                android:layout_gravity="center"
+                android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+            <RelativeLayout
+                android:id="@+id/friends_mode_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/v5_0_1_flipper_head_title_wrapper_background"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/friends_mode_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="全部好友"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="5dip"
+                    android:src="@drawable/v5_0_1_flipper_head_title_corner" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/v5_0_1_flipper_head_title_wrapper_background"
+                android:visibility="invisible" 
+                android:clickable="true"/>
+
+            <ImageView
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/v5_0_1_flipper_head_title_wrapper_background"
+                android:visibility="invisible" 
+                android:clickable="true"/>
+
+            <ImageView
+                android:id="@+id/friends_menu"
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/v5_0_1_flipper_head_title_wrapper_background"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/v5_0_1_flipper_head_menu" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/v5_0_1_friend_search_bg" >
+
+            <EditText
+                android:id="@+id/friends_search"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="8dip"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/v5_0_1_friend_search_icon"
+                android:drawablePadding="8dip"
+                android:paddingRight="30dip"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/friends_searchclear"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:background="#00000000"
+                android:paddingRight="8dip"
+                android:src="@drawable/v5_0_1_search_clear_icon_bg"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <com.renren.android.ui.base.PinnedHeaderListView
+                android:id="@+id/friends_display"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:cacheColorHint="#00000000"
+                android:listSelector="#00000000" 
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:divider="@drawable/v5_0_1_friend_item_separate"/>
+
+            <com.renren.android.ui.base.MyLetterListView
+                android:id="@+id/friends_myletterlistview"
+                android:layout_width="30dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:background="#00000000" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/guide_picture"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" 
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/guide_bottom_layout"
+            android:layout_marginBottom="24.0dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/guide_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="32.0dip"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="28.0sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/guide_bottom_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/guide_register"
+                android:layout_width="wrap_content"
+                android:layout_height="48.0dip"
+                android:layout_marginRight="8.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/v5_0_1_guide_button_blue_background"
+                android:gravity="center"
+                android:text="注册"
+                android:textColor="#FFFFFF"
+                android:textSize="16.0sp" />
+
+            <Button
+                android:id="@+id/guide_who_i_know"
+                android:layout_width="wrap_content"
+                android:layout_height="48.0dip"
+                android:layout_marginRight="8.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/v5_0_1_guide_button_black_background"
+                android:gravity="center"
+                android:text="看看我认识的人"
+                android:textColor="#333333"
+                android:textSize="16.0sp" />
+
+            <Button
+                android:id="@+id/guide_login"
+                android:layout_width="wrap_content"
+                android:layout_height="48.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/v5_0_1_guide_button_blue_background"
+                android:gravity="center"
+                android:text="登录"
+                android:textColor="#FFFFFF"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

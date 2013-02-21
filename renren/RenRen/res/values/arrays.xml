@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="desktop_list_head_strings">
+        <item>常用</item>
+        <item>操作</item>
+    </string-array>
+    <string-array name="desktop_list_item_favorite_strings">
+        <item>新鲜事</item>
+        <item>消息</item>
+        <item>私信</item>
+        <item>好友</item>
+        <item>公共主页</item>
+        <item>位置</item>
+        <item>找人</item>
+        <item>应用与游戏</item>
+    </string-array>
+    <string-array name="desktop_list_item_action_strings">
+        <item>选项</item>
+        <item>注销登录</item>
+    </string-array>
+</resources>

@@ -1,0 +1,64 @@
+com.baidu.location.Jni
+com.baidu.location.Jni: java.lang.String a(byte[],int)
+com.baidu.location.Jni: java.lang.String b(double,double,int,int)
+com.renren.android.ui.base.FlipperLayout
+com.renren.android.ui.base.FlipperLayout: FlipperLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+com.renren.android.ui.base.MyLetterListView
+com.renren.android.ui.base.MyLetterListView: MyLetterListView(android.content.Context,android.util.AttributeSet)
+com.renren.android.ui.base.PinnedHeaderListView
+com.renren.android.ui.base.PinnedHeaderListView: PinnedHeaderListView(android.content.Context,android.util.AttributeSet)
+com.renren.android.photos.PhotosGallery
+com.renren.android.photos.PhotosGallery: PhotosGallery(android.content.Context,android.util.AttributeSet)
+com.renren.android.photos.PhotosImageView
+com.renren.android.photos.PhotosImageView: PhotosImageView(android.content.Context,android.util.AttributeSet)
+com.renren.android.ui.base.FlipperLayout
+com.renren.android.ui.base.FlipperLayout: FlipperLayout(android.content.Context,android.util.AttributeSet,int)
+com.renren.android.ui.base.MyLetterListView
+com.renren.android.ui.base.MyLetterListView: MyLetterListView(android.content.Context,android.util.AttributeSet,int)
+com.renren.android.ui.base.PinnedHeaderListView
+com.renren.android.ui.base.PinnedHeaderListView: PinnedHeaderListView(android.content.Context,android.util.AttributeSet,int)
+com.renren.android.photos.PhotosGallery
+com.renren.android.photos.PhotosGallery: PhotosGallery(android.content.Context,android.util.AttributeSet,int)
+com.renren.android.photos.PhotosImageView
+com.renren.android.photos.PhotosImageView: PhotosImageView(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+com.renren.android.ui.Welcome_Guide
+com.renren.android.ui.Welcome
+com.renren.android.friends.FriendsFindSearch
+com.renren.android.photos.PhotosCommentsActivity
+com.renren.android.user.Friend
+com.renren.android.blog.Blog
+com.renren.android.photos.PhotosListActivity
+android.support.v4.app.FragmentActivity
+com.renren.android.ui.Auth
+com.renren.android.newsfeed.NewsFeedPublish
+com.renren.android.chat.ChatInfo
+com.renren.android.blog.BlogComments
+com.renren.android.location.NearBy
+com.renren.android.location.NearByWeb
+net.tsz.afinal.FinalActivity
+com.renren.android.blog.BlogPublish
+com.renren.android.ui.DesktopActivity
+com.renren.android.blog.BlogAddCommment
+com.renren.android.photos.PhotosDetailActivity
+com.renren.android.friends.FriendsFind
+com.renren.android.photos.PhotosAddCommentActivity
+com.renren.android.settings.Settings
+com.renren.android.BaseApplication
+com.baidu.location.f
+com.baidu.location.i$b
+com.baidu.location.f$c$a
+net.tsz.afinal.FinalActivity: void setContentView(android.view.View)
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR

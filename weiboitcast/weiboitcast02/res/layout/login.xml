@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+<include android:id="@+id/title" layout="@layout/title_two_button"/>
+<Button
+   android:text="绑定微博"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bt01"></Button>
+ <WebView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/web01" android:background="@color/black"></WebView>
+</LinearLayout>

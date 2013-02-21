@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/etMsgReason" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="80.0dip" android:text="" android:singleLine="false" />
+    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="#ff000000" android:id="@id/tvMsgLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="3.0dip" android:text="@string/new_label" android:layout_weight="1.0" />
+        <Button android:id="@id/btMsgSend" android:layout_width="80.0dip" android:layout_height="@dimen/button_height" android:layout_marginRight="5.0dip" android:layout_marginBottom="3.0dip" android:text="@string/sendMsg" />
+    </LinearLayout>
+    <ListView android:id="@id/mainlst" android:background="#fff4f4f4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="#fff4f4f4" android:divider="@drawable/transparent" android:dividerHeight="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

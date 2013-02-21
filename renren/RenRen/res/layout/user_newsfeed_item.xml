@@ -1,0 +1,450 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/user_newsfeed_list_avatar"
+        android:layout_width="45dip"
+        android:layout_height="45dip"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="8dip"
+        android:scaleType="centerCrop"
+        android:src="@drawable/v5_0_1_widget_default_head" />
+
+    <TextView
+        android:id="@+id/user_newsfeed_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_newsfeed_list_avatar"
+        android:layout_alignTop="@+id/user_newsfeed_list_avatar"
+        android:layout_toLeftOf="@+id/user_newsfeed_list_more"
+        android:layout_toRightOf="@+id/user_newsfeed_list_avatar"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textColor="#ff005092"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/user_newsfeed_list_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_newsfeed_list_avatar"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/user_newsfeed_list_avatar"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="15dip"
+        android:background="#00000000"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:src="@drawable/v5_0_1_newsfeed_arrow" />
+
+    <TextView
+        android:id="@+id/user_newsfeed_list_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_newsfeed_list_name"
+        android:layout_alignRight="@+id/user_newsfeed_list_name"
+        android:layout_below="@+id/user_newsfeed_list_avatar"
+        android:autoLink="web"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <!-- 发布和转发状态 -->
+
+    <LinearLayout
+        android:id="@+id/user_newsfeed_list_status_root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_newsfeed_list_name"
+        android:layout_below="@+id/user_newsfeed_list_content"
+        android:layout_marginRight="15dip"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="2dip"
+            android:layout_height="fill_parent"
+            android:background="#20333333" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_status_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff005092"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_status_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dip"
+                android:paddingLeft="8dip"
+                android:paddingRight="15dip"
+                android:paddingTop="8dip"
+                android:textColor="#ff888888"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 分享照片 -->
+
+    <LinearLayout
+        android:id="@+id/user_newsfeed_list_sharephoto_root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_newsfeed_list_name"
+        android:layout_below="@+id/user_newsfeed_list_status_root"
+        android:layout_marginRight="15dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <View
+            android:layout_width="2dip"
+            android:layout_height="fill_parent"
+            android:background="#20333333" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginTop="8dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_sharephoto_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:textColor="#ff005092"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_sharephoto_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/user_newsfeed_list_sharephoto_image"
+                android:layout_width="150dip"
+                android:layout_height="150dip"
+                android:layout_marginBottom="8dip"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_sharephoto_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:textColor="#ff888888"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 分享相册 -->
+
+    <LinearLayout
+        android:id="@+id/user_newsfeed_list_sharealbum_root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_newsfeed_list_name"
+        android:layout_below="@+id/user_newsfeed_list_sharephoto_root"
+        android:layout_marginRight="15dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <View
+            android:layout_width="2dip"
+            android:layout_height="fill_parent"
+            android:background="#20333333" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginTop="8dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_sharealbum_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:textColor="#ff005092"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_sharealbum_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:textColor="#ff005092"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/user_newsfeed_list_sharealbum_image"
+                android:layout_width="150dip"
+                android:layout_height="150dip"
+                android:layout_marginBottom="8dip"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 分享日志 -->
+
+    <LinearLayout
+        android:id="@+id/user_newsfeed_list_shareblog_root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_newsfeed_list_name"
+        android:layout_below="@+id/user_newsfeed_list_sharealbum_root"
+        android:layout_marginRight="15dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <View
+            android:layout_width="2dip"
+            android:layout_height="fill_parent"
+            android:background="#20333333" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginTop="8dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_shareblog_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:textColor="#ff005092"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_shareblog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:textColor="#ff005092"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_shareblog_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff888888"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 发布日志 -->
+
+    <LinearLayout
+        android:id="@+id/user_newsfeed_list_publishblog_root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_newsfeed_list_name"
+        android:layout_below="@+id/user_newsfeed_list_shareblog_root"
+        android:layout_marginRight="15dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginTop="8dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_publishblog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginRight="15dip"
+                android:textColor="#ff005092"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_publishblog_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="15dip"
+                android:textColor="#ff888888"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 上传照片 -->
+
+    <LinearLayout
+        android:id="@+id/user_newsfeed_list_publishphoto_root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_newsfeed_list_name"
+        android:layout_below="@+id/user_newsfeed_list_publishblog_root"
+        android:layout_marginRight="15dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginTop="8dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_publishphoto_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/user_newsfeed_list_publishphoto_image"
+                android:layout_width="150dip"
+                android:layout_height="150dip"
+                android:layout_marginBottom="8dip"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_publishphoto_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff888888"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 发布时间和发布来源 -->
+
+    <LinearLayout
+        android:id="@+id/user_newsfeed_list_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_newsfeed_list_name"
+        android:layout_below="@+id/user_newsfeed_list_publishphoto_root"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="8dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/user_newsfeed_list_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/v5_0_1_newsfeed_status_icon" />
+
+        <TextView
+            android:id="@+id/user_newsfeed_list_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff888888"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/user_newsfeed_list_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff888888"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- 评论 -->
+
+    <LinearLayout
+        android:id="@+id/user_newsfeed_list_comment_root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_newsfeed_list_name"
+        android:layout_below="@+id/user_newsfeed_list_bottom"
+        android:layout_marginBottom="8dip"
+        android:layout_marginRight="15dip"
+        android:background="@drawable/v5_0_1_newsfeed_comment_count_background"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="8dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/v5_0_1_newsfeed_comment_img" />
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_comment_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff005092"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_comment_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_comment_1_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dip"
+                android:textColor="#ff888888"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_comment_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dip"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/user_newsfeed_list_comment_2_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dip"
+                android:textColor="#ff888888"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/choosealbum_create"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="#ffebebeb"
+    android:gravity="center">
+
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="48dip"
+	    android:text="想创建个新相册?点击这里"
+	    android:textSize="14sp"
+	    android:drawableRight="@drawable/v5_0_1_place_add"
+	    android:drawablePadding="8dip"
+	    android:gravity="center_vertical"
+	    android:textColor="#ff005092"/>
+</LinearLayout>

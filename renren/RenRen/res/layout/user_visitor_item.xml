@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF" >
+
+    <ImageView
+        android:id="@+id/user_visitor_avatar"
+        android:layout_width="45dip"
+        android:layout_height="45dip"
+        android:layout_margin="8dip"
+        android:src="@drawable/v5_0_1_widget_default_head"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/user_visitor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_visitor_avatar"
+        android:layout_alignTop="@+id/user_visitor_avatar"
+        android:layout_toLeftOf="@+id/user_visitor_button"
+        android:layout_toRightOf="@+id/user_visitor_avatar"
+        android:gravity="center_vertical"
+        android:text="任东卫_Don."
+        android:textColor="#ff005092"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/user_visitor_button"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_visitor_avatar"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/user_visitor_avatar"
+        android:layout_margin="8dip"
+        android:background="@drawable/v5_0_1_guide_button_black_background"
+        android:gravity="center"
+        android:text="私信"
+        android:textColor="#ff005092"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/user_visitor_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012-12-30 12:15:12"
+        android:textColor="#ff888888"
+        android:textSize="12sp" 
+        android:layout_below="@+id/user_visitor_avatar"
+        android:layout_toRightOf="@+id/user_visitor_avatar"
+        android:paddingBottom="8dip"/>
+
+</RelativeLayout>

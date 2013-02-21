@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <WebView
+            android:id="@+id/auth_webview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <LinearLayout 
+            android:id="@+id/auth_loading_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView 
+                android:id="@+id/auth_loading_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sso_load_icon"/>
+            <TextView 
+                android:id="@+id/auth_loading_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正在加载授权网页..."
+                android:textColor="#ff005092"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

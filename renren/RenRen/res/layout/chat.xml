@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/v5_0_1_flipper_head_blue_background"
+            android:orientation="horizontal" 
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/chat_flip"
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/v5_0_1_flipper_head_title_wrapper_background"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/v5_0_1_flipper_head_flip" />
+
+            <ImageView
+                android:layout_width="2px"
+                android:layout_height="24dip"
+                android:layout_gravity="center"
+                android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dip"
+                android:text="私信"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" 
+                android:clickable="true"/>
+
+            <ImageView
+                android:id="@+id/chat_addfriends"
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/v5_0_1_flipper_head_title_wrapper_background"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/v5_0_1_flipper_head_add_chat_friends" />
+        </LinearLayout>
+        <ListView 
+            android:id="@+id/chat_display"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:listSelector="#00000000"
+            android:cacheColorHint="#00000000"
+            android:visibility="gone">
+            
+        </ListView>
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true">
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/v5_0_1_chat_no_list_icon"/>
+            <Button 
+                android:id="@+id/chat_choose"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:background="@drawable/v5_0_1_button_background"
+                android:text="选择好友开始聊天"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_margin="20dip"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingBottom="8dip" >
+
+        <ImageView
+            android:id="@+id/blogcomments_head_avatar"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="8dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/v5_0_1_widget_default_head" />
+
+        <TextView
+            android:id="@+id/blogcomments_head_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/blogcomments_head_avatar"
+            android:layout_alignTop="@+id/blogcomments_head_avatar"
+            android:layout_toRightOf="@+id/blogcomments_head_avatar"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="#ff005092"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/blogcomments_head_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/blogcomments_head_name"
+            android:layout_alignRight="@+id/blogcomments_head_name"
+            android:layout_below="@+id/blogcomments_head_avatar"
+            android:layout_marginBottom="8dip"
+            android:autoLink="web"
+            android:paddingRight="8dip"
+            android:textColor="#ff005092"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/blogcomments_head_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/blogcomments_head_name"
+            android:layout_alignRight="@+id/blogcomments_head_name"
+            android:layout_below="@+id/blogcomments_head_title"
+            android:layout_marginBottom="8dip"
+            android:autoLink="web"
+            android:paddingRight="8dip"
+            android:textColor="#ff888888"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/blogcomments_head_name"
+            android:layout_alignRight="@+id/blogcomments_head_name"
+            android:layout_below="@+id/blogcomments_head_description"
+            android:layout_marginBottom="8dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingRight="8dip" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/v5_0_1_newsfeed_photo_icon" />
+
+            <TextView
+                android:id="@+id/blogcomments_head_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dip"
+                android:textColor="#ff888888"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff4f4f4"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/v5_0_1_newsfeed_evaluate_icon" />
+
+        <TextView
+            android:id="@+id/blogcomments_head_commentcount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dip"
+            android:textColor="#ff888888"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

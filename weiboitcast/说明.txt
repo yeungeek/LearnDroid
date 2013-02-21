@@ -1,0 +1,4 @@
+1.配置好res/raw/config.xml
+2.注意LoginAcitivity中
+ if  url.indexOf("http://weibo.eoe.com")==0
+要改成和你的app相同的回调地址

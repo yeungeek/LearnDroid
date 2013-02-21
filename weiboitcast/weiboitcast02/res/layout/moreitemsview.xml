@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="itemview" android:background="@drawable/list_item_bg" android:layout_width="fill_parent" android:layout_height="48dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="20.0sp" android:textColor="#ff414951" android:id="@+id/tvitemtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="内内容内容内容内容内容容" android:gravity="center"/>
+  </LinearLayout> 

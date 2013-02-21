@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 默认android:visibility="gone" -->
+<RelativeLayout  android:layout_width="fill_parent"  android:layout_height="90.0dip" android:visibility="gone"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/vCenter" android:background="@drawable/shu_zhi_divider_wrap" android:layout_width="3.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/rlLeft" android:paddingTop="15.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/vCenter" android:layout_alignParentLeft="true">
+        <TextView  android:textColor="#ff4a4a4a" android:gravity="center_horizontal" android:id="@id/tvLeft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" />
+        <ImageView android:paddingLeft="50dip" android:gravity="center_horizontal" android:id="@id/ivLeft" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_above="@id/tvLeft" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rlRight" android:paddingTop="15.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/vCenter" android:layout_alignParentRight="true">
+        <TextView  android:textColor="#ff4a4a4a" android:gravity="center_horizontal" android:id="@id/tvRight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/ivRight" android:paddingLeft="50dip" android:gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_above="@id/tvRight" />
+    </RelativeLayout>
+</RelativeLayout>

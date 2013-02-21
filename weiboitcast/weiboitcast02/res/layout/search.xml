@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:background="#fff4f4f4"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:orientation="vertical"
+		android:background="#fff4f4f4" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+		<TextView android:gravity="center" android:text="搜索" android:textColor="@color/black" android:textSize="20dip" android:textStyle="bold"
+		 android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@drawable/search_bg" />
+
+<LinearLayout android:orientation="vertical"
+			android:background="#ffc0c0c0" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+			<LinearLayout android:gravity="center"
+				android:orientation="horizontal" android:background="@drawable/search_bg"
+				android:paddingLeft="5.0dip" android:paddingRight="5.0dip"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				xmlns:android="http://schemas.android.com/apk/res/android">
+				<AutoCompleteTextView android:id="@id/AutoCompleteTextView01"
+					android:background="@drawable/search_edittext_bg"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:singleLine="true" android:completionThreshold="1"
+					android:layout_weight="1.0" />
+				<Button android:id="@id/btSearch" android:background="@drawable/search_button_bg"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				xmlns:android="http://schemas.android.com/apk/res/android">
+				<RadioGroup android:gravity="center"
+					android:layout_gravity="bottom" android:orientation="horizontal"
+					android:id="@id/main_radio" android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					<RadioButton android:textSize="17.0sp" android:id="@id/rbSearchWeibo"
+						android:tag="radio_button0" android:text="@string/search_weibo"
+						android:drawableLeft="@drawable/search_radio_1" style="@style/search_radiobutton_weibo" />
+					<RadioButton android:textSize="17.0sp" android:id="@id/rbSearchUser"
+						android:tag="radio_button1" android:text="@string/search_user"
+						android:drawableLeft="@drawable/search_radio_2" style="@style/search_radiobutton_user" />
+				</RadioGroup>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:gravity="center"
+	android:layout_gravity="center" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:layout_marginTop="20.0dip">
+	<TextView android:textSize="17.0sp" android:textColor="#ff535353"
+		android:layout_gravity="left" android:id="@id/TextView01"
+		android:paddingLeft="10.0dip" android:paddingTop="10.0dip"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/searchsquare" />
+	<ImageView android:id="@id/ImageView01" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<ListView android:id="@+id/listView" android:background="#fff4f4f4"
+		android:layout_width="fill_parent" android:layout_height="210.0dip"
+		android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip"
+		android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip"
+		android:cacheColorHint="#fff4f4f4" android:divider="@drawable/circle_list_divider"
+		android:dividerHeight="0.0dip" />
+	
+</LinearLayout>
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <include android:id="@+id/title" layout="@layout/title_two_button"/>
+<RelativeLayout android:background="#ffe4e4e4" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+ >
+    <RelativeLayout android:id="@id/relative_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/btGPS" android:background="@drawable/newblog_pos_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" />
+        <Button android:id="@id/btGallery" android:background="@drawable/newblog_pic_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_toRightOf="@id/btGPS" />
+        <!--  字数-->
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="right" android:id="@id/tvLabel" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0" android:layout_alignParentRight="true" />
+        <!-- 照相机后面的图片 默认android:visibility="invisible" -->
+        <ImageView android:id="@id/ivCameraPic" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:scaleType="fitStart" android:layout_toLeftOf="@id/tvLabel" android:layout_toRightOf="@id/btGallery" android:layout_alignTop="@id/btGallery" android:layout_alignBottom="@id/btGallery" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/editbox_background_focus_yellow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/relative_bottom" android:layout_alignParentTop="true">
+         <!-- 默认android:visibility="invisible" -->
+        <LinearLayout android:orientation="horizontal" android:id="@id/linear_progress" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ProgressBar android:id="@id/progress_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:indeterminateDrawable="@drawable/progress_small" style="\@android:style/Widget.ProgressBar.Small" />
+           <!-- 进度条后面的文字 -->
+            <TextView android:gravity="right|center" android:layout_gravity="right" android:id="@id/text_location" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_margin="2.0dip" />
+        </LinearLayout>
+        <EditText android:gravity="top" android:id="@id/etBlog" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:bufferType="spannable" android:layout_above="@id/linear_progress" />
+    </RelativeLayout>
+</RelativeLayout>
+</LinearLayout>

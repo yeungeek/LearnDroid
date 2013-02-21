@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#fff4f4f4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  		<TextView android:gravity="center" android:text="更多" android:textColor="@color/black" android:textSize="20dip" android:textStyle="bold"
+		 android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@drawable/search_bg" />
+    <ListView android:id="@id/moreItemsListView" android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:scrollingCache="false" android:cacheColorHint="#00000000" android:divider="@drawable/divider_horizontal_timeline" android:dividerHeight="2.0dip" android:fastScrollEnabled="false" />
+</LinearLayout>

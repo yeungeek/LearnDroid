@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/v5_0_1_profile_header_background" >
+
+        <ImageView
+            android:id="@+id/user_head_avatar"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/v5_0_1_profile_headphoto" />
+
+        <ImageView
+            android:id="@+id/user_head_headphoto_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/user_head_avatar"
+            android:layout_alignBottom="@+id/user_head_avatar"
+            android:layout_alignRight="@+id/user_head_avatar"
+            android:layout_margin="5dip"
+            android:src="@drawable/v5_0_1_profile_headphoto_update_icon" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/user_head_avatar"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/user_head_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FF333333"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/user_head_star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:src="@drawable/v5_0_1_icon_profile_star" />
+
+                <Button
+                    android:id="@+id/user_head_vip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:background="@drawable/v5_0_1_newsfeed_vip_gray_bg"
+                    android:text="VIP1"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/user_head_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="8dip"
+                android:textColor="#ff888888"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/user_head_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="8dip"
+            android:textColor="#FF333333"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/user_head_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF333333"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@drawable/v5_0_1_profile_header_divider" />
+
+</LinearLayout>
